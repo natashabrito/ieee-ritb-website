@@ -3,18 +3,17 @@ import Link from 'next/link'
 export function Footer() {
   return (
     <footer class="footerbg relative z-10 overflow-x-hidden pl-4 pt-10 pb-5 lg:py-2 lg:pl-0">
-      <div class="container text-white">
+      <div class="container text-white mx-auto">
         <div class="flex flex-wrap lg:ml-7">
           <div class="flex w-full items-center px-2 sm:w-2/3 lg:w-4/12">
             <div class="mb-3 flex w-full lg:justify-center">
-              <a
-                href="/"
-                class="mb-6 inline-block max-w-[160px] rounded-md bg-white p-2"
-              >
+              <a href="/" class="inline-block rounded-md bg-white p-2">
                 <img
-                  src="https://site.ieee.org/sb-ritb/files/2018/05/cropped-transparent-bg.png"
+                  src="https://avatars.githubusercontent.com/u/133042598?s=200&v=4"
                   alt="IEEE Logo"
                   class="max-w-full"
+                  height={100}
+                  width={100}
                 />
               </a>
             </div>

@@ -25,18 +25,15 @@ const images = [
 
 export function Hero() {
   return (
-    <>
-      <section className=" text-gray-800">
-        <div className="container mx-auto flex flex-col items-center px-4 pt-10 text-center  md:px-10 md:pt-10 lg:px-10 ">
-          <h1 className="text-3xl font-bold leading-none sm:text-4xl">
-            IEEE{' '}
-            <span className="text-pri">Ramaiah Institute Of Technology</span>
-          </h1>
-          <p className="mt-1 text-lg text-red-600">
-            Advancing Technology For Humanity
-          </p>
-        </div>
-      </section>
+    <section className="text-gray-800">
+      <div className="container mx-auto flex flex-col items-center px-4 pt-10 text-center  md:px-10 md:pt-10 lg:px-10 ">
+        <h1 className="text-3xl font-bold leading-none sm:text-4xl">
+          IEEE <span className="text-pri">Ramaiah Institute Of Technology</span>
+        </h1>
+        <p className="mt-1 text-lg text-red-600">
+          Advancing Technology For Humanity
+        </p>
+      </div>
       <Swiper
         spaceBetween={30}
         effect={'fade'}
@@ -69,7 +66,7 @@ export function Hero() {
         ))}
       </Swiper>
       <Container className="pt-5 pb-16 text-justify lg:pt-8">
-        <p class="text-md lg:text-xl mx-auto mt-5 max-w-3xl rounded-xl bg-slate-100 p-3 tracking-tight text-slate-800">
+        <p class="text-md mx-auto mt-5 max-w-3xl rounded-xl bg-slate-100 p-3 tracking-tight text-slate-800 lg:text-xl">
           <b>IEEE-RIT Student Branch</b> was inaugurated in RIT in November
           2003. The branch endeavors to enrich the students of RIT with the
           latest developments in various fields of technology and research and
@@ -87,6 +84,6 @@ export function Hero() {
           </ButtonLink>
         </div>
       </Container>
-    </>
+    </section>
   )
 }
