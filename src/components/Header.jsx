@@ -68,6 +68,13 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="/roborit">
+                    <a className="block w-full" onClick={() => close()}>
+                      RoboRIT
+                    </a>
+                  </Link>
+                </li>
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -91,14 +98,21 @@ export function Header() {
                 </a>
               </Link>
             </li>
-            <li className="ml-12 hidden md:block mt-4">
+            <li className="ml-12 mt-4 hidden md:block">
               <Link href="/">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                   <b>Home</b>
                 </a>
               </Link>
             </li>
-            <li className="ml-6 hidden md:block mt-4">
+            <li className="ml-12 mt-4 hidden md:block">
+              <Link href="/roborit">
+                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  <b>RoboRIT</b>
+                </a>
+              </Link>
+            </li>
+            <li className="ml-6 mt-4 hidden md:block">
               <Link href="/contactus">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                   Contact Us
