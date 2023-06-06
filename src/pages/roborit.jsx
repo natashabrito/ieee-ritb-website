@@ -59,23 +59,24 @@ export default function Home() {
                   field of robotics and automation.
                 </li>
               </ul>
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Past events:
+              </h1>
               <div>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                  Past events:
-                </h1>
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                  1.Hardware hackathon
+                  1. Hardware hackathon
                 </h2>
                 <p className="mt-6 text-base text-gray-600">
-                  About the Event:
+                  <b>What is this workshop about?</b>
                   <br></br>
-                  HARD-WAR HACKATHON is the first hardware hackathon being
-                  conducted in MSRIT by ROBO-RIT. This Hackathon is not only
-                  about coding but giving more importance to the hardware as
-                  well. Teams were given a duration of 7 hrs to build a project
-                  using any Hardware components. At the end of the time
-                  duration, they would be judged based on various factors of the
-                  project.
+                  Firefighting robots also known as vision guided robots, are
+                  capable of detecting the fire and extinguishing it. Through
+                  this hands-on workshop, you will learn to build your very own
+                  fire fighting robot that uses digital IR sensors to detect the
+                  fire and move in that direction to put it off using a DC fan.
+                  To ease the programming learning experience, the course is
+                  also equipped with scratch based block programming modules
+                  that make programming the robot super easy even for beginners.
                 </p>
                 <p className="mt-6 text-lg">Phase 1:</p>
                 <p className="text-base text-gray-600">
@@ -111,8 +112,76 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
+              <div>
+                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 text-left">
+                  2. Hands-on workshop of Firefighting Robot
+                </h2>
+                <p className="mt-6 text-base text-gray-600">
+                  <b>What is this workshop about?</b>
+                  <br></br>
+                  Firefighting robots also known as vision guided robots, are
+                  capable of detecting the fire and extinguishing it. Through
+                  this hands-on workshop, you will learn to build your very own
+                  fire fighting robot that uses digital IR sensors to detect the
+                  fire and move in that direction to put it off using a DC fan.
+                  To ease the programming learning experience, the course is
+                  also equipped with scratch based block programming modules
+                  that make programming the robot super easy even for beginners.
+                </p>
+                <p className="mt-6 text-lg">Course Outcomes</p>
+                <p className="text-base text-gray-600">
+                  <ul className="ml-4 list-disc">
+                    <li>Introduction to Robotics systems & Microcontroller</li>
+                    <li>Introduction to Arduino Architecture</li>
+                    <li>Understanding the Electronics involved in the robot</li>
+                    <li>Digital IR sensors working & calibration</li>
+                    <li>Programming the robot</li>
+                    <li>Understand Arduino Architecture and its Programming</li>
+                    <li>
+                      Hands-on experience on block based programming on Arduino
+                    </li>
+                  </ul>
+                </p>
+                <p className="mt-6 text-lg">Course Structure</p>
+                <p className="text-base text-gray-600">
+                  <ul className="ml-4 list-disc">
+                    <li>Lecture Session - 1 hours</li>
+                    <li>Fabrication Session - 4 hours</li>
+                    <li>Programming Session - 2 hours</li>
+                    <li>Testing Session - 1 hour</li>
+                  </ul>
+                </p>
+                <p className="mt-6 text-lg">Topics Covered</p>
+                <p className="text-base text-gray-600">
+                  <ul className="ml-4 list-disc">
+                    <li>Robotics: Concepts and Applications</li>
+                    <li>DC Motors: Working and Control</li>
+                    <li>Arduino Architecture & its programming</li>
+                    <li>Fabrication of Fire Fighting Robot</li>
+                    <li>Scratch based block programming</li>
+                    <li>Calibration of IR sensors</li>
+                  </ul>
+                </p>
+              </div>
+              <div>
+                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                  3. Proteus workshop
+                </h2>
+                <p className="mt-6 text-base text-gray-600">
+                  <b>
+                    Workshop was organized to help students gain knowledge on
+                    simulation and PCB Design of the circuit. The students will
+                    get exposure towards Proteus software printed circuit board
+                    (PCB) and 3D visualizer of circuit
+                  </b>
+                </p>
+              </div>
               <div className="mt-10 flex items-center">
-                <iframe className='w-full' height={1080} src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"></iframe>
+                <iframe
+                  className="w-full"
+                  height={1080}
+                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
+                ></iframe>
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
