@@ -22,6 +22,44 @@ const images = [
     link: img2,
   },
 ]
+const routs = [
+  {
+    name: 'Creativity',
+    link: '/creativity',
+  },
+  {
+    name: 'APS',
+    link: '/aps',
+  },
+  {
+    name: 'Computer Society',
+    link: '/computersociety',
+  },
+  {
+    name: 'PR Sponsorship',
+    link: '/pr_sponsorship',
+  },
+  {
+    name: 'Documentation',
+    link: '/documentation',
+  },
+  {
+    name: 'RoboRIT',
+    link: '/roborit',
+  },
+  {
+    name: 'XTREME',
+    link: '/xtreme',
+  },
+  {
+    name: 'Digital Design',
+    link: '/digitaldesign',
+  },
+  {
+    name: 'Sensor Council',
+    link: '/sensor_council',
+  },
+]
 
 export function Hero() {
   return (
@@ -82,6 +120,20 @@ export function Hero() {
           >
             Know more
           </ButtonLink>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-3 pt-5 md:grid md:grid-rows-3">
+          <h1 className="flex flex-wrap justify-center">
+            Here is the list of all the societies and councils under IEEE-RIT
+          </h1>
+          {routs.map((rout, index) => (
+            <ButtonLink
+              key={index}
+              href={rout.link}
+              className="mt-5 w-auto rounded-lg py-2"
+            >
+              {rout.name}
+            </ButtonLink>
+          ))}
         </div>
       </Container>
     </section>

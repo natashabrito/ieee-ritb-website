@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-        IEEE APS CHAPTER || IEEE Ramaiah Institute of Technology
-        </title>
+        <title>IEEE APS CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
           name="description"
           content="IEEE APS CHAPTER- IEEE-RIT Student Branch | IEEE Ramaiah Institute of Technology"
@@ -20,15 +18,25 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <div className="text-justify">
+            <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              IEEE APS CHAPTER
+                IEEE APS CHAPTER
               </h1>
               <div>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                Welcome to the IEEE Antennas and Propagation Society (APS) Student Chapter at RIT. We are a dynamic community of passionate engineering students dedicated to advancing the field of antennas and propagation. Through a variety of engaging activities, workshops, and seminars, we foster an environment that encourages learning, collaboration, and innovation. Join us as we explore the exciting world of electromagnetic waves, antenna design, wireless communications, and cutting-edge technologies. Whether you're a beginner or an expert, our chapter offers a platform to expand your knowledge, develop skills, and connect with like-minded individuals.
+                <h1 className="mt-10 text-justify text-2xl tracking-tight text-gray-900">
+                  Welcome to the IEEE Antennas and Propagation Society (APS)
+                  Student Chapter at RIT. We are a dynamic community of
+                  passionate engineering students dedicated to advancing the
+                  field of antennas and propagation. Through a variety of
+                  engaging activities, workshops, and seminars, we foster an
+                  environment that encourages learning, collaboration, and
+                  innovation. Join us as we explore the exciting world of
+                  electromagnetic waves, antenna design, wireless
+                  communications, and cutting-edge technologies. Whether you're
+                  a beginner or an expert, our chapter offers a platform to
+                  expand your knowledge, develop skills, and connect with
+                  like-minded individuals.
                 </h1>
-                
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">

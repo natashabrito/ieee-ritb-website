@@ -20,16 +20,18 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <div className="text-justify">
+            <div className="text-left">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE SENSOR COUNCIL
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-justify text-lg leading-8 text-gray-600">
                 Welcome to the IEEE Sensor Student Chapter at RIT. We are a
                 vibrant and enthusiastic community of engineering students
                 passionate about the field of sensors and its applications. Our
                 chapter provides a platform for students to delve into the world
-                of sensor technologies, ranging from MEMS to IoT devices. <br /><br /><br />
+                of sensor technologies, ranging from MEMS to IoT devices. <br />
+                <br />
+                <br />
                 Through workshops, guest lectures, and hands-on projects, we aim
                 to enhance understanding and foster innovation in the field.
                 Join us to explore the fascinating realm of sensing, data
