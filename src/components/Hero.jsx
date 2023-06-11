@@ -71,6 +71,10 @@ const routs = [
   {
     name: 'PES',
     link: '/pes',
+  },
+  {
+    name: 'SPS',
+    link:'/sps',
   }
 ]
 
