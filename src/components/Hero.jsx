@@ -59,6 +59,15 @@ const routs = [
     name: 'Sensor Council',
     link: '/sensor_council',
   },
+  {
+    name: 'WIE',
+    link: '/wie',
+  },
+  {
+    name: 'MTTS',
+    link: '/mtts'
+
+  }
 ]
 
 export function Hero() {
