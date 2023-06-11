@@ -67,6 +67,10 @@ const routs = [
     name: 'MTTS',
     link: '/mtts'
 
+  },
+  {
+    name: 'PES',
+    link: '/pes',
   }
 ]
 
