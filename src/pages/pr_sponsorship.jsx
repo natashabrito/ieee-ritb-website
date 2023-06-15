@@ -45,6 +45,111 @@ export default function Home() {
                 </h2>
               </div>
 
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Natasha Robin" 
+                designation="PR-Chair" 
+                link="https://www.linkedin.com/in/natasha-robin-b374b8210"
+                image="https://drive.google.com/uc?id=1TlKSfSu8tilK9uTGj7tEfccWrpLv4oXE&export=view">
+    </Member>
+    
+    <Member name="Ridhiman Singh" 
+                designation="Sponsorship-Chair" 
+                link="https://www.linkedin.com/in/ridhiman-singh-b09241215"
+                image="https://drive.google.com/uc?id=1Kby0YT1-UMR2MF_jv6rVlFOHZv1Eed_L&export=view">
+    </Member>
+    
+    <Member name="Anuj Damani" 
+                designation="PR- Co-Head" 
+                link="https://www.linkedin.com/in/anuj-damani-17449a210"
+                image="https://drive.google.com/uc?id=1_3J_fBpnMKkZI9r-ckgjJ1EOEWP6FrvJ&export=view">
+    </Member>
+    
+    <Member name="Shireen Dash" 
+                designation="PR Vice Chair" 
+                link="https://www.linkedin.com/in/shireen-dash-300b96278/"
+                image="https://drive.google.com/uc?id=1_3J_fBpnMKkZI9r-ckgjJ1EOEWP6FrvJ&export=view">
+    </Member>
+    
+    <Member name="Nidhi Bishnoi" 
+                designation="Sponsorship-Vice Chair" 
+                link="https://www.linkedin.com/in/nidhi-bishnoi12"
+                image="https://drive.google.com/uc?id=1dZbSBmTHf2MNu4BnCcoQYeVGv9gvbgbS&export=view">
+    </Member>
+    
+    <Member name="Siddharth Thokne" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1k94NIVU18JTZXdd3Ou3ze8svfPaym8NE&export=view">
+    </Member>
+    
+    <Member name="Harshini Murthy" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/nidhi-bishnoi12"
+                image="https://drive.google.com/uc?id=1_3J_fBpnMKkZI9r-ckgjJ1EOEWP6FrvJ&export=view">
+    </Member>
+    
+    <Member name="Siddharth Kannan" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1i0JcABy-o6n_osVDrL8fsyDtuh9kxHSS&export=view">
+    </Member>
+    
+    <Member name="Sanjana Raj N" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/sanjana-raj-nataraj-750448261"
+                image="https://drive.google.com/uc?id=1Vneg1O8BmBcZIJUAF9GJVo5-XxKZS4SY&export=view">
+    </Member>
+    
+    <Member name="Mohd Asif Baliyan" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1_3J_fBpnMKkZI9r-ckgjJ1EOEWP6FrvJ&export=view">
+    </Member>
+    
+    <Member name="Khushi Rautela" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/khushi-rautela-b0b773231"
+                image="https://drive.google.com/uc?id=1VIpgeoGeQl5f-OZMVWNQEyjZqSd45Ud6&export=view">
+    </Member>
+    
+    <Member name="Advika Gupta" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/advika-gupta-606496226"
+                image="https://drive.google.com/uc?id=17GBLW1FZurGKFcAdQOFKUF2aPFsQ1hHF&export=view">
+    </Member>
+    
+    <Member name="Anushka Jain" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/anushka-jain-a90278279"
+                image="https://drive.google.com/uc?id=1EcOyqGCdTyBX2WE1ByU8-tTpXLZnTs1_&export=view">
+    </Member>
+    
+    <Member name="Ranjana Rajesh" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/ranjana-rajesh-454b91278"
+                image="https://drive.google.com/uc?id=16-xNXqYNDVTtcPph5CNV001j0fFlBoOV&export=view">
+    </Member>
+    
+    <Member name="Prutvi Prakash Shetty" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/prutvi-shetty-631420240"
+                image="https://drive.google.com/uc?id=1_3J_fBpnMKkZI9r-ckgjJ1EOEWP6FrvJ&export=view">
+    </Member>
+    
+    <Member name="Varsha J" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/varsha-j-173124254"
+                image="https://drive.google.com/uc?id=19XN8suc5N1Ky2yY_6rCqpB9zYchYvblW&export=view">
+    </Member>
+    
+    </div></p>
+
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

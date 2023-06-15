@@ -31,6 +31,50 @@ export default function Home() {
                             </div>
 
 
+                            <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Meenakshi Kshetija N" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/meenakshi-n-776866220"
+                image="https://drive.google.com/uc?id=1u9AhZl-vhDk8-ohWHeFL-sOMgMFEv7Qa&export=view">
+    </Member>
+    
+    <Member name="Prajana B" 
+                designation="Vice-Chair" 
+                link="https://www.linkedin.com/in/prajana-b-47b3b0279"
+                image="https://drive.google.com/uc?id=1d5PfhjARzK15sQ_wlds9_YgNBroYziRD&export=view">
+    </Member>
+    
+    <Member name="Neha Kantikar" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/neha-kantikar"
+                image="https://drive.google.com/uc?id=1PSs67kde0XeTJflrn_khZRCaF5PFDBxH&export=view">
+    </Member>
+    
+    <Member name="Prince Kumar Jha" 
+                designation="Co-Secretary" 
+                link="https://www.linkedin.com/in/prince-kumar-jha-2a0929101"
+                image="https://drive.google.com/uc?id=1cMkkGqKNJO6w_CFhS2BUMNXeBWP9nIJj&export=view">
+    </Member>
+    
+    <Member name="Amit Yadav" 
+                designation="Treasurer" 
+                link="https://www.linkedin.com/in/amit-yadav-09949b205?trk=contact-info"
+                image="https://drive.google.com/uc?id=1d9JfiD58rPgdx07F6EaqY9G18mMtLyon&export=view">
+    </Member>
+    
+    <Member name="None" 
+                designation="None" 
+                link="None"
+                image="None">
+    </Member>
+    </div></p>
+
+
 
 
                             <div className="mt-10 flex items-center justify-center gap-x-6">

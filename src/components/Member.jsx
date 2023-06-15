@@ -14,6 +14,7 @@ export const Member = (props) => {
                     <div className="flex items-center justify-center space-x-3">
                         <a
                             href={props.link}
+                            target="_blank"
                             className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                         >
                             <svg
