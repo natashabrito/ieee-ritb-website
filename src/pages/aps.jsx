@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import {Member} from '@/components/Member'
 
 export default function Home() {
   return (
@@ -38,6 +39,56 @@ export default function Home() {
                   like-minded individuals.
                 </h1>
               </div>
+
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Mohammed Ibrahim" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/mohammedibrahim22"
+                image="https://drive.google.com/uc?id=10SKIGnOhzWAdg8Z1QlxNR-zA4QAYLnBu&export=view">
+    </Member>
+    
+    <Member name="Varsha J" 
+                designation="Vice Chair" 
+                link="https://www.linkedin.com/in/varsha-j-173124254"
+                image="https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view">
+    </Member>
+    
+    <Member name="Poojitha Singh" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/poojitha-singh-840bb6229"
+                image="https://drive.google.com/uc?id=1-oK71eC2oPF6ad1cixbf0v_pl7iGVi5L&export=view">
+    </Member>
+    
+    <Member name="Preethi K" 
+                designation="Co- Secretary" 
+                link="https://www.linkedin.com/in/poojitha-singh-840bb6229"
+                image="https://drive.google.com/uc?id=1z3bFQVO8zTBe8gtMdUygVkuelL38QLwP&export=view">
+    </Member>
+    
+    <Member name="Madhumitha R" 
+                designation="Co - Secretary" 
+                link="https://www.linkedin.com/in/madhumitha-ramaswamy-399103220"
+                image="https://drive.google.com/uc?id=1p22I8o2lZBStHVAmuoyUbohYPcVNwPr_&export=view">
+    </Member>
+    
+    <Member name="Banuprasad" 
+                designation="�Treasurer" 
+                link="https://www.linkedin.com/in/banu-prasad-m-925558270"
+                image="https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view">
+    </Member>
+    
+    <Member name="Kokila" 
+                designation="Co - Treasurer" 
+                link="https://www.linkedin.com/in/kokila-s-642161252"
+                image="https://drive.google.com/uc?id=1bMUfnLGZK07XeXVVeaeGSutxpSgVOmQt&export=view">
+    </Member>
+    </div></p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

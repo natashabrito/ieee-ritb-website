@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import {Member} from '@/components/Member'
 
 export default function Home() {
   return (
@@ -111,6 +112,80 @@ export default function Home() {
                 </h2>
                 
               </div>
+
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Charith" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/charith-rage-8117421a0"
+                image="https://drive.google.com/uc?id=1rkkt2FwD6LyP9GLLAz7uxB9nuE6XbWE8&export=download">
+    </Member>
+    
+    <Member name="Cheitanya" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/cheithanya-pr-3aab61205"
+                image="https://drive.google.com/uc?id=1_hmYfbJvxu-CdXDC5ulqPUXiQn0_TTNF&export=download">
+    </Member>
+    
+    <Member name="Neeraj Phadke" 
+                designation="Vice-Chair" 
+                link="https://www.linkedin.com/in/neeraj-phadke13/"
+                image="https://drive.google.com/uc?id=1FEDL8gJTTgcydw3piuht-yTJV-Dwwjbd&export=download">
+    </Member>
+    
+    <Member name="Hari Chandan" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/s-sai-hari-chandan-93288922b"
+                image="https://drive.google.com/uc?id=1l7cz4Xn3-zaT0fz1lCZqEgxXiQiWAAJl&export=download">
+    </Member>
+    
+    <Member name="Abhay Bhandarkar" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/abhaybhandarkar/"
+                image="https://drive.google.com/uc?id=18zX3-uf14GmvslwdRU9ML33XgmW7MC_A&export=download">
+    </Member>
+    
+    <Member name="Shraddha Prabhu" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                image="https://drive.google.com/uc?id=18GMCk90Q85BqvNmltvdL2W8kl6-R9Zrn&export=download">
+    </Member>
+    
+    <Member name="Het Joshi" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/hetjoshi"
+                image="https://drive.google.com/uc?id=1NsUJx8J-64m3abD9gTZJqF9-7gE-hgkd&export=download">
+    </Member>
+    
+    <Member name="Mihika Dhariwal" 
+                designation="Member" 
+                link="=-C8"
+                image="https://drive.google.com/uc?id=1zO6b6B_XWPqaK5bu6x0vwwO2DU7mG_1S&export=download">
+    </Member>
+    
+    <Member name="Nikith Ganga" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/nikith-ganga/"
+                image="https://drive.google.com/uc?id=1ZSMKfeRaqRl-GR4Pv5ndkpzTbRiJxvxe&export=download">
+    </Member>
+    
+    <Member name="Karthik" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/karthik-deshmukh/?trk=public-profile-join-page"
+                image="https://drive.google.com/uc?id=1b1APFko4KCxMUt882ptHfBj7qDr25hSW&export=download">
+    </Member>
+    
+    <Member name="Pranay Sharma" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                image="https://drive.google.com/uc?id=1jB8gQefH_-oMGGBI8FNRvDcczY1EeM_h&export=download">
+    </Member>
+    </div></p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
