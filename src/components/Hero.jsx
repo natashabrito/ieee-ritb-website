@@ -18,6 +18,7 @@ import {
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
+import { Member } from '@/components/Member'
 import img1 from '@/images/home/p1.png'
 import img2 from '@/images/home/p2.png'
 import img4 from '@/images/home/p4.png'
@@ -155,6 +156,79 @@ export function Hero() {
               {rout.name}
             </ButtonLink>
           ))}
+          <p className="mt-6 text-base text-gray-600">
+            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+              <Member
+                name="SUHAS KATRAHALLI"
+                designation="SB Chair"
+                link="https://www.linkedin.com/in/suhaskatrahalli"
+                image="https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view"
+              ></Member>
+
+              <Member
+                name="SRINIVAS C"
+                designation="SB Secretary"
+                link="https://www.linkedin.com/in/srinivas-c-678105249/"
+                image="https://drive.google.com/uc?id=1JjKLA1zCL5BZMBB8qnfgxs_nFkoh3aAh&export=view"
+              ></Member>
+
+              <Member
+                name="VINAYAK SHARMA"
+                designation="SB Treasurer"
+                link="https://www.linkedin.com/in/vinayak-sharma-033500210"
+                image="https://drive.google.com/uc?id=1_AMkkaKxbzlr0QfX5wbDMf6RO4L60gWj&export=view"
+              ></Member>
+
+              <Member
+                name="PRAJWAL B MEHENDARKAR"
+                designation="SB Technical Head"
+                link="https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
+                image="https://drive.google.com/uc?id=1DJb27tCJxoOUgAvCJXyXaogFQRT7BqjR&export=view"
+              ></Member>
+
+              <Member
+                name="SNEGA UMAPATHI"
+                designation="SB Convener"
+                link="https://www.linkedin.com/in/snega-umapathi-b73480210"
+                image="https://drive.google.com/uc?id=13vngh3QbtTF58xImFpsYYGHgYnn1-dw5&export=view"
+              ></Member>
+
+              <Member
+                name="DIVYANSH MISHRA"
+                designation="SB Vice-Chair"
+                link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
+                image="https://drive.google.com/uc?id=1fe_XkP7UrbuPAMBhQnB5rVBzxlNy_0xY&export=view"
+              ></Member>
+
+              <Member
+                name="ASKANDA MAHAJAN"
+                designation="SB Vice-Secretary"
+                link="https://in.linkedin.com/in/askanda-mahajan-9a2004200"
+                image="https://drive.google.com/uc?id=1a5WSd-AxMViNf7w8C6plRybQThMcsNtY&export=view"
+              ></Member>
+
+              <Member
+                name="GURTEZ SINGH"
+                designation="SB Vice-Treasurer"
+                link="https://www.linkedin.com/in/gurtezsingh"
+                image="https://drive.google.com/uc?id=1AmN3WmW2wZ8Nqfysn1Jz528byd6HuA8f&export=download"
+              ></Member>
+
+              <Member
+                name="SANJAY KUMAR"
+                designation="SB Vice-Technical Head"
+                link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
+                image="https://drive.google.com/uc?id=1uNkrtldaPHXTKc62unwr_ejEBBWRInNn&export=view"
+              ></Member>
+
+              <Member
+                name="SHUBHAM ANAND"
+                designation="SB Vice-Convener"
+                link="https://www.linkedin.com/in/shubham-anand-507785226/"
+                image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"
+              ></Member>
+            </div>
+          </p>
         </div>
       </Container>
     </section>
