@@ -61,8 +61,7 @@ const routs = [
   },
   {
     name: 'MTTS',
-    link: '/mtts'
-
+    link: '/mtts',
   },
   {
     name: 'PES',
@@ -70,8 +69,8 @@ const routs = [
   },
   {
     name: 'SPS',
-    link:'/sps',
-  }
+    link: '/sps',
+  },
 ]
 
 export function Hero() {
@@ -91,7 +90,7 @@ export function Hero() {
         loop={true}
         autoHeight={true}
         centeredSlides={true}
-        style={{objectFit:"cover", zoom:0.57, width:1920, height:1080}}
+        style={{ objectFit: 'cover', zoom: 0.57, width: 1920, height: 1080 }}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -109,7 +108,12 @@ export function Hero() {
               className="lg:h-128 h-96 w-full object-fill"
               src={image}
               alt={index}
-              style={{objectFit:"cover", zoom:"0.4 !important", width:1080, height:"auto"}}
+              style={{
+                objectFit: 'cover',
+                zoom: '0.4 !important',
+                width: 1080,
+                height: 'auto',
+              }}
             />
           </SwiperSlide>
         ))}
