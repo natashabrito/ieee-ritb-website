@@ -7,7 +7,14 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import { Autoplay, Pagination, Navigation, EffectFade, Zoom } from 'swiper'
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectFade,
+  Zoom,
+  Keyboard,
+} from 'swiper'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -84,42 +91,41 @@ export function Hero() {
           Advancing Technology For Humanity
         </p>
       </div>
-      <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        loop={true}
-        autoHeight={true}
-        centeredSlides={true}
-        style={{ objectFit: 'cover', zoom: 0.57, width: 1920, height: 1080 }}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        className="mySwiper"
-      >
-        {images.map((image, index) => (
-          <SwiperSlide key={index}>
-            <Image
-              className="lg:h-128 h-96 w-full object-fill"
-              src={image}
-              alt={index}
-              style={{
-                objectFit: 'cover',
-                zoom: '0.4 !important',
-                width: 1080,
-                height: 'auto',
-              }}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
+        <Swiper
+          spaceBetween={30}
+          effect={'fade'}
+          loop={true}
+          autoHeight={true}
+          centeredSlides={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          // navigation={true}
+          keyboard={true}
+          modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+          className="mySwiper"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <Image
+                className="h-auto w-full rounded-lg"
+                src={image}
+                alt={index + 'image'}
+                width={1920}
+                height={1080}
+                objectFit="cover"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
       <Container className="pt-5 pb-16 text-justify lg:pt-8">
-        <p class="text-md mx-auto mt-5 max-w-3xl rounded-xl bg-slate-100 p-3 tracking-tight text-slate-800 lg:text-xl">
+        <p class="text-md mx-auto max-w-3xl rounded-xl bg-slate-100 p-3 tracking-tight text-slate-800 lg:text-xl">
           <b>IEEE-RIT Student Branch</b> was inaugurated in RIT in November
           2003. The branch endeavors to enrich the students of RIT with the
           latest developments in various fields of technology and research and
