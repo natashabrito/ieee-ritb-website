@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import {Member} from '@/components/Member'
 
 export default function Home() {
   return (
@@ -29,6 +30,74 @@ We as a group help in keeping an account of whatever has happened in each event 
 
                 </h1>
               </div>
+
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Dhruthi Bhat" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/dhruthibhat/"
+                image="https://drive.google.com/uc?id=1oTKcQ-3uwxcZvy0qLqvoC9gVos4cyFxe&export=view">
+    </Member>
+    
+    <Member name="Maitreyi Darbha" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/maitreyi-darbha-929020234/"
+                image="https://drive.google.com/uc?id=1DLpBMm5Ta7Rd3lXSuWefyQs_hxklV8cm&export=view">
+    </Member>
+    
+    <Member name="Anirudh Bantwal" 
+                designation="Member" 
+                link="�https://www.linkedin.com/in/anirudh-baliga-30b7b3219/"
+                image="https://drive.google.com/uc?id=1k8nqRSEmFe6LCcgucBA7yUuCC6oieT_n&export=view">
+    </Member>
+    
+    <Member name="M Sri Pujitha" 
+                designation="Member" 
+                link="�https://www.linkedin.com/in/malladi-sri-pujitha-1010oct/"
+                image="https://drive.google.com/uc?id=1oEioHlQsux2Qx6uFMRaSfHEHTCvpDQxX&export=view">
+    </Member>
+    
+    <Member name="Abhiraj Paralkar" 
+                designation="Member" 
+                link="0"
+                image="https://drive.google.com/uc?id=13Hbe-NmBVKqUQjBk7AfSKfU4iLQrpWnd&export=view">
+    </Member>
+    
+    <Member name="M Tauheed" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/mohammed-tauheed-700454279/"
+                image="https://drive.google.com/uc?id=1EeRILuiLMdPMYJPiVJxPWiVq-CtzEfku&export=view">
+    </Member>
+    
+    <Member name="Abhinav Singh" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/ravisagar-k-ab64141ab/"
+                image="https://drive.google.com/uc?id=1U-L3H0ls6XAO5Uxi-_enXqPUwdlVUZX3&export=view">
+    </Member>
+    
+    <Member name="Nandini M" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/nandini-m-a94164252"
+                image="https://drive.google.com/uc?id=1icLOrvXV4PxoqufLUqGdTKMpuKK-Kpr7&export=view">
+    </Member>
+    
+    <Member name="Ravisagar K" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/ravisagar-k-ab64141ab/"
+                image="https://drive.google.com/uc?id=1tQTHp0Wr_dIiflpAoWlEdwIwoopi7Knt&export=view">
+    </Member>
+    
+    <Member name="Tanisha Saxena" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
+                image="https://drive.google.com/uc?id=1qv-HOKAH9Ppw61uMuOPNGqMArSH3rIA2&export=view">
+    </Member>
+    </div></p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
