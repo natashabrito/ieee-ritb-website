@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import {Member} from '@/components/Member'
 
 export default function Home() {
   return (
@@ -39,6 +40,32 @@ export default function Home() {
                 possibilities in the realm of sensing technology.
                 <br></br>
               </p>
+
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Adya S" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/adya-samantray-84215a200"
+                image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+    </Member>
+    
+    <Member name="Varsha J" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/varsha-j-173124254"
+                image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+    </Member>
+    
+    <Member name="Vyoma Bharadwaj" 
+                designation="Treasurer" 
+                link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
+                image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view">
+    </Member>
+    </div></p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

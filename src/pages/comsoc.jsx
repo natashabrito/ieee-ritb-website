@@ -4,6 +4,8 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 
+import {Member} from '@/components/Member'
+
 export default function Home() {
   return (
     <>
@@ -118,6 +120,65 @@ export default function Home() {
               </h1>
                 
                 <p className="mt-6 text-base text-gray-600">
+
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                
+
+                <Member name="Tarunay Shrivastava" 
+                designation="Chairperson" 
+                link="https://www.linkedin.com/in/tarunay-shrivastava-98ab2919a"
+                image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view">
+                </Member>
+
+                <Member name="Shawn Daniel Rodrigues" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/shawn-daniel-rodrigues-a63020205/"
+                image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view">
+                </Member>
+
+                <Member name="Katyayani Palak" 
+                designation="Vice Chair" 
+                link=""
+                image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view">
+                </Member>
+
+
+                <Member name="Roshni Roche" 
+                designation="Treasurer" 
+                link="https://www.linkedin.com/in/roshni-roche-641961264"
+                image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view">
+                </Member>
+
+
+                <Member name="Vaishnavi Dinesh" 
+                designation="Execom" 
+                link="https://in.linkedin.com/in/vaishnavi-dinesh-019253267"
+                image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view">
+                </Member>
+
+
+                <Member name="Kaushik Gopal Gaitonde" 
+                designation="Execom" 
+                link="https://www.linkedin.com/in/kaushik-gaitonde-067039247/"
+                image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view">
+                </Member>
+
+
+                <Member name="Dhanyath R" 
+                designation="Execom" 
+                link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
+                image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view">
+                </Member>
+
+
+                <Member name="N Dharshan" 
+                designation="Execom" 
+                link="http://www.linkedin.com/in/dharshan-5807552"
+                image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view">
+                </Member>
+                  
+                </div>
+
                   <ul className="ml-4 list-disc">
                     <li>Tarunay Shrivastava: Chairperson
                         <ul className="ml-4 list">
@@ -188,13 +249,6 @@ export default function Home() {
                   </ul>
                 </p>
                 
-              {/* <div className="mt-10 flex items-center">
-                <iframe
-                  className="w-full"
-                  height={1080}
-                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
-                ></iframe>
-              </div> */}
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

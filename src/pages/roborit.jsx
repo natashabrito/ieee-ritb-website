@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import {Member} from '@/components/Member'
 
 import img2 from '@/images/RoboRIT/Picture2.jpg'
 import img7 from '@/images/RoboRIT/Picture7.jpg'
@@ -225,13 +226,86 @@ export default function Home() {
                   </b>
                 </p>
               </div>
-              <div className="mt-10 flex items-center">
-                <iframe
-                  className="w-full"
-                  height={1080}
-                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
-                ></iframe>
-              </div>
+              
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Abhinav Benagi" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/abhinav-benagi-878aa7208"
+                image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+    </Member>
+    
+    <Member name="Pavan Kumar K" 
+                designation="Vice-Chair" 
+                link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
+                image="https://drive.google.com/uc?id=1X-_2Cm1RW2D799UqmcVIlshkAqg-K3Jc&export=view">
+    </Member>
+    
+    <Member name="Vinit V Shenvi" 
+                designation="Secretary" 
+                link="None"
+                image="https://drive.google.com/uc?id=1f_B2nxgnEjdIgpO2t1owLxEl5SRyR4Xk&export=view">
+    </Member>
+    
+    <Member name="Sheik Mohammed Maaz" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1hQx-suzNPqigjLV2UYhV3J_Z96eXOTBA&export=view">
+    </Member>
+    
+    <Member name="Jeeva M" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/jeeva-m-82b66322a"
+                image="https://drive.google.com/uc?id=1l47pvLR-mQTp-t376GHXErVnC37ClCK_&export=view">
+    </Member>
+    
+    <Member name="Suhas Y" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/suhas-y-9a477021b/"
+                image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+    </Member>
+    
+    <Member name="S Meena Kumari" 
+                designation="Member" 
+                link="https://www.linkedin.com/mwlite/in/meena-kumari-subramanyam-b28b56229"
+                image="https://drive.google.com/uc?id=1Zi2Su7aLO8HmBbSjr5APka8rzMnPzsTx&export=view">
+    </Member>
+    
+    <Member name="Mohammad Sarmuddin T" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1U1JaLOFVTQB8MPy9mWkA4s_L5Qf2uCHz&export=view">
+    </Member>
+    
+    <Member name="Sathvik Rao" 
+                designation="Member" 
+                link="http://linkedin.com/in/sathvik-rao-2aa803259"
+                image="https://drive.google.com/uc?id=1KgNvR3I49MaK6Hk7kmqXsGCPNkk6itZD&export=view">
+    </Member>
+    
+    <Member name="Sharu U" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/shaaru-u-514976227"
+                image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+    </Member>
+    
+    <Member name="Hemanth Kumar NVS" 
+                designation="Member" 
+                link="None"
+                image="https://drive.google.com/uc?id=1KJALa7viNXLSlm2NZy3ScIirkXmWw1LS&export=view">
+    </Member>
+    
+    <Member name="Priyanshu bhojwani" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/priyanshu-bhojwani-b01a6826b"
+                image="https://drive.google.com/uc?id=13m4OGT5iP88oMQZqlt4NSDmtkH6Woiz1&export=view">
+    </Member>
+    </div></p>
+
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

@@ -3,6 +3,9 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+
+import {Member} from '@/components/Member'
+
 import img1 from '@/images/WIE/Picture1.jpg'
 import img2 from '@/images/WIE/Picture2.png'
 import img3 from '@/images/WIE/Picture3.png'
@@ -16,6 +19,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const images = [img1, img2,img3,img4,img6,img7,img8]
+
 
 export default function Home() {
     return (
@@ -35,6 +39,7 @@ export default function Home() {
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                                 IEEE WIE CHAPTER
                             </h1>
+
                             <Swiper
                 spaceBetween={30}
                 effect={'fade'}
@@ -66,6 +71,7 @@ export default function Home() {
                   </SwiperSlide>
                 ))}
               </Swiper>
+
                             <div>
                                 <h1 className="mt-10 text-justify text-2xl tracking-tight text-gray-900">
                                     IEEE RIT-B Women in Engineering (IEEE RIT-B WIE) is a local chapter of IEEE RIT-B that was established in 2016. Our primary objective is to empower and engage women in the technical field by organizing a variety of webinars, workshops, events, and panel discussions. Through these activities, we strive to enhance their knowledge, showcase their technical skills, and foster their professional growth.
@@ -73,6 +79,86 @@ export default function Home() {
 
                                 </h1>
                             </div>
+
+                            <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+                
+                <p className="mt-6 text-base text-gray-600">
+                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <Member name="Anagha Kalyani" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
+                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+    </Member>
+    
+    <Member name="Diya James" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/diyajames"
+                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+    </Member>
+    
+    <Member name="Smruthi D Sharma" 
+                designation="Vice Chair" 
+                link="https://www.linkedin.com/in/smruthi-d-sharma-22913b279"
+                image="https://drive.google.com/uc?id=1qv7-uRi-hfNyqPop-ncHwZKWvwXWuStT&export=view">
+    </Member>
+    
+    <Member name="Vidhi Rastogi" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/vidhi-rastogi-408a54220"
+                image="https://drive.google.com/uc?id=1V609IGibJMs6wUqSgzGfA1pndeeIaZr3&export=view">
+    </Member>
+    
+    <Member name="Snehal Vats" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
+                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+    </Member>
+    
+    <Member name="Joshitha Darsi" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/joshitha-darsi-571172239"
+                image="https://drive.google.com/uc?id=1DKi_MYNsREBDz2tGpd1S8I3O9iFwqfrf&export=view">
+    </Member>
+    
+    <Member name="Malla Rajeswari" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/rajeswari-malla-61045623a"
+                image="https://drive.google.com/uc?id=1OW7BM8oIbjMRWkmKJ1-NSXVm7DiNT2Vp&export=view">
+    </Member>
+    
+    <Member name="Shreeya R" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/shreeya-r-b62703270"
+                image="https://drive.google.com/uc?id=1mKC1cH2j396VRoyL8VybdGZjSLIfrxIM&export=view">
+    </Member>
+    
+    <Member name="Jayashree" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
+                image="https://drive.google.com/uc?id=1xku28mlyl7DdnpCwPV6ykvkjksscc15N&export=view">
+    </Member>
+    
+    <Member name="Aditi Kataria" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
+                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+    </Member>
+    
+    <Member name="Harini N" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/harini-n-844817263"
+                image="https://drive.google.com/uc?id=1LrZK7M12z7WF8fWM-YaL04h6N2p8M5Tw&export=view">
+    </Member>
+    
+    <Member name="Aiman Naqvi" 
+                designation="Member" 
+                link="https://www.linkedin.com/in/aiman-n-896240279/"
+                image="https://drive.google.com/uc?id=1d4n-wt5Q-P3sovIsaRDXO8mVtfMqv6Oo&export=view">
+    </Member>
+    </div></p>
+
 
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a
@@ -101,4 +187,8 @@ export default function Home() {
             <Footer />
         </>
     )
+
 }
+
+}
+
