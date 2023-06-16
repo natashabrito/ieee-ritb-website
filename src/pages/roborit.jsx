@@ -277,14 +277,14 @@ export default function Home() {
                     name="Jeeva M"
                     designation="Member"
                     link="https://www.linkedin.com/in/jeeva-m-82b66322a"
-                    image="https://drive.google.com/uc?id=1l47pvLR-mQTp-t376GHXErVnC37ClCK_&export=view"
+                    image="https://github.com/myselfshravan/myselfshravan.github.io/assets/94772842/272ea764-2bb5-411f-88ee-31d7755f450d"
                   ></Member>
 
                   <Member
                     name="Suhas Y"
                     designation="Member"
                     link="https://www.linkedin.com/in/suhas-y-9a477021b/"
-                    image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view"
+                    image=""
                   ></Member>
 
                   <Member
@@ -312,7 +312,7 @@ export default function Home() {
                     name="Sharu U"
                     designation="Member"
                     link="https://www.linkedin.com/in/shaaru-u-514976227"
-                    image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view"
+                    image=""
                   ></Member>
 
                   <Member

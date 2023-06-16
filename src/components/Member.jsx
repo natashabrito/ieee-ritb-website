@@ -1,10 +1,10 @@
 export function Member(props) {
   return (
-    <div className="relative transform overflow-hidden rounded shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2 ">
+    <div className="relative transform overflow-hidden rounded-md shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2 ">
       <img
         className="h-56 w-full object-cover md:h-64 xl:h-80"
         src={props.image}
-        alt="Person"
+        alt={props.name + ' image'}
       />
       <div className="absolute inset-0 flex flex-col justify-center bg-black bg-opacity-75 px-5 py-4 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
         <p className="mb-1 text-lg font-bold text-gray-100">{props.name}</p>
