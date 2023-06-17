@@ -74,6 +74,10 @@ const routs = [
     name: 'SPS',
     link: '/sps',
   },
+  {
+    name: 'Web Resources',
+    link: '/web_resources',
+  }
 ]
 const members = [
   {
@@ -197,7 +201,7 @@ export function Hero() {
               name="SRINIVAS C"
               designation="SB Secretary"
               link="https://www.linkedin.com/in/srinivas-c-678105249/"
-              image="https://drive.google.com/uc?id=1JjKLA1zCL5BZMBB8qnfgxs_nFkoh3aAh&export=view"
+              image="https://drive.google.com/uc?id=1nGrzj-Xusgx33rpnq5j3fyuCSvMndMCz&export=view"
             ></Member>
 
             <Member
