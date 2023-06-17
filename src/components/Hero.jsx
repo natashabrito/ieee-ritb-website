@@ -7,14 +7,7 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import {
-  Autoplay,
-  Pagination,
-  Navigation,
-  EffectFade,
-  Zoom,
-  Keyboard,
-} from 'swiper'
+import { Autoplay, Pagination, Navigation, EffectFade, Keyboard } from 'swiper'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -23,8 +16,10 @@ import img1 from '@/images/home/p1.png'
 import img2 from '@/images/home/p2.png'
 import img4 from '@/images/home/p4.png'
 import img3 from '@/images/home/p3.png'
+import img5 from '@/images/home/p5.png'
+import img6 from '@/images/home/p6.png'
 
-const images = [img1, img2, img3, img4]
+const images = [img1, img2, img3, img4, img5, img6]
 
 const routs = [
   {
@@ -80,11 +75,27 @@ const routs = [
     link: '/sps',
   },
 ]
+const members = [
+  {
+    name: 'SUHAS KATRAHALLI',
+    designation: 'Chairperson',
+    link: 'https://www.linkedin.com/in/suhaskatrahalli',
+    image:
+      'https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view',
+  },
+  {
+    name: 'SRINIVAS C',
+    designation: 'SB Secretary',
+    link: 'https://www.linkedin.com/in/srinivas-c-678105249/',
+    image:
+      'https://github.com/myselfshravan/myselfshravan.github.io/assets/94772842/66635445-e53a-4737-ab83-d0374bfbfb1c',
+  },
+]
 
 export function Hero() {
   return (
     <section className="text-gray-800">
-      <div className="container mx-auto flex flex-col items-center px-4 pt-10 text-center  md:px-10 md:pt-10 lg:px-10 ">
+      <div className="container mx-auto flex flex-col items-center px-4 pt-8 text-center md:px-10 lg:px-8">
         <h1 className="text-3xl font-bold leading-none sm:text-4xl">
           IEEE <span className="text-pri">Ramaiah Institute Of Technology</span>
         </h1>
@@ -92,7 +103,7 @@ export function Hero() {
           Advancing Technology For Humanity
         </p>
       </div>
-      <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
+      <div className="mx-auto max-w-4xl p-4">
         <Swiper
           spaceBetween={30}
           effect={'fade'}
@@ -114,7 +125,7 @@ export function Hero() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
-                className="h-auto w-full rounded-lg"
+                className="h-auto w-full rounded-lg shadow-lg"
                 src={image}
                 alt={index + 'image'}
                 width={1920}
@@ -138,97 +149,120 @@ export function Hero() {
         <div className="flex flex-wrap justify-center">
           <ButtonLink
             href="https://site.ieee.org/sb-ritb/about-ieee/ieee-ramaiah/"
-            className="text-md mt-10 rounded bg-sky-900 px-4 py-1.5 font-semibold text-gray-50"
+            className="text-md mt-8 rounded bg-sky-900 px-4 py-1.5 font-semibold text-gray-50"
           >
             Know more
           </ButtonLink>
         </div>
-        <div className="flex flex-col items-center justify-center gap-3 pt-5 md:grid md:grid-rows-3">
-          <h1 className="flex flex-wrap justify-center">
-            Here is the list of all the societies and councils under IEEE-RIT
+        <div className="mx-auto max-w-3xl">
+          <h1 className="text-md mt-6 font-semibold">
+            All the societies and councils under IEEE-RIT
           </h1>
-          {routs.map((rout, index) => (
-            <ButtonLink
-              key={index}
-              href={rout.link}
-              className="mt-5 w-auto rounded-lg py-2"
-            >
-              {rout.name}
-            </ButtonLink>
-          ))}
-          <p className="mt-6 text-base text-gray-600">
-            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-              <Member
-                name="SUHAS KATRAHALLI"
-                designation="SB Chair"
-                link="https://www.linkedin.com/in/suhaskatrahalli"
-                image="https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view"
-              ></Member>
+          <ul
+            role="list"
+            className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
+          >
+            {routs.map((item, index) => (
+              <li
+                key={index}
+                className="rounded-xl p-0.5 shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
+              >
+                <div className="rounded-[10px] bg-white p-5 sm:p-6">
+                  <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
+                    {item.name}
+                  </h3>
+                  <div className="flex justify-center">
+                    <a href={item.link}>
+                      <button className="mt-2 rounded-lg border bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:border-transparent hover:bg-blue-900 hover:text-white">
+                        View
+                      </button>
+                    </a>
+                  </div>
+                  {item.tag && (
+                    <div className="mt-4 flex flex-wrap justify-center gap-1">
+                      <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
+                        {item.tag}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+          <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            Office Bearers of IEEE-RIT
+          </h1>
+          <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-4">
+            <Member
+              name="SUHAS KATRAHALLI"
+              designation="SB Chair"
+              link="https://www.linkedin.com/in/suhaskatrahalli"
+              image="https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view"
+            ></Member>
 
-              <Member
-                name="SRINIVAS C"
-                designation="SB Secretary"
-                link="https://www.linkedin.com/in/srinivas-c-678105249/"
-                image="https://drive.google.com/uc?id=1JjKLA1zCL5BZMBB8qnfgxs_nFkoh3aAh&export=view"
-              ></Member>
+            <Member
+              name="SRINIVAS C"
+              designation="SB Secretary"
+              link="https://www.linkedin.com/in/srinivas-c-678105249/"
+              image="https://drive.google.com/uc?id=1JjKLA1zCL5BZMBB8qnfgxs_nFkoh3aAh&export=view"
+            ></Member>
 
-              <Member
-                name="VINAYAK SHARMA"
-                designation="SB Treasurer"
-                link="https://www.linkedin.com/in/vinayak-sharma-033500210"
-                image="https://drive.google.com/uc?id=1_AMkkaKxbzlr0QfX5wbDMf6RO4L60gWj&export=view"
-              ></Member>
+            <Member
+              name="VINAYAK SHARMA"
+              designation="SB Treasurer"
+              link="https://www.linkedin.com/in/vinayak-sharma-033500210"
+              image="https://drive.google.com/uc?id=1_AMkkaKxbzlr0QfX5wbDMf6RO4L60gWj&export=view"
+            ></Member>
 
-              <Member
-                name="PRAJWAL B MEHENDARKAR"
-                designation="SB Technical Head"
-                link="https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
-                image="https://drive.google.com/uc?id=1DJb27tCJxoOUgAvCJXyXaogFQRT7BqjR&export=view"
-              ></Member>
+            <Member
+              name="PRAJWAL B MEHENDARKAR"
+              designation="SB Technical Head"
+              link="https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
+              image="https://drive.google.com/uc?id=1DJb27tCJxoOUgAvCJXyXaogFQRT7BqjR&export=view"
+            ></Member>
 
-              <Member
-                name="SNEGA UMAPATHI"
-                designation="SB Convener"
-                link="https://www.linkedin.com/in/snega-umapathi-b73480210"
-                image="https://drive.google.com/uc?id=13vngh3QbtTF58xImFpsYYGHgYnn1-dw5&export=view"
-              ></Member>
+            <Member
+              name="SNEGA UMAPATHI"
+              designation="SB Convener"
+              link="https://www.linkedin.com/in/snega-umapathi-b73480210"
+              image="https://drive.google.com/uc?id=13vngh3QbtTF58xImFpsYYGHgYnn1-dw5&export=view"
+            ></Member>
 
-              <Member
-                name="DIVYANSH MISHRA"
-                designation="SB Vice-Chair"
-                link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
-                image="https://drive.google.com/uc?id=1fe_XkP7UrbuPAMBhQnB5rVBzxlNy_0xY&export=view"
-              ></Member>
+            <Member
+              name="DIVYANSH MISHRA"
+              designation="SB Vice-Chair"
+              link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
+              image="https://drive.google.com/uc?id=1fe_XkP7UrbuPAMBhQnB5rVBzxlNy_0xY&export=view"
+            ></Member>
 
-              <Member
-                name="ASKANDA MAHAJAN"
-                designation="SB Vice-Secretary"
-                link="https://in.linkedin.com/in/askanda-mahajan-9a2004200"
-                image="https://drive.google.com/uc?id=1a5WSd-AxMViNf7w8C6plRybQThMcsNtY&export=view"
-              ></Member>
+            <Member
+              name="ASKANDA MAHAJAN"
+              designation="SB Vice-Secretary"
+              link="https://in.linkedin.com/in/askanda-mahajan-9a2004200"
+              image="https://drive.google.com/uc?id=1a5WSd-AxMViNf7w8C6plRybQThMcsNtY&export=view"
+            ></Member>
 
-              <Member
-                name="GURTEZ SINGH"
-                designation="SB Vice-Treasurer"
-                link="https://www.linkedin.com/in/gurtezsingh"
-                image="https://drive.google.com/uc?id=1AmN3WmW2wZ8Nqfysn1Jz528byd6HuA8f&export=download"
-              ></Member>
+            <Member
+              name="GURTEZ SINGH"
+              designation="SB Vice-Treasurer"
+              link="https://www.linkedin.com/in/gurtezsingh"
+              image="https://drive.google.com/uc?id=1AmN3WmW2wZ8Nqfysn1Jz528byd6HuA8f&export=download"
+            ></Member>
 
-              <Member
-                name="SANJAY KUMAR"
-                designation="SB Vice-Technical Head"
-                link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
-                image="https://drive.google.com/uc?id=1uNkrtldaPHXTKc62unwr_ejEBBWRInNn&export=view"
-              ></Member>
+            <Member
+              name="SANJAY KUMAR"
+              designation="SB Vice-Technical Head"
+              link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
+              image="https://drive.google.com/uc?id=1uNkrtldaPHXTKc62unwr_ejEBBWRInNn&export=view"
+            ></Member>
 
-              <Member
-                name="SHUBHAM ANAND"
-                designation="SB Vice-Convener"
-                link="https://www.linkedin.com/in/shubham-anand-507785226/"
-                image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"
-              ></Member>
-            </div>
-          </p>
+            <Member
+              name="SHUBHAM ANAND"
+              designation="SB Vice-Convener"
+              link="https://www.linkedin.com/in/shubham-anand-507785226/"
+              image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"
+            ></Member>
+          </div>
         </div>
       </Container>
     </section>

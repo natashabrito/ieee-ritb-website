@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer class="footerbg relative z-10 overflow-x-hidden pl-4 pt-10 pb-5 lg:py-2 lg:pl-0">
-      <div class="container text-white mx-auto">
-        <div class="flex flex-wrap lg:ml-7">
-          <div class="flex w-full items-center px-2 sm:w-2/3 lg:w-4/12">
+    <footer class="footerbg relative z-10 overflow-x-hidden pl-4 pt-6 pb-5 lg:py-2 lg:pl-0">
+      <div class="container mx-auto text-white">
+        <div class="mx-auto grid max-w-4xl pt-10 sm:grid-cols-1 md:grid-cols-3">
+          <div class="w-full items-center px-3">
             <div class="mb-3 flex w-full lg:justify-center">
               <a href="/" class="inline-block rounded-md bg-white p-2">
                 <img
@@ -18,21 +18,14 @@ export function Footer() {
               </a>
             </div>
           </div>
-          <div class="w-full px-3 sm:w-1/2 lg:mt-16 lg:w-2/12">
+          <div class="w-full px-3 pt-3 md:pt-0">
             <div class="mb-10 w-full">
               <h4 class="text-dark mb-5 text-lg font-semibold">Quick Links</h4>
               <ul className="-my-1 block justify-center">
                 <li>
-                  <Link href="/gallery">
+                  <Link href="/contactus">
                     <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Gallery
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/events">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Events
+                      Contact Us
                     </a>
                   </Link>
                 </li>
@@ -43,51 +36,10 @@ export function Footer() {
                     </a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/newsletter">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Newsletter
-                    </a>
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
-          <div class="w-full px-3 sm:w-1/2 lg:mt-16 lg:w-3/12">
-            <div class="mb-10 w-full">
-              <ul className="mt-5 justify-center ">
-                <li>
-                  <Link href="/execom">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      EXECOM
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/studentschapter">
-                    <a className=" rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Students Chapter
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/projects">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Projects
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contactus">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Contact Us
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="w-full px-4 sm:w-1/2 lg:mt-16 lg:w-3/12">
+          <div class="w-full px-3">
             <div class="mb-10 w-full">
               <h4 class="text-dark mb-5 text-lg font-semibold">Follow Us On</h4>
               <div class="mb-6 flex items-center">
@@ -190,11 +142,15 @@ export function Footer() {
                   <a href="mailto:ieeeritb@gmail.com">ieeeritb@gmail.com</a>
                 </span>
               </p>
-              <p class="text-body-color mt-4 text-sm">
-                &copy; Copyright 2023 IEEE - All rights reserved.
-              </p>
             </div>
           </div>
+        </div>
+        <div class="border-t border-gray-100 pt-6">
+          <p class="text-xs/relaxed text-center text-gray-200">
+            &copy; Copyright 2023 IEEE - All rights reserved.
+            <br />
+            Created with ❤️ by the Web Resource Team IEEE RITB.
+          </p>
         </div>
       </div>
       <div>

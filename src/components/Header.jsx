@@ -68,6 +68,13 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="#chapters">
+                    <a className="block w-full" onClick={() => close()}>
+                      Chapters
+                    </a>
+                  </Link>
+                </li>
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -80,7 +87,7 @@ function MobileNavigation() {
 export function Header() {
   return (
     <header className="py-2 shadow-md">
-      <div className="mx-auto max-w-7xl px-4 sm:px-4 lg:px-14 xl:px-24">
+      <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl">
         <div className="mx-auto max-w-6xl">
           <nav className="relative z-50 text-sm">
             <ul className="flex items-center">
