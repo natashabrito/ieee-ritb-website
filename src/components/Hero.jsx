@@ -96,7 +96,7 @@ export function Hero() {
   return (
     <section className="text-gray-800">
       <div className="container mx-auto flex flex-col items-center px-4 pt-8 text-center md:px-10 lg:px-8">
-        <h1 className="text-3xl font-bold leading-none sm:text-4xl">
+        <h1 className="text-2xl font-bold leading-none md:text-3xl lg:text-4xl">
           IEEE <span className="text-pri">Ramaiah Institute Of Technology</span>
         </h1>
         <p className="mt-1 text-lg text-red-600">
@@ -155,7 +155,7 @@ export function Hero() {
           </ButtonLink>
         </div>
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-md mt-6 font-semibold">
+          <h1 className="text-md mt-6 font-semibold text-center">
             All the societies and councils under IEEE-RIT
           </h1>
           <ul
@@ -178,21 +178,14 @@ export function Hero() {
                       </button>
                     </a>
                   </div>
-                  {item.tag && (
-                    <div className="mt-4 flex flex-wrap justify-center gap-1">
-                      <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                        {item.tag}
-                      </span>
-                    </div>
-                  )}
                 </div>
               </li>
             ))}
           </ul>
-          <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+          <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 text-center">
             Office Bearers of IEEE-RIT
           </h1>
-          <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <Member
               name="SUHAS KATRAHALLI"
               designation="SB Chair"

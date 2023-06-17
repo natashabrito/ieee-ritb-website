@@ -2,7 +2,7 @@ export function Member(props) {
   return (
     <div className="relative transform overflow-hidden rounded-md shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2 ">
       <img
-        className="h-56 w-full object-cover md:h-64 xl:h-80"
+        className="h-72 w-full object-cover md:h-96 xl:h-full"
         src={props.image}
         alt={props.name + ' image'}
       />

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer class="footerbg relative z-10 overflow-x-hidden pl-4 pt-6 pb-5 lg:py-2 lg:pl-0">
+    <footer class="footerbg relative z-10 overflow-x-hidden pl-3 pt-6 pb-5 lg:py-2 lg:pl-0">
       <div class="container mx-auto text-white">
         <div class="mx-auto grid max-w-4xl pt-10 sm:grid-cols-1 md:grid-cols-3">
           <div class="w-full items-center px-3">
@@ -21,7 +21,7 @@ export function Footer() {
           <div class="w-full px-3 pt-3 md:pt-0">
             <div class="mb-10 w-full">
               <h4 class="text-dark mb-5 text-lg font-semibold">Quick Links</h4>
-              <ul className="-my-1 block justify-center">
+              <ul className="block justify-center">
                 <li>
                   <Link href="/contactus">
                     <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
