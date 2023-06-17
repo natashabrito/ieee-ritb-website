@@ -55,6 +55,12 @@ export default function Home() {
                   link="https://www.linkedin.com/in/prapti-bopana/"
                   image="https://drive.google.com/uc?id=1fSyCA_bbL4xCP91fPdDE0rJx1PAZQBM0&export=view"
                 ></Member>
+                <Member
+                  name="Prapti Bopanna"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/prapti-bopana/"
+                  image="https://drive.google.com/uc?id=18ozk9aWUy2FrEQPmWPPa0RQfcQ7GAwwS&export=view"
+                ></Member>
 
                 <Member
                   name="Ayush Sharma"
