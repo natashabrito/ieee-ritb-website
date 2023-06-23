@@ -167,61 +167,58 @@ export default function Home() {
 
               <p className="mt-6 text-base text-gray-600">
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                  <Member
-                    name="Tarunay Shrivastava"
-                    designation="Chairperson"
-                    link="https://www.linkedin.com/in/tarunay-shrivastava-98ab2919a"
-                    image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view"
-                  ></Member>
+                <Member name="Tarunay Shrivastava" 
+                designation="Chairperson" 
+                link="https://www.linkedin.com/in/tarunay-shrivastava-98ab2919a"
+                image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view">
+                </Member>
 
-                  <Member
-                    name="Shawn Daniel Rodrigues"
-                    designation="Secretary"
-                    link="https://www.linkedin.com/in/shawn-daniel-rodrigues-a63020205/"
-                    image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view"
-                  ></Member>
+                <Member name="Shawn Daniel Rodrigues" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/shawn-daniel-rodrigues-a63020205/"
+                image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view">
+                </Member>
 
-                  <Member
-                    name="Katyayani Palak"
-                    designation="Vice Chair"
-                    link=""
-                    image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view"
-                  ></Member>
+                <Member name="Katyayani Palak" 
+                designation="Vice Chair" 
+                link=""
+                image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view">
+                </Member>
 
-                  <Member
-                    name="Roshni Roche"
-                    designation="Treasurer"
-                    link="https://www.linkedin.com/in/roshni-roche-641961264"
-                    image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view"
-                  ></Member>
 
-                  <Member
-                    name="Vaishnavi Dinesh"
-                    designation="Execom"
-                    link="https://in.linkedin.com/in/vaishnavi-dinesh-019253267"
-                    image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view"
-                  ></Member>
+                <Member name="Roshni Roche" 
+                designation="Treasurer" 
+                link="https://www.linkedin.com/in/roshni-roche-641961264"
+                image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view">
+                </Member>
 
-                  <Member
-                    name="Kaushik Gopal Gaitonde"
-                    designation="Execom"
-                    link="https://www.linkedin.com/in/kaushik-gaitonde-067039247/"
-                    image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view"
-                  ></Member>
 
-                  <Member
-                    name="Dhanyath R"
-                    designation="Execom"
-                    link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
-                    image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view"
-                  ></Member>
+                <Member name="Vaishnavi Dinesh" 
+                designation="Execom" 
+                link="https://in.linkedin.com/in/vaishnavi-dinesh-019253267"
+                image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view">
+                </Member>
 
-                  <Member
-                    name="N Dharshan"
-                    designation="Execom"
-                    link="http://www.linkedin.com/in/dharshan-5807552"
-                    image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view"
-                  ></Member>
+
+                <Member name="Kaushik Gopal Gaitonde" 
+                designation="Execom" 
+                link="https://www.linkedin.com/in/kaushik-gaitonde-067039247/"
+                image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view">
+                </Member>
+
+
+                <Member name="Dhanyath R" 
+                designation="Execom" 
+                link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
+                image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view">
+                </Member>
+
+
+                <Member name="N Dharshan" 
+                designation="Execom" 
+                link="http://www.linkedin.com/in/dharshan-5807552"
+                image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view">
+                </Member>
                 </div>
               </p>
 

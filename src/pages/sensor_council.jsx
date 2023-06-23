@@ -47,26 +47,23 @@ export default function Home() {
 
               <p className="mt-6 text-base text-gray-600">
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                  <Member
-                    name="Adya S"
-                    designation="Chair"
-                    link="https://www.linkedin.com/in/adya-samantray-84215a200"
-                    image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view"
-                  ></Member>
-
-                  <Member
-                    name="Varsha J"
-                    designation="Secretary"
-                    link="https://www.linkedin.com/in/varsha-j-173124254"
-                    image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view"
-                  ></Member>
-
-                  <Member
-                    name="Vyoma Bharadwaj"
-                    designation="Treasurer"
-                    link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
-                    image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view"
-                  ></Member>
+                <Member name="Adya S" 
+                designation="Chair" 
+                link="https://www.linkedin.com/in/adya-samantray-84215a200"
+                image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+    </Member>
+    
+    <Member name="Varsha J" 
+                designation="Secretary" 
+                link="https://www.linkedin.com/in/varsha-j-173124254"
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+    </Member>
+    
+    <Member name="Vyoma Bharadwaj" 
+                designation="Treasurer" 
+                link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
+                image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view">
+    </Member>
                 </div>
               </p>
 
