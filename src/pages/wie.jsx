@@ -90,85 +90,83 @@ export default function Home() {
                 </h1>
               </div>
 
-              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 mb-10">
                 Members
               </h1>
 
-              <p className="mt-6 text-base text-gray-600">
-                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Anagha Kalyani" 
-                designation="Chair" 
-                link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
-                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-    </Member>
-    
-    <Member name="Diya James" 
-                designation="Secretary" 
-                link="https://www.linkedin.com/in/diyajames"
-                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
-    </Member>
-    
-    <Member name="Smruthi D Sharma" 
-                designation="Vice Chair" 
-                link="https://www.linkedin.com/in/smruthi-d-sharma-22913b279"
-                image="https://drive.google.com/uc?id=1qv7-uRi-hfNyqPop-ncHwZKWvwXWuStT&export=view">
-    </Member>
-    
-    <Member name="Vidhi Rastogi" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/vidhi-rastogi-408a54220"
-                image="https://drive.google.com/uc?id=1V609IGibJMs6wUqSgzGfA1pndeeIaZr3&export=view">
-    </Member>
-    
-    <Member name="Snehal Vats" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
-                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-    </Member>
-    
-    <Member name="Joshitha Darsi" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/joshitha-darsi-571172239"
-                image="https://drive.google.com/uc?id=1DKi_MYNsREBDz2tGpd1S8I3O9iFwqfrf&export=view">
-    </Member>
-    
-    <Member name="Malla Rajeswari" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/rajeswari-malla-61045623a"
-                image="https://drive.google.com/uc?id=1OW7BM8oIbjMRWkmKJ1-NSXVm7DiNT2Vp&export=view">
-    </Member>
-    
-    <Member name="Shreeya R" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/shreeya-r-b62703270"
-                image="https://drive.google.com/uc?id=1mKC1cH2j396VRoyL8VybdGZjSLIfrxIM&export=view">
-    </Member>
-    
-    <Member name="Jayashree" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
-                image="https://drive.google.com/uc?id=1xku28mlyl7DdnpCwPV6ykvkjksscc15N&export=view">
-    </Member>
-    
-    <Member name="Aditi Kataria" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
-                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-    </Member>
-    
-    <Member name="Harini N" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/harini-n-844817263"
-                image="https://drive.google.com/uc?id=1LrZK7M12z7WF8fWM-YaL04h6N2p8M5Tw&export=view">
-    </Member>
-    
-    <Member name="Aiman Naqvi" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/aiman-n-896240279/"
-                image="https://drive.google.com/uc?id=1d4n-wt5Q-P3sovIsaRDXO8mVtfMqv6Oo&export=view">
-    </Member>
-                </div>
-              </p>
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <Member name="Anagha Kalyani"
+                  designation="Chair"
+                  link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Diya James"
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/diyajames"
+                  image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+                </Member>
+
+                <Member name="Smruthi D Sharma"
+                  designation="Vice Chair"
+                  link="https://www.linkedin.com/in/smruthi-d-sharma-22913b279"
+                  image="https://drive.google.com/uc?id=1qv7-uRi-hfNyqPop-ncHwZKWvwXWuStT&export=view">
+                </Member>
+
+                <Member name="Vidhi Rastogi"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/vidhi-rastogi-408a54220"
+                  image="https://drive.google.com/uc?id=1V609IGibJMs6wUqSgzGfA1pndeeIaZr3&export=view">
+                </Member>
+
+                <Member name="Snehal Vats"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Joshitha Darsi"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/joshitha-darsi-571172239"
+                  image="https://drive.google.com/uc?id=1DKi_MYNsREBDz2tGpd1S8I3O9iFwqfrf&export=view">
+                </Member>
+
+                <Member name="Malla Rajeswari"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/rajeswari-malla-61045623a"
+                  image="https://drive.google.com/uc?id=1OW7BM8oIbjMRWkmKJ1-NSXVm7DiNT2Vp&export=view">
+                </Member>
+
+                <Member name="Shreeya R"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shreeya-r-b62703270"
+                  image="https://drive.google.com/uc?id=1mKC1cH2j396VRoyL8VybdGZjSLIfrxIM&export=view">
+                </Member>
+
+                <Member name="Jayashree"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/jayshree-v-j-a1471b23b"
+                  image="https://drive.google.com/uc?id=1xku28mlyl7DdnpCwPV6ykvkjksscc15N&export=view">
+                </Member>
+
+                <Member name="Aditi Kataria"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Harini N"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/harini-n-844817263"
+                  image="https://drive.google.com/uc?id=1LrZK7M12z7WF8fWM-YaL04h6N2p8M5Tw&export=view">
+                </Member>
+
+                <Member name="Aiman Naqvi"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/aiman-n-896240279/"
+                  image="https://drive.google.com/uc?id=1d4n-wt5Q-P3sovIsaRDXO8mVtfMqv6Oo&export=view">
+                </Member>
+              </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

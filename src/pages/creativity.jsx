@@ -4,6 +4,84 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
+const members = [
+  {
+    name: 'Medha Kulkarni',
+    designation: 'Head',
+    link: 'https://www.linkedin.com/in/medha-kulkarni-28a483210',
+    image:
+      'https://drive.google.com/uc?id=1xZ7PT2KJSswCq9X-PAHZb3wyQtoj4kMY&export=view',
+  },
+  {
+    name: 'N Sudharshan Reddy',
+    designation: 'Vice-Head',
+    link: 'https://www.linkedin.com/in/n-sudharshan-reddy-422303228/',
+    image:
+      'https://drive.google.com/uc?id=1oaQ-Y_UkTe6P8xlx0CQVkyfLTl_BW3ZQ&export=view',
+  },
+  {
+    name: 'Prapti Bopanna',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/prapti-bopana/',
+    image:
+      'https://drive.google.com/uc?id=1fSyCA_bbL4xCP91fPdDE0rJx1PAZQBM0&export=view',
+  },
+  {
+    name: 'Ayush Sharma',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/ayush-sharma-789246233',
+    image:
+      'https://drive.google.com/uc?id=1ogTv-8qmhyjGrLCM-wrCaxy1r-2L035A&export=view',
+  },
+  {
+    name: 'Shaina Patel',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/shaina-patel-1b4750215',
+    image:
+      'https://drive.google.com/uc?id=1uDijhTflSA6ChwGq1h3SFi4SHtteQ_5T&export=view',
+  },
+  {
+    name: 'Nirmitha S Reddy',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234',
+    image: 'https://i.ibb.co/m8zY1VP/unknown.jpg',
+  },
+  {
+    name: 'Chinmay Gowda',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/chinmay-b-gowda-aa73ba279',
+    image:
+      'https://drive.google.com/uc?id=1-0GMyJRuLS2jgY3tuqxSFNn2zw7vnJI_&export=view',
+  },
+  {
+    name: 'Khushi Rautela',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/khushi-rautela-b0b773231/',
+    image:
+      'https://drive.google.com/uc?id=1VFM-yYYRlg0UQ-6KpqAE0vWOcAyGbGM4&export=view',
+  },
+  {
+    name: 'M Shraddha Rao',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/khushi-rautela-b0b773231/',
+    image:
+      'https://drive.google.com/uc?id=1trd50PHI1G_V937sHyxKB89-LNiJrT_b&export=view',
+  },
+  {
+    name: 'Anirudh Bantwal Baliga',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/anirudh-baliga-30b7b3219/',
+    image:
+      'https://drive.google.com/uc?id=1H10foKWxcROwSfPzSm4cTzjHASqkSAFk&export=view',
+  },
+  {
+    name: 'Dhanraj Rateria',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',
+  },
+]
 
 export default function Home() {
   return (
@@ -19,12 +97,12 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <div className="text-justify">
+            <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE CREATIVITY
               </h1>
               <div>
-                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                <h1 className="mt-10 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-900 tracking-tight">
                   We facilitate “unmistakably IEEE” quality creative work while
                   saving the organisation time and money.
                 </h1>
@@ -35,71 +113,14 @@ export default function Home() {
               </h1>
 
               <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-              <Member name="Medha Kulkarni" 
-                designation="Head" 
-                link="https://www.linkedin.com/in/medha-kulkarni-28a483210"
-                image="https://drive.google.com/uc?id=1xZ7PT2KJSswCq9X-PAHZb3wyQtoj4kMY&export=view">
-    </Member>
-    
-    <Member name="N Sudharshan Reddy" 
-                designation="Vice-Head" 
-                link="https://www.linkedin.com/in/n-sudharshan-reddy-422303228/"
-                image="https://drive.google.com/uc?id=1oaQ-Y_UkTe6P8xlx0CQVkyfLTl_BW3ZQ&export=view">
-    </Member>
-    
-    <Member name="Prapti Bopanna" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/prapti-bopana/"
-                image="https://drive.google.com/uc?id=1fSyCA_bbL4xCP91fPdDE0rJx1PAZQBM0&export=view">
-    </Member>
-    
-    <Member name="Ayush Sharma" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/ayush-sharma-789246233"
-                image="https://drive.google.com/uc?id=1ogTv-8qmhyjGrLCM-wrCaxy1r-2L035A&export=view">
-    </Member>
-    
-    <Member name="Shaina Patel" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/shaina-patel-1b4750215"
-                image="https://drive.google.com/uc?id=1uDijhTflSA6ChwGq1h3SFi4SHtteQ_5T&export=view">
-    </Member>
-    
-    <Member name="Nirmitha S Reddy" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234"
-                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-    </Member>
-    
-    <Member name="Chinmay Gowda" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/chinmay-b-gowda-aa73ba279"
-                image="https://drive.google.com/uc?id=1-0GMyJRuLS2jgY3tuqxSFNn2zw7vnJI_&export=view">
-    </Member>
-    
-    <Member name="Khushi Rautela" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/khushi-rautela-b0b773231/"
-                image="https://drive.google.com/uc?id=1VFM-yYYRlg0UQ-6KpqAE0vWOcAyGbGM4&export=view">
-    </Member>
-    
-    <Member name="M Shraddha Rao" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/khushi-rautela-b0b773231/"
-                image="https://drive.google.com/uc?id=1trd50PHI1G_V937sHyxKB89-LNiJrT_b&export=view">
-    </Member>
-    
-    <Member name="Anirudh Bantwal Baliga" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/anirudh-baliga-30b7b3219/"
-                image="https://drive.google.com/uc?id=1H10foKWxcROwSfPzSm4cTzjHASqkSAFk&export=view">
-    </Member>
-    
-    <Member name="Dhanraj Rateria" 
-                designation="Member" 
-                link="https://www.linkedin.com/in/dhanrajrateria"
-                image="https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view">
-    </Member>
+                {members.map((member, index) => (
+                  <Member
+                    name={member.name}
+                    designation={member.designation}
+                    link={member.link}
+                    image={member.image}
+                  ></Member>
+                ))}
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

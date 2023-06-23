@@ -39,6 +39,10 @@ const routs = [
     link: '/pr_sponsorship',
   },
   {
+    name: "COMSOC",
+    link: "/comsoc"
+  },
+  {
     name: 'Documentation',
     link: '/documentation',
   },
@@ -146,9 +150,9 @@ export function Hero() {
           2003. The branch endeavors to enrich the students of RIT with the
           latest developments in various fields of technology and research and
           ensure that their competency levels meet all the required standards in
-          today’s industry and participation in a kaleidoscope of technical
+          today's industry and participation in a kaleidoscope of technical
           events throughout the year, implicitly emphasizing on extra-curricular
-          activities in a student’s life.
+          activities in a student's life.
         </p>
         <div className="flex flex-wrap justify-center">
           <ButtonLink
@@ -171,7 +175,7 @@ export function Hero() {
                 key={index}
                 className="rounded-xl p-0.5 shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
               >
-                <div className="rounded-[10px] bg-white p-5 sm:p-6">
+                <div className="rounded-xl bg-white p-5 sm:p-6">
                   <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
                     {item.name}
                   </h3>

@@ -8,7 +8,13 @@ import { Member } from '@/components/Member'
 
 import img1 from '@/images/heroimages/img1.png'
 import img2 from '@/images/heroimages/img1.png'
-import { Autoplay, Pagination, Navigation, EffectFade, Controller } from 'swiper'
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectFade,
+  Controller,
+} from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { invert } from 'tailwindcss/defaultTheme'
@@ -21,6 +27,50 @@ const images = [
     link: img2,
   },
 ]
+const members = [
+  {
+    name: "Mohammed Ibrahim",
+    designation: "Chair",
+    link: "https://www.linkedin.com/in/mohammedibrahim22",
+    image: "https://drive.google.com/uc?id=10SKIGnOhzWAdg8Z1QlxNR-zA4QAYLnBu&export=view"
+  },
+  {
+    name: "Varsha J",
+    designation: "Vice Chair",
+    link: "https://www.linkedin.com/in/varsha-j-173124254",
+    image: "https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view"
+  },
+  {
+    name: "Poojitha Singh",
+    designation: "Secretary",
+    link: "https://www.linkedin.com/in/poojitha-singh-840bb6229",
+    image: "https://drive.google.com/uc?id=1-oK71eC2oPF6ad1cixbf0v_pl7iGVi5L&export=view"
+  },
+  {
+    name: "Preethi K",
+    designation: "Co- Secretary",
+    link: "https://www.linkedin.com/in/poojitha-singh-840bb6229",
+    image: "https://drive.google.com/uc?id=1z3bFQVO8zTBe8gtMdUygVkuelL38QLwP&export=view"
+  },
+  {
+    name: "Madhumitha R",
+    designation: "Co - Secretary",
+    link: "https://www.linkedin.com/in/madhumitha-ramaswamy-399103220",
+    image: "https://drive.google.com/uc?id=1p22I8o2lZBStHVAmuoyUbohYPcVNwPr_&export=view"
+  },
+  {
+    name: "Banuprasad",
+    designation: "Treasurer",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"
+  },
+  {
+    name: "Kokila",
+    designation: "Co - Treasurer",
+    link: "https://www.linkedin.com/in/kokila-s-642161252",
+    image: "https://drive.google.com/uc?id=1bMUfnLGZK07XeXVVeaeGSutxpSgVOmQt&export=view"
+  }
+];
 
 export default function Home() {
   return (
@@ -36,7 +86,7 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
               IEEE APS CHAPTER
             </h1>
             <Swiper
@@ -53,7 +103,13 @@ export default function Home() {
                 clickable: true,
               }}
               navigation={true}
-              modules={[Autoplay, Pagination, Navigation, EffectFade, Controller]}
+              modules={[
+                Autoplay,
+                Pagination,
+                Navigation,
+                EffectFade,
+                Controller,
+              ]}
               className="mySwiper"
             >
               {images.map((image, index) => (
@@ -71,7 +127,7 @@ export default function Home() {
               ))}
             </Swiper>
             <div>
-              <h1 className="mt-10 text-justify text-lg md:text-2xl tracking-tight text-gray-900">
+              <h1 className="mt-10 text-justify text-lg tracking-tight text-gray-900 md:text-xl">
                 Welcome to the IEEE Antennas and Propagation Society (APS)
                 Student Chapter at RIT. We are a dynamic community of passionate
                 engineering students dedicated to advancing the field of
@@ -91,47 +147,14 @@ export default function Home() {
             </h1>
 
             <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-            <Member name="Mohammed Ibrahim" 
-                designation="Chair" 
-                link="https://www.linkedin.com/in/mohammedibrahim22"
-                image="https://drive.google.com/uc?id=10SKIGnOhzWAdg8Z1QlxNR-zA4QAYLnBu&export=view">
-    </Member>
-    
-    <Member name="Varsha J" 
-                designation="Vice Chair" 
-                link="https://www.linkedin.com/in/varsha-j-173124254"
-                image="https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view">
-    </Member>
-    
-    <Member name="Poojitha Singh" 
-                designation="Secretary" 
-                link="https://www.linkedin.com/in/poojitha-singh-840bb6229"
-                image="https://drive.google.com/uc?id=1-oK71eC2oPF6ad1cixbf0v_pl7iGVi5L&export=view">
-    </Member>
-    
-    <Member name="Preethi K" 
-                designation="Co- Secretary" 
-                link="https://www.linkedin.com/in/poojitha-singh-840bb6229"
-                image="https://drive.google.com/uc?id=1z3bFQVO8zTBe8gtMdUygVkuelL38QLwP&export=view">
-    </Member>
-    
-    <Member name="Madhumitha R" 
-                designation="Co - Secretary" 
-                link="https://www.linkedin.com/in/madhumitha-ramaswamy-399103220"
-                image="https://drive.google.com/uc?id=1p22I8o2lZBStHVAmuoyUbohYPcVNwPr_&export=view">
-    </Member>
-    
-    <Member name="Banuprasad" 
-                designation="�Treasurer" 
-                link="https://www.linkedin.com/in/banu-prasad-m-925558270"
-                image="https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view">
-    </Member>
-    
-    <Member name="Kokila" 
-                designation="Co - Treasurer" 
-                link="https://www.linkedin.com/in/kokila-s-642161252"
-                image="https://drive.google.com/uc?id=1bMUfnLGZK07XeXVVeaeGSutxpSgVOmQt&export=view">
-    </Member>
+              {members.map((member, index) => (
+                <Member
+                  name={member.name}
+                  designation={member.designation}
+                  link={member.link}
+                  image={member.image}
+                ></Member>
+              ))}
             </div>
 
             <div className="mt-10 flex items-center justify-center gap-x-6">

@@ -41,31 +41,29 @@ export default function Home() {
                 <br></br>
               </p>
 
-              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 mb-10">
                 Members
               </h1>
 
-              <p className="mt-6 text-base text-gray-600">
-                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Adya S" 
-                designation="Chair" 
-                link="https://www.linkedin.com/in/adya-samantray-84215a200"
-                image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
-    </Member>
-    
-    <Member name="Varsha J" 
-                designation="Secretary" 
-                link="https://www.linkedin.com/in/varsha-j-173124254"
-                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-    </Member>
-    
-    <Member name="Vyoma Bharadwaj" 
-                designation="Treasurer" 
-                link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
-                image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view">
-    </Member>
-                </div>
-              </p>
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <Member name="Adya S"
+                  designation="Chair"
+                  link="https://www.linkedin.com/in/adya-samantray-84215a200"
+                  image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+                </Member>
+
+                <Member name="Varsha J"
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/varsha-j-173124254"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Vyoma Bharadwaj"
+                  designation="Treasurer"
+                  link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
+                  image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view">
+                </Member>
+              </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

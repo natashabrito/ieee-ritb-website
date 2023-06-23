@@ -66,3 +66,25 @@
 .border-n {
   border-width: 1px;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* background: orange; */
+  /* background: linear-gradient(45deg, #00b5f5, #002a8f); */
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  /* box-shadow: 0 5px 5px rgb(200, 200, 200, 0.4); */
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+.back-to-top-dark {
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+}
+
+.back-to-top:hover {
+  background: linear-gradient(105deg, #002a8f, #00b5f5);
+}
