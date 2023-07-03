@@ -247,7 +247,8 @@ export default function Home() {
                 <Member name="Abhinav Benagi"
                   designation="Chair"
                   link="https://www.linkedin.com/in/abhinav-benagi-878aa7208"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=11nrdHtzn1Dy5L7vJVwIfAqKK0_uLc9-q&export=view">
+                 
                 </Member>
 
                 <Member name="Pavan Kumar K"

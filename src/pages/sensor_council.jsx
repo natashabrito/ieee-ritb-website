@@ -49,13 +49,13 @@ export default function Home() {
                 <Member name="Adya S"
                   designation="Chair"
                   link="https://www.linkedin.com/in/adya-samantray-84215a200"
-                  image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+                  image="https://drive.google.com/uc?id=15QziUgj0UJA9wnnIonjlzTOnyHpQVIwN&export=download">
                 </Member>
 
                 <Member name="Varsha J"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/varsha-j-173124254"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
                 </Member>
 
                 <Member name="Vyoma Bharadwaj"

@@ -128,7 +128,8 @@ export default function Home() {
                 <Member name="M Shraddha Rao"
                   designation="Member"
                   link="https://www.linkedin.com/mwlite/in/shraddha-rao-214801241"
-                  image="https://drive.google.com/uc?id=1tsOHARJL45hckuF3JpPQb49zgi2u1cbk&export=download">
+                  image="https://drive.google.com/uc?id=1AQBtShM_oAThjJecG_MqnCHz-l6r47W5&export=download">
+                  
                 </Member>
 
                 <Member name="Anant Sharma"
