@@ -83,7 +83,8 @@ export default function Home() {
                 <Member name="Adya S"
                   designation="Head"
                   link="https://www.linkedin.com/in/adya-samantray-84215a200"
-                  image="https://drive.google.com/uc?id=1AH1RFug2NIkK82PQVcIm_QvmEzVwc5iY&export=download">
+                  image="https://drive.google.com/uc?id=15QziUgj0UJA9wnnIonjlzTOnyHpQVIwN&export=download">
+                  
                 </Member>
 
                 <Member name="Adhiraj Kar"
@@ -101,13 +102,15 @@ export default function Home() {
                 <Member name="Ayush Jain"
                   designation="Member"
                   link="https://www.linkedin.com/in/ayush---jain"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1rt5FJPaREHiIn8kVJoxY26i81OJWH8sW&export=download">
+                  
                 </Member>
 
                 <Member name="Abhishek K"
                   designation="Member"
                   link="www.linkedin.com/in/abhishek-kaushik-0a6a16243/"
                   image="https://drive.google.com/uc?id=1zJgSyRY2lrN7YeN0jOgmwBQ8R36ptcxk&export=download">
+                  
                 </Member>
 
                 <Member name="Aditi Kulkarni"
@@ -137,7 +140,9 @@ export default function Home() {
                 <Member name="Rajat Tripathi"
                   designation="Member"
                   link="https://www.linkedin.com/in/rajat-tripathi-173234248"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1AH1RFug2NIkK82PQVcIm_QvmEzVwc5iY&export=download">
+                  
+                  
                 </Member>
               </div>
 
