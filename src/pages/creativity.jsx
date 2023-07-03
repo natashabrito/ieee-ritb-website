@@ -44,7 +44,9 @@ const members = [
     name: 'Nirmitha S Reddy',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234',
-    image: 'https://i.ibb.co/m8zY1VP/unknown.jpg',
+    image: 'https://drive.google.com/uc?id=177ki8LyiaFoxnyctEanmuXRP9g3DbGiw&export=download',
+    
+   
   },
   {
     name: 'Chinmay Gowda',
