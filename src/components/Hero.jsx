@@ -18,8 +18,9 @@ import img4 from '@/images/home/p4.png'
 import img3 from '@/images/home/p3.png'
 import img5 from '@/images/home/p5.png'
 import img6 from '@/images/home/p6.png'
+import img7 from '@/images/home/p7.png'
 
-const images = [img1, img2, img3, img4, img5, img6]
+const images = [img1, img2, img3, img4, img5, img6, img7]
 
 const routs = [
   {
@@ -39,8 +40,8 @@ const routs = [
     link: '/pr_sponsorship',
   },
   {
-    name: "COMSOC",
-    link: "/comsoc"
+    name: 'COMSOC',
+    link: '/comsoc',
   },
   {
     name: 'Documentation',
@@ -81,7 +82,7 @@ const routs = [
   {
     name: 'Web Resources',
     link: '/web_resources',
-  }
+  },
 ]
 const members = [
   {
@@ -102,7 +103,7 @@ const members = [
 
 export function Hero() {
   return (
-    <section className="text-gray-800">
+    <section className="bg-blue-50 text-gray-800">
       <div className="container mx-auto flex flex-col items-center px-4 pt-8 text-center md:px-10 lg:px-8">
         <h1 className="text-2xl font-bold leading-none md:text-3xl lg:text-4xl">
           IEEE <span className="text-pri">Ramaiah Institute Of Technology</span>
@@ -144,8 +145,8 @@ export function Hero() {
           ))}
         </Swiper>
       </div>
-      <Container className="pt-5 pb-16 text-justify lg:pt-8">
-        <p class="text-md mx-auto max-w-3xl rounded-xl bg-slate-100 p-3 tracking-tight text-slate-800 lg:text-xl">
+      <Container className="pb-16 pt-5 text-justify lg:pt-8">
+        <p class="text-md mx-auto max-w-4xl rounded-xl bg-blue-100 p-3 tracking-tight text-slate-800 lg:text-xl">
           <b>IEEE-RIT Student Branch</b> was inaugurated in RIT in November
           2003. The branch endeavors to enrich the students of RIT with the
           latest developments in various fields of technology and research and
@@ -163,7 +164,7 @@ export function Hero() {
           </ButtonLink>
         </div>
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-md mt-6 font-semibold text-center">
+          <h1 className="text-md mt-6 text-center font-semibold">
             All the societies and councils under IEEE-RIT
           </h1>
           <ul
@@ -173,9 +174,9 @@ export function Hero() {
             {routs.map((item, index) => (
               <li
                 key={index}
-                className="rounded-xl p-0.5 shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
+                className="rounded-xl shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
               >
-                <div className="rounded-xl bg-white p-5 sm:p-6">
+                <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
                   <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
                     {item.name}
                   </h3>
@@ -190,7 +191,7 @@ export function Hero() {
               </li>
             ))}
           </ul>
-          <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 text-center">
+          <h1 className="mt-10 text-center text-2xl font-bold tracking-tight text-gray-900">
             Office Bearers of IEEE-RIT
           </h1>
           <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
