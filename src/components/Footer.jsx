@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer class="footerbg relative z-10 overflow-x-hidden pl-3 pt-6 pb-5 lg:py-2 lg:pl-0">
+    <footer class="footerbg relative z-10 overflow-x-hidden pb-5 pl-3 pt-6 lg:py-2 lg:pl-0">
       <div class="container mx-auto text-white">
         <div class="mx-auto grid max-w-4xl pt-10 sm:grid-cols-1 md:grid-cols-3">
           <div class="w-full items-center px-3">
@@ -23,19 +23,26 @@ export function Footer() {
               <h4 class="text-dark mb-5 text-lg font-semibold">Quick Links</h4>
               <ul className="block justify-center">
                 <li>
+                  <Link href="/faculty">
+                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                      Faculty
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/gallery">
+                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                      Gallery
+                    </a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contactus">
                     <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
                       Contact Us
                     </a>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/members">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
-                      Members
-                    </a>
-                  </Link>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -173,7 +180,7 @@ export function Footer() {
           </div>
         </div>
         <div class="border-t border-gray-100 pt-6">
-          <p class="text-xs/relaxed text-center text-gray-200">
+          <p class="text-center text-xs/relaxed text-gray-200">
             &copy; Copyright 2023 IEEE - All rights reserved.
             <br />
             Created with ❤️ by the Web Resource Team IEEE RITB.
@@ -181,7 +188,7 @@ export function Footer() {
         </div>
       </div>
       <div>
-        <span class="absolute left-0 bottom-0 z-[-1]">
+        <span class="absolute bottom-0 left-0 z-[-1]">
           <svg
             width="217"
             height="229"
@@ -209,6 +216,6 @@ export function Footer() {
           </svg>
         </span>
       </div>
-    </footer >
+    </footer>
   )
 }

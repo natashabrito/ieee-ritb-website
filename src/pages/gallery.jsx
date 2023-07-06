@@ -9,7 +9,7 @@ import { ButtonLink } from '@/components/Button'
 import { SectionHeading } from '@/components/SectionHeading'
 import { Container } from '@/components/Container'
 import img1 from '@/images/gallery/IMG_0130.JPG'
-import img2 from '@/images/gallery/IMG_0130.JPG'
+import img2 from '@/images/gallery/DSC_0127.jpg'
 import img3 from '@/images/gallery/IMG_0130.JPG'
 import img4 from '@/images/gallery/IMG_0130.JPG'
 import img5 from '@/images/gallery/IMG_0130.JPG'
@@ -24,6 +24,26 @@ const resources = [
   {
     title: 'Image 2',
     imageSrc: img2,
+  },
+  {
+    title: 'Image 3',
+    imageSrc: img3,
+  },
+  {
+    title: 'Image 4',
+    imageSrc: img4,
+  },
+  {
+    title: 'Image 5',
+    imageSrc: img5,
+  },
+  {
+    title: 'Image 6',
+    imageSrc: img6,
+  },
+  {
+    title: 'Image 7',
+    imageSrc: img7,
   },
 ]
 
@@ -49,9 +69,9 @@ export default function Gallery() {
             {resources.map((resource) => (
               <li
                 key={resource.title}
-                className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
+                className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-6"
               >
-                <div className="sm:h- lg:h- relative h-48 overflow-hidden rounded-2xl shadow-lg">
+                <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-36 lg:h-56">
                   <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
                     <Image src={resource.imageSrc} alt="Gallery Image" />
                   </div>
