@@ -3,6 +3,37 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { Member } from '@/components/Member'
+
+import img2 from '@/images/RoboRIT/Picture2.jpg'
+import img7 from '@/images/RoboRIT/Picture7.jpg'
+import img4 from '@/images/RoboRIT/Picture4.jpg'
+import img5 from '@/images/RoboRIT/Picture5.jpg'
+import img8 from '@/images/RoboRIT/Picture8.jpg'
+import img9 from '@/images/RoboRIT/Picture9.jpg'
+import img11 from '@/images/RoboRIT/Picture11.jpg'
+import img12 from '@/images/RoboRIT/Picture12.jpg'
+import img15 from '@/images/RoboRIT/Picture15.jpg'
+import img17 from '@/images/RoboRIT/Picture17.jpg'
+import img19 from '@/images/RoboRIT/Picture19.jpg'
+
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [
+  img2,
+  img4,
+  img5,
+  img7,
+  img8,
+  img9,
+  img11,
+  img12,
+  img15,
+  img17,
+  img19,
+]
 
 export default function Home() {
   return (
@@ -19,9 +50,40 @@ export default function Home() {
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="text-justify">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
                 RoboRIT
               </h1>
+              <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1795}
+                      height={850}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 The IEEE RoBoRIT is a professional society under the umbrella of
                 the Ramaiah Institue Of Technology. It focuses on promoting the
@@ -64,7 +126,7 @@ export default function Home() {
               </h1>
               <div>
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-                  1. Hardware hackathon
+                  1. Hard-WAR hackathon
                 </h2>
                 <p className="mt-6 text-base text-gray-600">
                   <b>What is this workshop about?</b>
@@ -113,7 +175,7 @@ export default function Home() {
                 </ul>
               </div>
               <div>
-                <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 text-left">
+                <h2 className="mt-10 text-left text-2xl font-bold tracking-tight text-gray-900">
                   2. Hands-on workshop of Firefighting Robot
                 </h2>
                 <p className="mt-6 text-base text-gray-600">
@@ -167,7 +229,7 @@ export default function Home() {
                 <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
                   3. Proteus workshop
                 </h2>
-                <p className="mt-6 text-base text-gray-600">
+                <p className="mt-6 text-base text-gray-500">
                   <b>
                     Workshop was organized to help students gain knowledge on
                     simulation and PCB Design of the circuit. The students will
@@ -176,13 +238,85 @@ export default function Home() {
                   </b>
                 </p>
               </div>
-              <div className="mt-10 flex items-center">
-                <iframe
-                  className="w-full"
-                  height={1080}
-                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
-                ></iframe>
+
+              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+                Members
+              </h1>
+
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 mt-10">
+                <Member name="Abhinav Benagi"
+                  designation="Chair"
+                  link="https://www.linkedin.com/in/abhinav-benagi-878aa7208"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Pavan Kumar K"
+                  designation="Vice-Chair"
+                  link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
+                  image="https://drive.google.com/uc?id=1X-_2Cm1RW2D799UqmcVIlshkAqg-K3Jc&export=view">
+                </Member>
+
+                <Member name="Vinit V Shenvi"
+                  designation="Secretary"
+                  link="None"
+                  image="https://drive.google.com/uc?id=1f_B2nxgnEjdIgpO2t1owLxEl5SRyR4Xk&export=view">
+                </Member>
+
+                <Member name="Sheik Mohammed Maaz"
+                  designation="Member"
+                  link="None"
+                  image="https://drive.google.com/uc?id=1hQx-suzNPqigjLV2UYhV3J_Z96eXOTBA&export=view">
+                </Member>
+
+                <Member name="Jeeva M"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/jeeva-m-82b66322a"
+                  image="https://drive.google.com/uc?id=1l47pvLR-mQTp-t376GHXErVnC37ClCK_&export=view">
+                </Member>
+
+                <Member name="Suhas Y"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/suhas-y-9a477021b/"
+                  image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+                </Member>
+
+                <Member name="S Meena Kumari"
+                  designation="Member"
+                  link="https://www.linkedin.com/mwlite/in/meena-kumari-subramanyam-b28b56229"
+                  image="https://drive.google.com/uc?id=1Zi2Su7aLO8HmBbSjr5APka8rzMnPzsTx&export=view">
+                </Member>
+
+                <Member name="Mohammad Sarmuddin T"
+                  designation="Member"
+                  link="None"
+                  image="https://drive.google.com/uc?id=1U1JaLOFVTQB8MPy9mWkA4s_L5Qf2uCHz&export=view">
+                </Member>
+
+                <Member name="Sathvik Rao"
+                  designation="Member"
+                  link="http://linkedin.com/in/sathvik-rao-2aa803259"
+                  image="https://drive.google.com/uc?id=1KgNvR3I49MaK6Hk7kmqXsGCPNkk6itZD&export=view">
+                </Member>
+
+                <Member name="Sharu U"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shaaru-u-514976227"
+                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                </Member>
+
+                <Member name="Hemanth Kumar NVS"
+                  designation="Member"
+                  link="None"
+                  image="https://drive.google.com/uc?id=1KJALa7viNXLSlm2NZy3ScIirkXmWw1LS&export=view">
+                </Member>
+
+                <Member name="Priyanshu bhojwani"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/priyanshu-bhojwani-b01a6826b"
+                  image="https://drive.google.com/uc?id=13m4OGT5iP88oMQZqlt4NSDmtkH6Woiz1&export=view">
+                </Member>
               </div>
+
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
