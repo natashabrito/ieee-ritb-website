@@ -44,7 +44,9 @@ const members = [
     name: 'Nirmitha S Reddy',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234',
-    image: 'https://i.ibb.co/m8zY1VP/unknown.jpg',
+    image: 'https://drive.google.com/uc?id=177ki8LyiaFoxnyctEanmuXRP9g3DbGiw&export=download',
+    
+   
   },
   {
     name: 'Chinmay Gowda',
@@ -65,7 +67,7 @@ const members = [
     designation: 'Member',
     link: 'https://www.linkedin.com/in/khushi-rautela-b0b773231/',
     image:
-      'https://drive.google.com/uc?id=1trd50PHI1G_V937sHyxKB89-LNiJrT_b&export=view',
+      'https://drive.google.com/uc?id=1AQBtShM_oAThjJecG_MqnCHz-l6r47W5&export=download',
   },
   {
     name: 'Anirudh Bantwal Baliga',
