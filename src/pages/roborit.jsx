@@ -16,7 +16,14 @@ import img12 from '@/images/RoboRIT/Picture12.jpg'
 import img15 from '@/images/RoboRIT/Picture15.jpg'
 import img17 from '@/images/RoboRIT/Picture17.jpg'
 import img19 from '@/images/RoboRIT/Picture19.jpg'
-
+import roborit1 from '@/slider_event_images/roborit/roborit1.jpg'
+import roborit2 from '@/slider_event_images/roborit/roborit2.jpg'
+import roborit3 from '@/slider_event_images/roborit/roborit3.jpg'
+import roborit4 from '@/slider_event_images/roborit/roborit4.jpg'
+import roborit5 from '@/slider_event_images/roborit/roborit5.jpg'
+import roborit6 from '@/slider_event_images/roborit/roborit6.jpg'
+import roborit7 from '@/slider_event_images/roborit/roborit7.jpg'
+import roborit8 from '@/slider_event_images/roborit/roborit8.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -33,6 +40,14 @@ const images = [
   img15,
   img17,
   img19,
+  roborit1,
+  roborit2,
+  roborit3,
+  roborit4,
+  roborit5,
+  roborit6,
+  roborit7,
+  roborit8
 ]
 
 export default function Home() {

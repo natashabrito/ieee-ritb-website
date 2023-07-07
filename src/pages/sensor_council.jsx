@@ -4,6 +4,11 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
+import sc1 from '@/slider_event_images/sc/sc1.jpg'
+import sc2 from '@/slider_event_images/sc/sc2.jpg'
+import { Swiper, SwiperSlide } from 'swiper/react'
+const images = [sc1,
+  sc2]
 
 export default function Home() {
   return (
@@ -25,6 +30,37 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE SENSOR COUNCIL
               </h1>
+              <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1795}
+                      height={850}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <p className="mt-6 text-justify text-lg leading-8 text-gray-600">
                 Welcome to the IEEE Sensor Student Chapter at RIT. We are a
                 vibrant and enthusiastic community of engineering students

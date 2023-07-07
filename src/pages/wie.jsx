@@ -13,12 +13,15 @@ import img4 from '@/images/WIE/Picture4.png'
 import img6 from '@/images/WIE/Picture6.png'
 import img7 from '@/images/WIE/Picture7.png'
 import img8 from '@/images/WIE/Picture8.png'
-
+import wie1 from '@/slider_event_images/wie/wie1.jpg'
+import wie2 from '@/slider_event_images/wie/wie2.jpg'
+import wie3 from '@/slider_event_images/wie/wie3.jpg'
+import wie4 from '@/slider_event_images/wie/wie4.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img1, img2, img3, img4, img6, img7, img8]
+const images = [img1, img2, img3, img4, img6, img7, img8, wie1, wie2, wie3, wie4]
 
 export default function Home() {
   return (
