@@ -100,7 +100,8 @@ export default function Home() {
                 <Member name="Prajana B"
                   designation="Vice-Chair"
                   link="https://www.linkedin.com/in/prajana-b-47b3b0279"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1NV7HwCBe99sqUMrEpRqfJtkCEJS_If95&export=download">
+                 
                 </Member>
 
                 <Member name="Neha Kantikar"

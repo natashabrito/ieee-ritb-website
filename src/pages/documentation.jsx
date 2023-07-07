@@ -26,7 +26,7 @@ export default function Home() {
                 IEEE DOCUMENTATION
               </h1>
               <div>
-                <h1 className="mt-10 text-lg lg:text-xl tracking-tight text-gray-900">
+                <p className="mt-10 text-lg lg:text-xl tracking-tight text-gray-900">
                   IEEE RITB documentation team is a group of dedicated people
                   who attend all the events conducted by the club and write a
                   report of the same. We as a group help in keeping an account
@@ -34,7 +34,7 @@ export default function Home() {
                   photographs of the same. All the details about the winners,
                   speakers, rules etc are summarised accordingly for all the
                   events ensuring appropriate contexts.
-                </h1>
+                </p>
               </div>
 
               <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">

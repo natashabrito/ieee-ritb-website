@@ -106,7 +106,8 @@ export default function Home() {
                 <Member name="Affan Ahamed B"
                   designation="Co-Chair"
                   link="https://www.linkedin.com/in/affan-ahamed-b-1890b9279"
-                  image="https://drive.google.com/uc?id=1vSw9Kts-58nblpZK4jfNplPTLkLw4y2M&export=view">
+                  image="https://drive.google.com/uc?id=1vSw9Kts-58nblpZK4jfNplPTLkLw4y2M&export=download">
+                
                 </Member>
 
                 <Member name="Ruhi Muskan"
@@ -118,7 +119,8 @@ export default function Home() {
                 <Member name="Abhivridhi Sunil"
                   designation="Co-Vice Chair"
                   link="None"
-                  image="https://drive.google.com/uc?id=1XMBx7NHo8i2gTqD7nJiYOgKDmYXdb2y-&export=view">
+                  image="https://drive.google.com/uc?id=1L3dthi7Y5qykeDKIm4qZJOlG8C3Pm3SC&export=download">
+              
                 </Member>
 
                 <Member name="Tarunika S K"
@@ -193,11 +195,6 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1z4CFVm2WBv32dcRjVzvIHNo2n3BZS2z-&export=view">
                 </Member>
 
-                <Member name="Vishal Singh Patel"
-                  designation="Member"
-                  link="None"
-                  image="https://drive.google.com/uc?id=12DvjiD0a73p7EDKu77wBi7FpYTRBMdcH&export=view">
-                </Member>
 
                 <Member name="M Subiksha"
                   designation="Member"
