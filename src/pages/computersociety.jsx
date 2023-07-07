@@ -13,11 +13,16 @@ import img4 from '@/images/ComputerSociety/Picture4.png'
 import img5 from '@/images/ComputerSociety/Picture5.png'
 import img6 from '@/images/ComputerSociety/Picture6.png'
 import img7 from '@/images/ComputerSociety/Picture7.png'
+import cs1 from '@/slider_event_images/cs/cs1'
+import cs2 from '@/slider_event_images/cs/cs2'
+import cs3 from '@/slider_event_images/cs/cs3'
+import cs4 from '@/slider_event_images/cs/cs4'
+import cs5 from '@/slider_event_images/cs/cs5'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img1, img2, img3, img4, img5, img6]
+const images = [img1, img2, img3, img4, img5, img6, cs1, cs2, cs3, cs4, cs5]
 
 export default function Home() {
   return (
