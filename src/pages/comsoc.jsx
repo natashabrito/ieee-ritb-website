@@ -3,6 +3,34 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import comsoc1 from '@/slider_event_images/comsoc/comsoc1.jpg'
+import comsoc2 from '@/slider_event_images/comsoc/comsoc2.jpg'
+import comsoc3 from '@/slider_event_images/comsoc/comsoc3.jpg'
+import comsoc4 from '@/slider_event_images/comsoc/comsoc4.jpg'
+import comsoc5 from '@/slider_event_images/comsoc/comsoc5.jpg'
+import comsoc6 from '@/slider_event_images/comsoc/comsoc6.jpg'
+
+const images = [
+  {
+    link: comsoc1,
+  },
+  {
+    link: comsoc2,
+  },
+  {
+    link: comsoc3,
+  },
+  {
+    link: comsoc4,
+  },
+  {
+    link: comsoc5,
+  },
+  {
+    link: comsoc6,
+  }
+]
 
 import { Member } from '@/components/Member'
 
@@ -24,6 +52,43 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 COMSOC
               </h1>
+              <Swiper
+              spaceBetween={30}
+              effect={'fade'}
+              loop={true}
+              autoHeight={true}
+              centeredSlides={true}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[
+                Autoplay,
+                Pagination,
+                Navigation,
+                EffectFade,
+                Controller,
+              ]}
+              className="mySwiper"
+            >
+              {images.map((image, index) => (
+                <SwiperSlide key={index}>
+                  <Image
+                    className="lg:h-128 h-96 w-full object-fill"
+                    src={image.link}
+                    alt={index}
+                    width={1745}
+                    height={636}
+                    objectFit="cover"
+                    border-radius="10px"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We at Ramaiah Institute of Technology, are all called to
                 communications technology, to advance communications and

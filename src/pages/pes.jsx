@@ -13,12 +13,13 @@ import img3 from '@/images/PES-2/Picture3.jpg'
 import img5 from '@/images/PES-2/Picture5.jpg'
 import img6 from '@/images/PES-2/Picture6.jpg'
 // import img7 from '@/images/PES-2/Picture7.jpg'
-
+import pes1 from '@/slider_event_images/pes/pes1.jpg'
+import pes2 from '@/slider_event_images/pes/pes2.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img2, img3, img5, img6]
+const images = [img2, img3, img5, img6, pes1, pes2]
 
 export default function Home() {
   return (

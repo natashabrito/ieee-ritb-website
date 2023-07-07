@@ -662,7 +662,7 @@
   "resolved" "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-5.13.7.tgz"
   "version" "5.13.7"
 
-"@mui/icons-material@^5.11.16":
+"@mui/icons-material@^5.13.7":
   "integrity" "sha512-zoVtkb9jYVUGfI7CobOdDBEAlpg3XESiO6cWqSDGwEma69+CBDIAwGpnO5truvQDJHBGSAfzFj3nObwxjkyA7Q=="
   "resolved" "https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.13.7.tgz"
   "version" "5.13.7"
