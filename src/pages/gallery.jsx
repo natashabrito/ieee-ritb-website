@@ -61,7 +61,7 @@ export default function Gallery() {
       >
         <Container>
           <p className="mt-2 flex justify-center font-display text-4xl font-medium tracking-tight text-slate-800">
-            Event <span className="ml-2 text-sky-600"> Photos</span>
+            Gallery
           </p>
         </Container>
         <Container size="lg" className="mt-16">
