@@ -97,7 +97,7 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate px-6 pt-14 lg:px-8 bg-blue-50">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">

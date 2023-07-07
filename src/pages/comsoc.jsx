@@ -4,32 +4,52 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import comsoc1 from '@/slider_event_images/comsoc/comsoc1.jpg'
-import comsoc2 from '@/slider_event_images/comsoc/comsoc2.jpg'
-import comsoc3 from '@/slider_event_images/comsoc/comsoc3.jpg'
-import comsoc4 from '@/slider_event_images/comsoc/comsoc4.jpg'
-import comsoc5 from '@/slider_event_images/comsoc/comsoc5.jpg'
-import comsoc6 from '@/slider_event_images/comsoc/comsoc6.jpg'
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectFade,
+  Controller,
+} from 'swiper'
+import Image from 'next/image'
+import comsoc1 from '@/images/slider_event_images/comsoc/comsoc1.jpg'
+import comsoc2 from '@/images/slider_event_images/comsoc/comsoc2.jpg'
+import comsoc3 from '@/images/slider_event_images/comsoc/comsoc3.jpg'
+import comsoc4 from '@/images/slider_event_images/comsoc/comsoc4.jpg'
+import comsoc5 from '@/images/slider_event_images/comsoc/comsoc5.jpg'
+import comsoc6 from '@/images/slider_event_images/comsoc/comsoc6.jpg'
 
 const images = [
   {
     link: comsoc1,
+    width: 6000,
+    height: 4000,
   },
   {
     link: comsoc2,
+    width: 5352,
+    height: 2956,
   },
   {
     link: comsoc3,
+    width: 1688,
+    height: 1266,
   },
   {
     link: comsoc4,
+    width: 1745,
+    height: 700,
   },
   {
     link: comsoc5,
+    width: 2992,
+    height: 2000,
   },
   {
     link: comsoc6,
-  }
+    width: 2210,
+    height: 1475,
+  },
 ]
 
 import { Member } from '@/components/Member'
@@ -49,46 +69,46 @@ export default function Home() {
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="text-justify">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="mb-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 COMSOC
               </h1>
               <Swiper
-              spaceBetween={30}
-              effect={'fade'}
-              loop={true}
-              autoHeight={true}
-              centeredSlides={true}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
-              modules={[
-                Autoplay,
-                Pagination,
-                Navigation,
-                EffectFade,
-                Controller,
-              ]}
-              className="mySwiper"
-            >
-              {images.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <Image
-                    className="lg:h-128 h-96 w-full object-fill"
-                    src={image.link}
-                    alt={index}
-                    width={1745}
-                    height={636}
-                    objectFit="cover"
-                    border-radius="10px"
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 5000,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[
+                  Autoplay,
+                  Pagination,
+                  Navigation,
+                  EffectFade,
+                  Controller,
+                ]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="w-full object-fill"
+                      src={image.link}
+                      alt={index}
+                      width={image.width}
+                      height={image.height}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We at Ramaiah Institute of Technology, are all called to
                 communications technology, to advance communications and
@@ -231,58 +251,61 @@ export default function Home() {
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Tarunay Shrivastava"
+                <Member
+                  name="Tarunay Shrivastava"
                   designation="Chairperson"
                   link="https://www.linkedin.com/in/tarunay-shrivastava-98ab2919a"
-                  image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1yTodYTvBoPH_qgdENTT1fmH4CX3Q8J5U&export=view"
+                ></Member>
 
-                <Member name="Shawn Daniel Rodrigues"
+                <Member
+                  name="Shawn Daniel Rodrigues"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/shawn-daniel-rodrigues-a63020205/"
-                  image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1DWuba-Z-oI-kYD2UCipOYWtGiC8JEQ73&export=view"
+                ></Member>
 
-                <Member name="Katyayani Palak"
+                <Member
+                  name="Katyayani Palak"
                   designation="Vice Chair"
                   link=""
-                  image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1WH6VtI1VhvecvUZYXG-tTdpNDxaEiZIU&export=view"
+                ></Member>
 
-
-                <Member name="Roshni Roche"
+                <Member
+                  name="Roshni Roche"
                   designation="Treasurer"
                   link="https://www.linkedin.com/in/roshni-roche-641961264"
-                  image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1ZZwJeYhxVx5Cb_Ll8O1lPQhSOxH6zFhx&export=view"
+                ></Member>
 
-
-                <Member name="Vaishnavi Dinesh"
+                <Member
+                  name="Vaishnavi Dinesh"
                   designation="Execom"
                   link="https://in.linkedin.com/in/vaishnavi-dinesh-019253267"
-                  image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1GaECTmHMC540NGHK7k7BqrJloLxPIgvO&export=view"
+                ></Member>
 
-
-                <Member name="Kaushik Gopal Gaitonde"
+                <Member
+                  name="Kaushik Gopal Gaitonde"
                   designation="Execom"
                   link="https://www.linkedin.com/in/kaushik-gaitonde-067039247/"
-                  image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1piUOHXN5zGcotcvTbpxKxQa928BEehLZ&export=view"
+                ></Member>
 
-
-                <Member name="Dhanyath R"
+                <Member
+                  name="Dhanyath R"
                   designation="Execom"
                   link="https://www.linkedin.com/in/dhanyath-r-4a9737228"
-                  image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1VRA9zCcXn0wiO5lC0RgQAFs29RRZisz4&export=view"
+                ></Member>
 
-
-                <Member name="N Dharshan"
+                <Member
+                  name="N Dharshan"
                   designation="Execom"
                   link="http://www.linkedin.com/in/dharshan-5807552"
-                  image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1-D8fWgd--yaPrhn1npE4iLdKbc7ZE3Yd&export=view"
+                ></Member>
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">

@@ -4,11 +4,10 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
-import sc1 from '@/slider_event_images/sc/sc1.jpg'
-import sc2 from '@/slider_event_images/sc/sc2.jpg'
+import sc1 from '@/images/slider_event_images/sc/sc1.jpg'
+import sc2 from '@/images/slider_event_images/sc/sc2.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react'
-const images = [sc1,
-  sc2]
+const images = [sc1, sc2]
 
 export default function Home() {
   return (
@@ -77,28 +76,31 @@ export default function Home() {
                 <br></br>
               </p>
 
-              <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 mb-10">
+              <h1 className="mb-10 mt-10 text-2xl font-bold tracking-tight text-gray-900">
                 Members
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Adya S"
+                <Member
+                  name="Adya S"
                   designation="Chair"
                   link="https://www.linkedin.com/in/adya-samantray-84215a200"
-                  image="https://drive.google.com/uc?id=15QziUgj0UJA9wnnIonjlzTOnyHpQVIwN&export=download">
-                </Member>
+                  image="https://drive.google.com/uc?id=15QziUgj0UJA9wnnIonjlzTOnyHpQVIwN&export=download"
+                ></Member>
 
-                <Member name="Varsha J"
+                <Member
+                  name="Varsha J"
                   designation="Secretary"
                   link="https://www.linkedin.com/in/varsha-j-173124254"
-                  image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view"
+                ></Member>
 
-                <Member name="Vyoma Bharadwaj"
+                <Member
+                  name="Vyoma Bharadwaj"
                   designation="Treasurer"
                   link="https://www.linkedin.com/in/vyomaa-bharadwaj-666aba212"
-                  image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view">
-                </Member>
+                  image="https://drive.google.com/uc?id=1aUFlkQmTKSSlQg1UaeEJeFijdHf5bPBp&export=view"
+                ></Member>
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">

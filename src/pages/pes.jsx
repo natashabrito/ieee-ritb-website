@@ -13,8 +13,8 @@ import img3 from '@/images/PES-2/Picture3.jpg'
 import img5 from '@/images/PES-2/Picture5.jpg'
 import img6 from '@/images/PES-2/Picture6.jpg'
 // import img7 from '@/images/PES-2/Picture7.jpg'
-import pes1 from '@/slider_event_images/pes/pes1.jpg'
-import pes2 from '@/slider_event_images/pes/pes2.jpg'
+import pes1 from '@/images/slider_event_images/pes/pes1.jpg'
+import pes2 from '@/images/slider_event_images/pes/pes2.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
                 IEEE PES CHAPTER
               </h1>
 
@@ -189,7 +189,7 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1-5pcYWQRLsTxLRO7XHurXMWn293b_ZRf&export=view">
                 </Member>
 
-                <Member name="Sanajana Raj Nataraj"
+                <Member name="Sanjana Raj Nataraj"
                   designation="Member"
                   link="https://www.linkedin.com/in/sanjana-raj-nataraj-750448261"
                   image="https://drive.google.com/uc?id=1z4CFVm2WBv32dcRjVzvIHNo2n3BZS2z-&export=view">

@@ -6,10 +6,10 @@ import { Hero } from '@/components/Hero'
 
 import { Member } from '@/components/Member'
 
-import aps1 from '@/slider_event_images/aps/aps1.jpg'
-import aps2 from '@/slider_event_images/aps/aps2.jpg'
-import aps3 from '@/slider_event_images/aps/aps3.jpg'
-import aps4 from '@/slider_event_images/aps/aps4.jpg'
+import aps1 from '@/images/slider_event_images/aps/aps1.jpg'
+import aps2 from '@/images/slider_event_images/aps/aps2.jpg'
+import aps3 from '@/images/slider_event_images/aps/aps3.jpg'
+import aps4 from '@/images/slider_event_images/aps/aps4.jpg'
 import {
   Autoplay,
   Pagination,
