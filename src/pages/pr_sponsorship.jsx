@@ -70,13 +70,18 @@ export default function Home() {
                 <Member name="Anuj Damani"
                   designation="PR- Co-Head"
                   link="https://www.linkedin.com/in/anuj-damani-17449a210"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1lJj0BdembsBDkveq5NnlyQW2wam4YHnO&export=download">
+                  
+           
+                 
                 </Member>
 
                 <Member name="Shireen Dash"
                   designation="PR Vice Chair"
                   link="https://www.linkedin.com/in/shireen-dash-300b96278/"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1vBINJ5CV6ife6C6XKY2auW6FBxNqaul-&export=download">
+                  
+             
                 </Member>
 
                 <Member name="Nidhi Bishnoi"
@@ -94,7 +99,7 @@ export default function Home() {
                 <Member name="Harshini Murthy"
                   designation="Member"
                   link="https://www.linkedin.com/in/nidhi-bishnoi12"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="">
                 </Member>
 
                 <Member name="Siddharth Kannan"
@@ -112,7 +117,8 @@ export default function Home() {
                 <Member name="Mohd Asif Baliyan"
                   designation="Member"
                   link="None"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1_6oObRKnhqPvbEJb2CNKqm-HtQt3YGK4&export=download">
+                  s
                 </Member>
 
                 <Member name="Khushi Rautela"

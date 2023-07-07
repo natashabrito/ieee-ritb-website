@@ -10,11 +10,13 @@ import img1 from '@/images/MTTS/Picture1.png'
 import img2 from '@/images/MTTS/Picture4.jpg'
 import img3 from '@/images/MTTS/Picture5.jpg'
 import img4 from '@/images/MTTS/Picture6.jpg'
+import mtts1 from '@/slider_event_images/mtts/mtts1.jpg'
+import mtts2 from '@/slider_event_images/mtts/mtts2.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img1, img2, img3, img4]
+const images = [img1, img2, img3, img4, mtts1, mtts2]
 
 export default function Home() {
   return (
@@ -98,7 +100,8 @@ export default function Home() {
                 <Member name="Prajana B"
                   designation="Vice-Chair"
                   link="https://www.linkedin.com/in/prajana-b-47b3b0279"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1NV7HwCBe99sqUMrEpRqfJtkCEJS_If95&export=download">
+                 
                 </Member>
 
                 <Member name="Neha Kantikar"

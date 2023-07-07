@@ -6,8 +6,10 @@ import { Hero } from '@/components/Hero'
 
 import { Member } from '@/components/Member'
 
-import img1 from '@/images/heroimages/img1.png'
-import img2 from '@/images/heroimages/img1.png'
+import aps1 from '@/slider_event_images/aps/aps1.jpg'
+import aps2 from '@/slider_event_images/aps/aps2.jpg'
+import aps3 from '@/slider_event_images/aps/aps3.jpg'
+import aps4 from '@/slider_event_images/aps/aps4.jpg'
 import {
   Autoplay,
   Pagination,
@@ -21,11 +23,17 @@ import { invert } from 'tailwindcss/defaultTheme'
 
 const images = [
   {
-    link: img1,
+    link: aps1,
   },
   {
-    link: img2,
+    link: aps2,
   },
+  {
+    link: aps3,
+  },
+  {
+    link: aps4,
+  }
 ]
 const members = [
   {

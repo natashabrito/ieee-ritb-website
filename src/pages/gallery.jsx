@@ -1,51 +1,62 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
 import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-
 import { ButtonLink } from '@/components/Button'
 import { SectionHeading } from '@/components/SectionHeading'
 import { Container } from '@/components/Container'
-import img1 from '@/images/gallery/IMG_0130.JPG'
-import img2 from '@/images/gallery/DSC_0127.jpg'
-import img3 from '@/images/gallery/IMG_0130.JPG'
-import img4 from '@/images/gallery/IMG_0130.JPG'
-import img5 from '@/images/gallery/IMG_0130.JPG'
-import img6 from '@/images/gallery/IMG_0130.JPG'
-import img7 from '@/images/gallery/IMG_0130.JPG'
+import img1 from '@/images/gallery_images/Image1.jpg'
+import img2 from '@/images/gallery_images/Image2.jpg'
+import img3 from '@/images/gallery_images/Image3.jpg'
+import img4 from '@/images/gallery_images/Image4.jpg'
+import img5 from '@/images/gallery_images/Image5.jpg'
+import img6 from '@/images/gallery_images/Image6.jpg'
+import img7 from '@/images/gallery_images/Image7.jpg'
+import img8 from '@/images/gallery_images/Image8.jpg'
+import img9 from '@/images/gallery_images/Image9.jpg'
+import img10 from '@/images/gallery_images/Image10.jpg'
+import img11 from '@/images/gallery_images/Image11.jpg'
+import img12 from '@/images/gallery_images/Image12.jpg'
+import img13 from '@/images/gallery_images/Image13.jpg'
+import img14 from '@/images/gallery_images/Image14.jpg'
+import img15 from '@/images/gallery_images/Image15.jpg'
+import img16 from '@/images/gallery_images/Image16.jpg'
+import img17 from '@/images/gallery_images/Image17.jpg'
+import img18 from '@/images/gallery_images/Image18.jpg'
+import img20 from '@/images/gallery_images/Image20.jpg'
+import img21 from '@/images/gallery_images/Image21.jpg'
+import img22 from '@/images/gallery_images/Image22.jpg'
+import img23 from '@/images/gallery_images/Image23.jpg'
+import img24 from '@/images/gallery_images/Image24.jpg'
+import img25 from '@/images/gallery_images/Image25.jpg'
+import img26 from '@/images/gallery_images/Image26.jpg'
+import img27 from '@/images/gallery_images/Image27.jpg'
+import img28 from '@/images/gallery_images/Image28.jpg'
+import img29 from '@/images/gallery_images/Image29.jpg'
+import img30 from '@/images/gallery_images/Image30.jpg'
+import img31 from '@/images/gallery_images/Image31.jpg'
+import img32 from '@/images/gallery_images/Image32.jpg'
+import img33 from '@/images/gallery_images/Image33.jpg'
+import img34 from '@/images/gallery_images/Image34.jpg'
+import img35 from '@/images/gallery_images/Image35.jpg'
+import img36 from '@/images/gallery_images/Image36.jpg'
+import img37 from '@/images/gallery_images/Image37.jpg'
+import img38 from '@/images/gallery_images/Image38.jpg'
+import img39 from '@/images/gallery_images/Image39.jpg'
+import img40 from '@/images/gallery_images/Image40.jpg'
+import img41 from '@/images/gallery_images/Image41.jpg'
 
-const resources = [
-  {
-    title: 'Image 1',
-    imageSrc: img1,
-  },
-  {
-    title: 'Image 2',
-    imageSrc: img2,
-  },
-  {
-    title: 'Image 3',
-    imageSrc: img3,
-  },
-  {
-    title: 'Image 4',
-    imageSrc: img4,
-  },
-  {
-    title: 'Image 5',
-    imageSrc: img5,
-  },
-  {
-    title: 'Image 6',
-    imageSrc: img6,
-  },
-  {
-    title: 'Image 7',
-    imageSrc: img7,
-  },
-]
+
+const resources = [];
+
+for (let i = 1; i <= 41; i++) {
+  if (i !== 19) {
+    resources.push({
+      title: `Image ${i}`,
+      imageSrc: "img"+i,
+    });
+  }}
 
 export default function Gallery() {
   return (

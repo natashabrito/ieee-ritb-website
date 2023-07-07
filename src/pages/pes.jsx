@@ -13,12 +13,13 @@ import img3 from '@/images/PES-2/Picture3.jpg'
 import img5 from '@/images/PES-2/Picture5.jpg'
 import img6 from '@/images/PES-2/Picture6.jpg'
 // import img7 from '@/images/PES-2/Picture7.jpg'
-
+import pes1 from '@/slider_event_images/pes/pes1.jpg'
+import pes2 from '@/slider_event_images/pes/pes2.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img2, img3, img5, img6]
+const images = [img2, img3, img5, img6, pes1, pes2]
 
 export default function Home() {
   return (
@@ -105,7 +106,8 @@ export default function Home() {
                 <Member name="Affan Ahamed B"
                   designation="Co-Chair"
                   link="https://www.linkedin.com/in/affan-ahamed-b-1890b9279"
-                  image="https://drive.google.com/uc?id=1vSw9Kts-58nblpZK4jfNplPTLkLw4y2M&export=view">
+                  image="https://drive.google.com/uc?id=1vSw9Kts-58nblpZK4jfNplPTLkLw4y2M&export=download">
+                
                 </Member>
 
                 <Member name="Ruhi Muskan"
@@ -117,7 +119,8 @@ export default function Home() {
                 <Member name="Abhivridhi Sunil"
                   designation="Co-Vice Chair"
                   link="None"
-                  image="https://drive.google.com/uc?id=1XMBx7NHo8i2gTqD7nJiYOgKDmYXdb2y-&export=view">
+                  image="https://drive.google.com/uc?id=1L3dthi7Y5qykeDKIm4qZJOlG8C3Pm3SC&export=download">
+              
                 </Member>
 
                 <Member name="Tarunika S K"
@@ -192,11 +195,6 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1z4CFVm2WBv32dcRjVzvIHNo2n3BZS2z-&export=view">
                 </Member>
 
-                <Member name="Vishal Singh Patel"
-                  designation="Member"
-                  link="None"
-                  image="https://drive.google.com/uc?id=12DvjiD0a73p7EDKu77wBi7FpYTRBMdcH&export=view">
-                </Member>
 
                 <Member name="M Subiksha"
                   designation="Member"

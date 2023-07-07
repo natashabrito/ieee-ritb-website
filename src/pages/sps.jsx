@@ -11,11 +11,13 @@ import img4 from '@/images/SPS/Picture4.png'
 import img5 from '@/images/SPS/Picture5.png'
 import img6 from '@/images/SPS/Picture6.png'
 import img7 from '@/images/SPS/Picture7.png'
+import sps1 from '@/slider_event_images/sps/sps1.jpg'
+import sps2 from '@/slider_event_images/sps/sps2.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img3, img4, img5, img6]
+const images = [img3, img4, img5, img6, sps1, sps2]
 
 export default function Home() {
   return (

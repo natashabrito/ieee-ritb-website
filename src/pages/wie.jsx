@@ -13,12 +13,15 @@ import img4 from '@/images/WIE/Picture4.png'
 import img6 from '@/images/WIE/Picture6.png'
 import img7 from '@/images/WIE/Picture7.png'
 import img8 from '@/images/WIE/Picture8.png'
-
+import wie1 from '@/slider_event_images/wie/wie1.jpg'
+import wie2 from '@/slider_event_images/wie/wie2.jpg'
+import wie3 from '@/slider_event_images/wie/wie3.jpg'
+import wie4 from '@/slider_event_images/wie/wie4.jpg'
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [img1, img2, img3, img4, img6, img7, img8]
+const images = [img1, img2, img3, img4, img6, img7, img8, wie1, wie2, wie3, wie4]
 
 export default function Home() {
   return (
@@ -98,7 +101,8 @@ export default function Home() {
                 <Member name="Anagha Kalyani"
                   designation="Chair"
                   link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1wZ74ARnyCez3WkxupH9luIuNhLVij9tj&export=download">
+               
                 </Member>
 
                 <Member name="Diya James"
@@ -122,7 +126,8 @@ export default function Home() {
                 <Member name="Snehal Vats"
                   designation="Member"
                   link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=1fS5LLDov-Vpkl1gCMO3ULClLHf3-p7OV&export=download">
+
                 </Member>
 
                 <Member name="Joshitha Darsi"
@@ -152,7 +157,8 @@ export default function Home() {
                 <Member name="Aditi Kataria"
                   designation="Member"
                   link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://drive.google.com/uc?id=10iv0pXEw7_9vXeQ4VyXaBU-OCn-J8F7-&export=download">
+                  
                 </Member>
 
                 <Member name="Harini N"
