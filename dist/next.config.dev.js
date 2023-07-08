@@ -10,7 +10,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['site.ieee.org', 'avatars.githubusercontent.com']
+    domains: ['site.ieee.org', 'avatars.githubusercontent.com', 'preview.ibb.co', 'image.ibb.co', 'i.ibb.co']
   },
   webpack: function webpack(config) {
     config.resolve = _objectSpread({}, config.resolve, {

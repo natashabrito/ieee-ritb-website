@@ -2,7 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['site.ieee.org', 'avatars.githubusercontent.com'],
+    domains: [
+      'site.ieee.org',
+      'avatars.githubusercontent.com',
+      'preview.ibb.co',
+      'image.ibb.co',
+      'i.ibb.co',
+    ],
   },
   webpack: (config) => {
     config.resolve = {

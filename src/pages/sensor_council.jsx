@@ -7,6 +7,14 @@ import { Member } from '@/components/Member'
 import sc1 from '@/images/slider_event_images/sc/sc1.jpg'
 import sc2 from '@/images/slider_event_images/sc/sc2.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+  EffectFade,
+  Controller,
+} from 'swiper'
+import Image from 'next/image'
 const images = [sc1, sc2]
 
 export default function Home() {
@@ -26,7 +34,7 @@ export default function Home() {
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="text-left">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE SENSOR COUNCIL
               </h1>
               <Swiper

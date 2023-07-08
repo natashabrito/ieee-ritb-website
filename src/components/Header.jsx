@@ -62,13 +62,6 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="/contactus">
-                    <a className="block w-full" onClick={() => close()}>
-                      Contact Us
-                    </a>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/gallery">
                     <a className="block w-full" onClick={() => close()}>
                       Gallery
@@ -79,6 +72,13 @@ function MobileNavigation() {
                   <Link href="/faculty">
                     <a className="block w-full" onClick={() => close()}>
                       Faculty
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contactus">
+                    <a className="block w-full" onClick={() => close()}>
+                      Contact Us
                     </a>
                   </Link>
                 </li>
@@ -93,7 +93,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="border border-b bg-blue-50 py-2 shadow-md z-50">
+    <header className="z-50 border border-b bg-blue-50 py-2 shadow-md">
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl">
         <div className="mx-auto max-w-6xl">
           <nav className="relative z-50 text-sm">
