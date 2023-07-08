@@ -8,6 +8,7 @@ import img1 from '@/images/members/member(2).jpg'
 import img2 from '@/images/members/member(1).jpg'
 import head1 from '@/images/members/head(1).png'
 import head2 from '@/images/members/head(2).jpg'
+import head3 from '@/images/members/head(3).jpg'
 
 import { ButtonLink } from '@/components/Button'
 import { SectionHeading } from '@/components/SectionHeading'
@@ -23,6 +24,12 @@ const faculty_head = [
     designation: 'Student Branch Advisor',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=1',
     image: head1,
+  },
+  {
+    name: 'Dr. Shobha K R',
+    designation: 'Student Branch Advisor',
+    link: 'https://msrit.edu/department/faculty-detail.html?dept=te&ID=3',
+    image: head3,
   },
 ]
 
@@ -130,7 +137,7 @@ export default function officebearers() {
             {faculty_details.map((member) => (
               <div class="w-full p-2 md:w-1/2 lg:w-1/3">
                 <a href={member.link}>
-                  <div class="flex h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:shadow hover:bg-blue-100">
+                  <div class="flex h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:bg-blue-100 hover:shadow">
                     <Image
                       alt="team"
                       class="mr-4 h-16 w-16 flex-shrink-0 rounded-md bg-gray-100 object-cover object-center"
