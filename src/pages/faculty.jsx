@@ -6,7 +6,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import img1 from '@/images/members/member(2).jpg'
 import img2 from '@/images/members/member(1).jpg'
-import head1 from '@/images/members/head(1).jpg'
+import head1 from '@/images/members/head(1).png'
 import head2 from '@/images/members/head(2).jpg'
 
 import { ButtonLink } from '@/components/Button'
@@ -87,16 +87,16 @@ export default function officebearers() {
       </Head>
       <Header />
       <section class="bg-blue-50">
-        <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-8 ">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-8">
           <div class="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
             <h2 class="mb-4 text-2xl font-bold tracking-tight text-gray-900">
               Faculty Members of <span class="text-sky-800">IEEE RITB</span>
             </h2>
           </div>
-          <div class="mb-6 flex items-center justify-center gap-8 md:flex-row lg:mb-16 flex-col">
+          <div class="mb-6 flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
             {faculty_head.map((member) => (
               <div class="overflow-hidden rounded-lg border border-blue-100 shadow-lg">
-                <div className="bg-white p-5">
+                <div className="bg-white p-6">
                   <div class="flex justify-center">
                     <Image
                       class="flex-shrink-0 rounded-lg object-cover"
@@ -130,7 +130,7 @@ export default function officebearers() {
             {faculty_details.map((member) => (
               <div class="w-full p-2 md:w-1/2 lg:w-1/3">
                 <a href={member.link}>
-                  <div class="flex h-full items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md">
+                  <div class="flex h-full cursor-pointer items-center rounded-lg border border-gray-200 bg-white p-4 shadow-md hover:shadow hover:bg-blue-100">
                     <Image
                       alt="team"
                       class="mr-4 h-16 w-16 flex-shrink-0 rounded-md bg-gray-100 object-cover object-center"
