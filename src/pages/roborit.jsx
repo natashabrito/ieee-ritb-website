@@ -258,7 +258,7 @@ export default function Home() {
               </h1>
 
               <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member
+              <Member
                   name="Pavan Kumar K."
                   designation="Chair"
                   link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
@@ -269,21 +269,21 @@ export default function Home() {
                   name="Mohammad Sarmuddin T."
                   designation="Vice-Chair"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Mohammed%20Sarmuddin(1MS22ME057).jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Mohammed%20Sarmuddin(1MS22ME057).jpg"
                 ></Member>
 
                 <Member
                   name="Jeeva M."
                   designation="Secretary"
                   link="https://www.linkedin.com/in/jeeva-m-82b66322a"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/JEEVA_1MS21EC052.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/JEEVA_1MS21EC052.jpg"
                 ></Member>
 
                 <Member
                   name="Sathvik Rao"
                   designation="Tech Head"
                   link="http://linkedin.com/in/sathvik-rao-2aa803259"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Sathvik%20Rao_1MS22EC117.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Sathvik%20Rao_1MS22EC117.jpg"
                 ></Member>
 
                 <Member
@@ -304,14 +304,14 @@ export default function Home() {
                   name="Shaaru U."
                   designation="Member"
                   link="https://www.linkedin.com/in/shaaru-u-514976227"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Shaaru_U_1MS21EI050.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Shaaru_U_1MS21EI050.jpg"
                 ></Member>
                 
                 <Member
                   name="Hemanth Kumar NVS"
                   designation="Member"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Hemanth%20Kumar%20NVS_1MS22AD027.JPG"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Hemanth%20Kumar%20NVS_1MS22AD027.JPG"
                 ></Member>
                 
                 <Member
@@ -325,63 +325,63 @@ export default function Home() {
                   name="Nagashree N. S."
                   designation="Member"
                   link=""
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/IMG_20231126_013217.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/IMG_20231126_013217.jpg"
                 ></Member>
 
                 <Member
                   name="Mohit Kumar"
                   designation="Member"
                   link="https://www.linkedin.com/in/mohit-kumar-00903b293/"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Mohit%20Kumar_1MS23IS033-T.png"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Mohit%20Kumar_1MS23IS033-T.png"
                 ></Member>
 
                 <Member
                   name="Aniket Belgaonkar"
                   designation="Member"
                   link="https://www.linkedin.com/in/aniket-belgaonkar-63098b293/"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Aniket%20Belgaonkar_1MS23EI018.jpeg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/DSC_0059.jpeg"
                 ></Member>
 
                 <Member
                   name="Kushi Kaveramma K.S."
                   designation="Member"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Kushi%20Kaveramma%20K.S_1MS23CS103-T.jpeg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Kushi%20Kaveramma%20K.S_1MS23CS103-T.jpeg"
                 ></Member>
 
                 <Member
                   name="Ryan Gomez"
                   designation="Member"
                   link="https://www.linkedin.com/in/ryan-gomez-a1a216276/"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Ryan%20Gomez%201MS23EC055-T.HEIC"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ryan%20Gomez%201MS23EC055-T.jpeg"
                 ></Member>
 
                 <Member
                   name="Darshan Satish Kumar"
                   designation="Member"
                   link="https://www.linkedin.com/in/darshan-satish-kumar-907a56268/"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Darshan%20Satish%20Kumar%2C%201MS22ET010%20.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Darshan%20Satish%20Kumar%2C%201MS22ET010%20.jpg"
                 ></Member>
                 
                 <Member
                   name="Chirag P.V."
                   designation="Member"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/CHIRAG%20P%20V%201MS23ET404-T.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/CHIRAG%20P%20V%201MS23ET404-T.jpg"
                 ></Member>
 
                 <Member
                   name="Jai Vishnu D.K."
                   designation="Member"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Jai%20Vishnu%20DK_1MS23EC046.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Jai%20Vishnu%20DK_1MS23EC046.jpg"
                 ></Member>
                 
                 <Member
                   name="Illaquan Rajesh Indu"
                   designation="Member"
                   link="None"
-                  image="https://github.com/natashabrito/members2024/blob/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
                 ></Member>
                 
               </div>

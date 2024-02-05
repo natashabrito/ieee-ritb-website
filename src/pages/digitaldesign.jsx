@@ -80,7 +80,7 @@ export default function Home() {
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Abhishek K."
+              <Member name="Abhishek K."
                   designation="Head"
                   link="https://www.linkedin.com/in/abhishek-kaushik-0a6a16243/"
                   image="https://drive.google.com/uc?id=1zJgSyRY2lrN7YeN0jOgmwBQ8R36ptcxk&export=download">
@@ -90,58 +90,58 @@ export default function Home() {
                 <Member name="Srushti S. Shankar"
                   designation="Member"
                   link="https://www.linkedin.com/in/srushti-shivshankar-7049472b2/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Srushti%20S%20Shankar_1MS22IS137.JPG">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Srushti%20S%20Shankar_1MS22IS137.JPG">
                 </Member>
 
                 <Member name="Shriya A.N."
                   designation="Member"
                   link="https://www.linkedin.com/in/shriya-a-n-07384b253/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Shriya%20A.N_1MS22BT047.jpg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Shriya%20A.N_1MS22BT047.jpg">
                   
                 </Member>
 
                 <Member name="Janis Lobo"
                   designation="Member"
                   link="https://www.linkedin.com/in/janis-lobo-b61409224/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Janis%20Lobo_1MS22MD014.jpeg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Janis%20Lobo_1MS22MD014.jpeg">
                   
                 </Member>
 
                 <Member name="Nibha S. Dongre"
                   designation="Member"
                   link="https://www.linkedin.com/in/nibha-dongre/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/nibhasdongre_1MS22AI040.jpg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/nibhasdongre_1MS22AI040.jpg">
                 </Member>
 
                 <Member name="Ankit U. Patil"
                   designation="Member"
                   link="https://www.linkedin.com/in/ankit-patil-91437616a/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Ankit%20U%20Patil%20-%201MS21AD011.jpeg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Ankit%20U%20Patil%20-%201MS21AD011.jpeg">
                 </Member>
 
                 <Member name="Jemima Jeffy"
                   designation="Member"
                   link="https://www.linkedin.com/in/jemima-jeffy/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Jemima%20Jeffy_1MS22AI019.jpeg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Jemima%20Jeffy_1MS22AI019.jpeg">
                   
                 </Member>
 
                 <Member name="Cynthia Antony J."
                   designation="Member"
                   link="https://www.linkedin.com/in/cynthia-antony-j-518ab1260/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/CYNTHIA%20ANTONY_1MS22CY019.HEIC">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/CYNTHIA%20ANTONY_1MS22CY019.HEIC">
                 </Member>
 
                 <Member name="Kanishk Singh"
                   designation="Member"
                   link="https://www.linkedin.com/in/kanishk-singh-1a517a2a9/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/Kanishk%20Singh_1MS22CH021.jpg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Kanishk%20Singh_1MS22CH021.jpg">
                 </Member>
 
                 <Member name="Mithira V."
                   designation="Member"
                   link="https://www.linkedin.com/in/mithira-grace-v-a08995281/"
-                  image="https://github.com/natashabrito/members2024/blob/main/digital%20design/MITHIRA%20V(1MS22BT027).jpg">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/MITHIRA%20V(1MS22BT027).jpg">
                 </Member>
               </div>
 

@@ -57,11 +57,11 @@ export default function Home() {
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member
+              <Member
                   name="Deepak Kumar Singh"
                   designation="Head"
                   link="https://www.linkedin.com/in/deepak-singh-950140212/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/Deepak_Singh_1MS21AD021.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Deepak_Singh_1MS21AD021.jpg"
                 ></Member>
 
                 <Member
@@ -75,7 +75,7 @@ export default function Home() {
                   name="Prashanth Hossale"
                   designation="Member"
                   link="https://www.linkedin.com/in/prashanth-hossale-853a25230/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/Prashanth%20Hossale_1MS21AD037.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Prashanth%20Hossale_1MS21AD037.jpg"
                 ></Member>
                 
 
@@ -83,35 +83,35 @@ export default function Home() {
                   name="Aditya S.K."
                   designation="Member"
                   link="https://www.linkedin.com/in/adityask1203/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/Aditya%20SK_1MS22CY003.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Aditya%20SK_1MS22CY003.jpg"
                 ></Member>
 
                 <Member
                   name="Drupitha Chandrashekhar"
                   designation="Member"
                   link="https://www.linkedin.com/in/drupitha-chandrashekar-47511a25b/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/Drupitha_Chandrashekar_1MS22CI023.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Drupitha_Chandrashekar_1MS22CI023.jpg"
                 ></Member>
                 
                 <Member
                   name="Pranav Sreeharsha"
                   designation="Member"
                   link="https://www.linkedin.com/in/pranav-sreeharsha-672034280/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/PranavSreeharsha_1MS23IS117-T.jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/PranavSreeharsha_1MS23IS117-T.jpg"
                 ></Member>
                 
                 <Member
                   name="Risshab Srinivas Ramesh"
                   designation="Member"
                   link="https://www.linkedin.com/in/risshab-srinivas-ramesh-7b614a290/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/RisshabSrinivasRamesh_1MS23CS013-T.jpeg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/RisshabSrinivasRamesh_1MS23CS013-T.jpeg"
                 ></Member>
                 
                 <Member
                   name="Sumit Bubanale"
                   designation="Member"
                   link="https://www.linkedin.com/in/sumit-bubanale-10a07b25b/"
-                  image="https://github.com/natashabrito/members2024/blob/main/xtreme/Sumit_Bubanale_1MS22CI067_1%20(1).jpg"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Sumit_Bubanale_1MS22CI067_1%20(1).jpg"
                 ></Member>
               </div>
 
