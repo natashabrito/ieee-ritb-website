@@ -193,6 +193,139 @@ export default function Home() {
                   link="https://www.linkedin.com/in/mogallapalli-naga-sarvani-4b5238279/"
                   image="https://i.ibb.co/m8zY1VP/unknown.jpg"
                 ></Member>
+
+                 <Member
+                  name="Aditi Kulkarni"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Aditi%20Kulkarni%20_1MS21EC137%20.jpg"
+                ></Member>
+
+                   <Member
+                  name="Arya Saha"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Arya%20Saha_1MS23EC066-T.jpg"
+                ></Member>
+
+                <Member
+                  name="Ashutosh.S.U"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Ashutosh.S.U_1MS22EC026.jpg"
+                ></Member>
+
+                
+                <Member
+                  name="Askanda Mahajan"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Askanda%20Mahajan_1MS21EC030.jpg"
+                ></Member>
+
+                <Member
+                  name="G Charukesh"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/G%20Charukesh_1MS23EC038.jpg"
+                ></Member>
+
+                <Member
+                  name="Joanna Philip"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Joanna%20Philip_1MS22EC054.jpg"
+                ></Member>
+
+                <Member
+                  name="M Naga Sarvani"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/M%20Naga%20Sarvani_1MS22EC075.jpg"
+                ></Member>
+
+                <Member
+                  name="Madhumitha.R"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Madhumitha.R_1MS22EI024.jpg"
+                ></Member>
+
+                 <Member
+                  name="NIHARIKA.R"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/NIHARIKA.R_1MS21EC071.jpg"
+                ></Member>
+
+                
+                 <Member
+                  name="Neha C"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/NehaC_1MS21MD016.jpg"
+                ></Member>
+
+                 <Member
+                  name="Nidhi Patil "
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Nidhi%20Patil%20_1MS22EE034.jpg"
+                ></Member>
+
+                <Member
+                  name="Rhakia"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Rhakia_1MS21MD026.jpg"
+                ></Member>
+
+                <Member
+                  name="Rohith Mohite"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Rohith%20Mohite_1MS22EC101.JPG"
+                ></Member>
+
+                
+                <Member
+                  name="Sharvesh T Srinivasan"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Sharvesh%20T%20Srinivasan_1MS21MD035.jpg"
+                ></Member>
+
+                  
+                <Member
+                  name="Shreyas Bhat"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Shreyas%20Bhat_1MS22EE051.jpg"
+                ></Member>
+
+                <Member
+                  name="Soutrik Raha"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Soutrik%20Raha_1MS23EC034-T.jpg"
+                ></Member>
+
+                
+                <Member
+                  name="Srivalli P"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Srivalli%20P_1MS22EI050.jpg"
+                ></Member>
+
+                 
+                <Member
+                  name="T N YOGAJAY"
+                  designation="Member"
+                  link="None"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/T%20N%20YOGAJAY%20_1MS22EC135.jpg"
+                ></Member>
+                
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
