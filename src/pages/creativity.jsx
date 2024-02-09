@@ -6,82 +6,145 @@ import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
 const members = [
   {
-    name: 'Medha Kulkarni',
+    name: 'N Sudharshan Reddy',
     designation: 'Head',
     link: 'https://www.linkedin.com/in/medha-kulkarni-28a483210',
     image:
-      'https://drive.google.com/uc?id=1xZ7PT2KJSswCq9X-PAHZb3wyQtoj4kMY&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/N%20Sudharshan%20Reddy_1MS21CI033.jpg?raw=true',
   },
   {
     name: 'N Sudharshan Reddy',
     designation: 'Vice-Head',
     link: 'https://www.linkedin.com/in/n-sudharshan-reddy-422303228/',
     image:
-      'https://drive.google.com/uc?id=1oaQ-Y_UkTe6P8xlx0CQVkyfLTl_BW3ZQ&export=view',
-  },
-  {
-    name: 'Prapti Bopanna',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/prapti-bopana/',
-    image:
-      'https://drive.google.com/uc?id=1fSyCA_bbL4xCP91fPdDE0rJx1PAZQBM0&export=view',
-  },
-  {
-    name: 'Ayush Sharma',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/ayush-sharma-789246233',
-    image:
-      'https://drive.google.com/uc?id=1ogTv-8qmhyjGrLCM-wrCaxy1r-2L035A&export=view',
-  },
-  {
-    name: 'Shaina Patel',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/shaina-patel-1b4750215',
-    image:
-      'https://drive.google.com/uc?id=1uDijhTflSA6ChwGq1h3SFi4SHtteQ_5T&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/N%20Sudharshan%20Reddy_1MS21CI033.jpg?raw=true',//repeat
   },
   {
     name: 'Nirmitha S Reddy',
     designation: 'Member',
+    link: 'https://www.linkedin.com/in/prapti-bopana/',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/NirmithaSReddy_1MS21CV063.png?raw=true',
+  },
+  {
+    name: 'Chinmay B Gowda',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/ayush-sharma-789246233',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Chinmay%20b%20gowda%201MS21EI066.jpg?raw=true',
+  },
+  {
+    name: 'Khushi Rautela ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/shaina-patel-1b4750215',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/KhushiRautela%20_1MS21CY022.jpg?raw=true',
+  },
+  {
+    name: 'Deekshita M',
+    designation: 'Member',
     link: 'https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234',
-    image: 'https://drive.google.com/uc?id=177ki8LyiaFoxnyctEanmuXRP9g3DbGiw&export=download',
+    image: 'https://github.com/aarthipv/profileimages/blob/main/creativity/Deekshitha%20M_1MS22EC038_.jpg?raw=true',
     
    
   },
   {
-    name: 'Chinmay Gowda',
+    name: 'Dhanush Kumbar',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/chinmay-b-gowda-aa73ba279',
     image:
-      'https://drive.google.com/uc?id=1-0GMyJRuLS2jgY3tuqxSFNn2zw7vnJI_&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Dhanush%20Kumbar_1MS22BT013.jpg?raw=true',
   },
   {
-    name: 'Khushi Rautela',
+    name: 'Sowmya B H ',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/khushi-rautela-b0b773231/',
     image:
-      'https://drive.google.com/uc?id=1VFM-yYYRlg0UQ-6KpqAE0vWOcAyGbGM4&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Sowmya%20B%20H%20_%201MS22MD040.png?raw=true',
   },
   {
-    name: 'M Shraddha Rao',
+    name: 'Raima Pal',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/khushi-rautela-b0b773231/',
     image:
-      'https://drive.google.com/uc?id=1AQBtShM_oAThjJecG_MqnCHz-l6r47W5&export=download',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Raima%20Pal%20_1MS23CV065-T.jpg?raw=true',
   },
   {
-    name: 'Anirudh Bantwal Baliga',
+    name: 'Sushmita Mathad ',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/anirudh-baliga-30b7b3219/',
     image:
-      'https://drive.google.com/uc?id=1H10foKWxcROwSfPzSm4cTzjHASqkSAFk&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Sushmita.N.Mathad_1MS22ET055.jpg?raw=true',
   },
   {
-    name: 'Dhanraj Rateria',
+    name: 'Sai Mayur',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/dhanrajrateria',
     image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Sai%20Mayur_1MS23ME081.jpg?raw=true',
+  },
+  {
+    name: 'A Nandini ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/A.NANDINI%201MS22CS002.jpg?raw=true',
+  },
+  {
+    name: 'Nandini Poojari',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Nandini%20Poojari%201MS22EE031.jpg?raw=true',
+  },
+  {
+    name: 'Ankita M Jaka ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
+  },
+  {
+    name: 'Zayaan Hussain',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Zayaan%20Hussain%20_1MS22BT063.jpg?raw=true',
+  },
+  {
+    name: 'T N Yogajay',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/T%20N%20YOGAJAY%20_1MS22EC135.jpg?raw=true',
+  },
+  {
+    name: 'M R Mohan Reddy ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/M%20R%20Mohan%20Reddy%201MS22EC069.jpg?raw=true',
+  },
+  {
+    name: 'Sahana Bhagavant Savantanavar',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
+  },
+  {
+    name: 'Sachin R P ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/SACHIN%20R%20P%20_1MS22BT039_1.jpg?raw=true',
+  },
+  {
+    name: 'Rupam Sinha Roy',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/dhanrajrateria',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/RUPAM%20SINHA%20ROY_1MS22BT036.jpg?raw=true',
   },
 ]
 
