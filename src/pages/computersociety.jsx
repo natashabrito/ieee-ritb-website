@@ -178,81 +178,132 @@ export default function Home() {
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <Member
-                  name="Charith"
+                  name="Neeraj D. Phadke "
                   designation="Chair"
                   link="https://www.linkedin.com/in/charith-rage-8117421a0"
-                  image="https://drive.google.com/uc?id=1rkkt2FwD6LyP9GLLAz7uxB9nuE6XbWE8&export=download"
-                ></Member>
-
-                <Member
-                  name="Cheitanya"
-                  designation="Secretary"
-                  link="https://www.linkedin.com/in/cheithanya-pr-3aab61205"
-                  image="https://drive.google.com/uc?id=1_hmYfbJvxu-CdXDC5ulqPUXiQn0_TTNF&export=download"
-                ></Member>
-
-                <Member
-                  name="Neeraj Phadke"
-                  designation="Vice-Chair"
-                  link="https://www.linkedin.com/in/neeraj-phadke13/"
-                  image="https://drive.google.com/uc?id=1FEDL8gJTTgcydw3piuht-yTJV-Dwwjbd&export=download"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Neeraj%20Phadek_1MS21CS082.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Hari Chandan"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/s-sai-hari-chandan-93288922b"
-                  image="https://drive.google.com/uc?id=1l7cz4Xn3-zaT0fz1lCZqEgxXiQiWAAJl&export=download"
+                  designation="Secretary"
+                  link="https://www.linkedin.com/in/cheithanya-pr-3aab61205"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Hari%20Chandan%201MS21CY051.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Abhay Bhandarkar"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/abhaybhandarkar/"
-                  image="https://drive.google.com/uc?id=18zX3-uf14GmvslwdRU9ML33XgmW7MC_A&export=download"
+                  designation="Vice-Chair"
+                  link="https://www.linkedin.com/in/neeraj-phadke13/"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Abhay%20Bhandarkar_1MS22CS005.jpg?raw=true"
                 ></Member>
 
                 <Member
-                  name="Shraddha Prabhu"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
-                  image="https://drive.google.com/uc?id=18GMCk90Q85BqvNmltvdL2W8kl6-R9Zrn&export=download"
-                ></Member>
-
-                <Member
-                  name="Het Joshi"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/hetjoshi"
-                  image="https://drive.google.com/uc?id=1NsUJx8J-64m3abD9gTZJqF9-7gE-hgkd&export=download"
-                ></Member>
-
-                <Member
-                  name="Mihika Dhariwal"
-                  designation="Member"
-                  link="=-C8"
-                  image="https://drive.google.com/uc?id=1zO6b6B_XWPqaK5bu6x0vwwO2DU7mG_1S&export=download"
+                  name="Dhanraj Rateria"
+                  designation="Treasurer"
+                  link="https://www.linkedin.com/in/neeraj-phadke13/"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Dhanraj%20Rateria_1MS22CY020.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Nikith Ganga"
                   designation="Member"
-                  link="https://www.linkedin.com/in/nikith-ganga/"
-                  image="https://drive.google.com/uc?id=1ZSMKfeRaqRl-GR4Pv5ndkpzTbRiJxvxe&export=download"
+                  link="https://www.linkedin.com/in/s-sai-hari-chandan-93288922b"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
 
                 <Member
-                  name="Karthik"
+                  name="Shraddha Vinod Prabhu"
                   designation="Member"
-                  link="https://www.linkedin.com/in/karthik-deshmukh/?trk=public-profile-join-page"
-                  image="https://drive.google.com/uc?id=1b1APFko4KCxMUt882ptHfBj7qDr25hSW&export=download"
+                  link="https://www.linkedin.com/in/abhaybhandarkar/"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
 
                 <Member
-                  name="Pranay Sharma"
+                  name="Karthik Deshmukh"
                   designation="Member"
                   link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
-                  image="https://drive.google.com/uc?id=1jB8gQefH_-oMGGBI8FNRvDcczY1EeM_h&export=download"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Karthik%20Deshmukh_1MS21AI027.jpg?raw=true"
                 ></Member>
+
+                <Member
+                  name="Mohammed Yasin Zuhayr"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/hetjoshi"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Mohammed%20Yasin%20Zuhayr_1MS22IS077.jpg?raw=true"
+                ></Member>
+
+                <Member
+                  name="Amogh Kalasapura "
+                  designation="Member"
+                  link="=-C8"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Amogh%20Kalasapura_1MS22CS022.jpg?raw=true"
+                ></Member>
+
+                <Member
+                  name="Aishwarya R Dongal"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/nikith-ganga/"
+                  image="https://drive.google.com/uc?id=&export=download"//not uploaded
+                ></Member>
+
+                <Member
+                  name="Navya Shree B M"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/karthik-deshmukh/?trk=public-profile-join-page"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Navya_shree_1MS22IS087.jpg?raw=true"
+                ></Member>
+
+                <Member
+                  name="Riya Kumari"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                ></Member>
+
+                <Member
+                  name="Chinmayi S R"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Chinmayi%20S%20R_1MS22IS033.png?raw=true"
+                ></Member>
+                <Member
+                  name="Dhavala T S "
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/DhavalaTS_1MS22AD021.jpg?raw=true"
+                ></Member>
+                <Member
+                  name="Shreyaan Kapoor"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uplaoded
+                ></Member>
+                <Member
+                name="Bhuvan Agrawal"
+                designation="Member"
+                link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                image="https://github.com/aarthipv/profileimages/blob/main/cs/Bhuvan%20Agrawal_1MS23CI143-T.jpg?raw=true"
+              ></Member>
+              <Member
+                  name="Nabhanyu B M"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://github.com/aarthipv/profileimages/blob/main/cs/Nabhanyu%20B%20M_1MS23IS064-T.png?raw=true"
+                ></Member>
+                <Member
+                  name="Pranav M K"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                ></Member>
+                <Member
+                  name="Shantanu Pandey"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
+                ></Member>
+                
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">

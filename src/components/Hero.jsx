@@ -196,73 +196,73 @@ export function Hero() {
           </h1>
           <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <Member
-              name="SUHAS KATRAHALLI"
+              name="Prajana B"
               designation="SB Chair"
               link="https://www.linkedin.com/in/suhaskatrahalli"
-              image="https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Prajana%20B%20.jpg?raw=true"
             ></Member>
 
             <Member
-              name="SRINIVAS C"
+              name="Katyayani Palak"
               designation="SB Secretary"
               link="https://www.linkedin.com/in/srinivas-c-678105249/"
-              image="https://drive.google.com/uc?id=1nGrzj-Xusgx33rpnq5j3fyuCSvMndMCz&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Katyayani%20Palak_1MS21ET021.jpg?raw=true"
             ></Member>
 
             <Member
-              name="VINAYAK SHARMA"
+              name="Sanjay Kumar"
               designation="SB Treasurer"
               link="https://www.linkedin.com/in/vinayak-sharma-033500210"
-              image="https://drive.google.com/uc?id=1_AMkkaKxbzlr0QfX5wbDMf6RO4L60gWj&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Sanjay%20Kumar_Treasurer%20.jpg?raw=true"
             ></Member>
 
             <Member
-              name="PRAJWAL B MEHENDARKAR"
+              name="Divyansh Mishra"
               designation="SB Technical Head"
               link="https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
-              image="https://drive.google.com/uc?id=1DJb27tCJxoOUgAvCJXyXaogFQRT7BqjR&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Divyansh_Mishra_1MS21AD022.jpeg?raw=true"
             ></Member>
 
             <Member
-              name="SNEGA UMAPATHI"
+              name="Tamanna Goel"
               designation="SB Convener"
               link="https://www.linkedin.com/in/snega-umapathi-b73480210"
-              image="https://drive.google.com/uc?id=13vngh3QbtTF58xImFpsYYGHgYnn1-dw5&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Tamanna%20Goel_%201MS21EI058.jpg?raw=true"
             ></Member>
 
             <Member
-              name="DIVYANSH MISHRA"
+              name="Anirudh Baliga"
               designation="SB Vice-Chair"
               link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
-              image="https://drive.google.com/uc?id=1fe_XkP7UrbuPAMBhQnB5rVBzxlNy_0xY&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Anirudh%20Bantwal%20Baliga%20_1MS22BT004.jpeg?raw=true"
             ></Member>
 
             <Member
-              name="ASKANDA MAHAJAN"
+              name="Sanjana Raj N"
               designation="SB Vice-Secretary"
               link="https://in.linkedin.com/in/askanda-mahajan-9a2004200"
-              image="https://drive.google.com/uc?id=1a5WSd-AxMViNf7w8C6plRybQThMcsNtY&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Sanjana%20Raj.jpg?raw=true"
             ></Member>
 
             <Member
-              name="GURTEZ SINGH"
+              name="Ravisagar K"
               designation="SB Vice-Treasurer"
               link="https://www.linkedin.com/in/gurtezsingh"
-              image="https://drive.google.com/uc?id=1AmN3WmW2wZ8Nqfysn1Jz528byd6HuA8f&export=download"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Ravisagar%20K.jpg?raw=true"
             ></Member>
 
             <Member
-              name="SANJAY KUMAR"
+              name="Priyanshu Bhojwani"
               designation="SB Vice-Technical Head"
               link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
-              image="https://drive.google.com/uc?id=1uNkrtldaPHXTKc62unwr_ejEBBWRInNn&export=view"
+              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Priyanshu%20bhojwani%20%201MS22IS155-T_1.jpg?raw=true"
             ></Member>
 
             <Member
-              name="SHUBHAM ANAND"
+              name="Kaushik Gaitonde"
               designation="SB Vice-Convener"
               link="https://www.linkedin.com/in/shubham-anand-507785226/"
-              image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"
+              image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"//not loading
             ></Member>
           </div>
         </div>
