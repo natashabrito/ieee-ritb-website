@@ -42,76 +42,84 @@ export default function Home() {
               </p>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member
-                  name="Dhruthi Bhat"
-                  designation="Chair"
-                  link="https://www.linkedin.com/in/dhruthibhat/"
-                  image="https://drive.google.com/uc?id=1oTKcQ-3uwxcZvy0qLqvoC9gVos4cyFxe&export=view"
-                ></Member>
+    <Member
+        name="Tanisha Saxena"
+        designation="Member"
+        link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
+        image="https://drive.google.com/file/d/1yYiske2lbu0RWezr8pCosebj2bUxy2vV/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Maitreyi Darbha"
-                  designation="Vice Chair"
-                  link="https://www.linkedin.com/in/maitreyi-darbha-929020234/"
-                  image="https://drive.google.com/uc?id=1DLpBMm5Ta7Rd3lXSuWefyQs_hxklV8cm&export=view"
-                ></Member>
+    <Member
+        name="Abhinav Singh"
+        designation="Member"
+        link="https://www.linkedin.com/in/abhinav-singh-37547a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        image="https://drive.google.com/file/d/1FiivQXF62_9HQ-AFf_DHSTxp7ZDL_X7n/view?usp=drive_link  "
+    ></Member>
 
-                <Member
-                  name="Anirudh Bantwal"
-                  designation="Member"
-                  link="�https://www.linkedin.com/in/anirudh-baliga-30b7b3219/"
-                  image="https://drive.google.com/uc?id=1k8nqRSEmFe6LCcgucBA7yUuCC6oieT_n&export=view"
-                ></Member>
+    <Member
+        name="Nibha Dongre"
+        designation="Member"
+        link="https://www.linkedin.com/in/nibha-dongre/"
+        image="https://drive.google.com/file/d/1uV6RdweoB5zLqEGimJRhSDGs_ly4b8Np/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="M Sri Pujitha"
-                  designation="Member"
-                  link="�https://www.linkedin.com/in/malladi-sri-pujitha-1010oct/"
-                  image="https://drive.google.com/uc?id=1oEioHlQsux2Qx6uFMRaSfHEHTCvpDQxX&export=view"
-                ></Member>
+    <Member
+        name="Akshat Ujjain"
+        designation="Member"
+        link="https://www.linkedin.com/in/akshat-ujjain-105263261"
+        image="https://drive.google.com/file/d/1aKkLN1oK9_BziF66fAerIFMJmoFzHQ4m/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Abhiraj Paralkar"
-                  designation="Member"
-                  link="0"
-                  image="https://drive.google.com/uc?id=13Hbe-NmBVKqUQjBk7AfSKfU4iLQrpWnd&export=view"
-                ></Member>
+    <Member
+        name="Rupam Sinha Roy"
+        designation="Member"
+        link="https://www.linkedin.com/in/rupam-roy-355172291?trk=contact-info"
+        image="https://drive.google.com/file/d/1o6Zp6ZYd1t9skNvheOtvlbg0M0lUF7Ys/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="M Tauheed"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/mohammed-tauheed-700454279/"
-                  image="https://drive.google.com/uc?id=1EeRILuiLMdPMYJPiVJxPWiVq-CtzEfku&export=view"
-                ></Member>
+    <Member
+        name="Yash Y"
+        designation="Member"
+        link="https://www.linkedin.com/in/yash-yalamalli-819889223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        image="https://drive.google.com/file/d/1ej0WuyOe_ttsi3JjPKyS9vOT_CmwwVA0/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Abhinav Singh"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/ravisagar-k-ab64141ab/"
-                  image="https://drive.google.com/uc?id=1U-L3H0ls6XAO5Uxi-_enXqPUwdlVUZX3&export=view"
-                ></Member>
+    <Member
+        name="Dhrithi Ganesh"
+        designation="Member"
+        link="https://www.linkedin.com/in/dhrithi-ganesh-9a1745256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        image="https://drive.google.com/file/d/1SCOkv0e8TW3-KhG8GlqSg1LenHJMQU2e/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Nandini M"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/nandini-m-a94164252"
-                  image="https://drive.google.com/uc?id=1icLOrvXV4PxoqufLUqGdTKMpuKK-Kpr7&export=view"
-                ></Member>
+    <Member
+        name="Shaikh Furqan"
+        designation="Member"
+        link="https://www.linkedin.com/in/shaikh-furqan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        image="https://drive.google.com/file/d/1XGdpbJzpK6FwuP5vKJDUX-Fxbc5Dmlmx/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Ravisagar K"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/ravisagar-k-ab64141ab/"
-                  image="https://drive.google.com/uc?id=1tQTHp0Wr_dIiflpAoWlEdwIwoopi7Knt&export=view"
-                ></Member>
+    <Member
+        name="Sachin R P"
+        designation="Member"
+        link="https://www.linkedin.com/in/sachin-r-p-5233472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        image="https://drive.google.com/file/d/1SuMg4QCpyUcCCsZak6Q9KqTidmVzpZQd/view?usp=drive_link"
+    ></Member>
 
-                <Member
-                  name="Tanisha Saxena"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
-                  image="https://drive.google.com/uc?id=1qv-HOKAH9Ppw61uMuOPNGqMArSH3rIA2&export=view"
-                ></Member>
-              </div>
+    <Member
+        name="Shree Lakshmi S Shekar"
+        designation="Member"
+        link="https://www.linkedin.com/in/shree-lakshmi-s-shekar-760738266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        image="https://drive.google.com/file/d/1CHEJI-qrA8GRAfuMBsKiD-i_6nqylfg7/view?usp=drive_link"
+    ></Member>
+
+    <Member
+        name="Arihant Jain"
+        designation="Member"
+        link="https://www.linkedin.com/in/arihj/"
+        image="https://drive.google.com/file/d/1L-Nf3P3sh6eb48IjPny99eTprf1MED6E/view?usp=drive_link"
+    ></Member>
+</div>
+
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
