@@ -310,7 +310,7 @@ export default function Home() {
                 <Member
                   name="Hemanth Kumar NVS"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/hemanth-kumar-394a96249?utm_source=share&utm_campaign=share_via&utm_content="
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Hemanth%20Kumar%20NVS_1MS22AD027.JPG"
                 ></Member>
                 
@@ -324,7 +324,7 @@ export default function Home() {
                 <Member
                   name="Nagashree N. S."
                   designation="Member"
-                  link=""
+                  link="https://www.linkedin.com/in/nagashree-n-s-55a4242b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/IMG_20231126_013217.jpg"
                 ></Member>
 
@@ -345,7 +345,7 @@ export default function Home() {
                 <Member
                   name="Kushi Kaveramma K.S."
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/kushi-ks-8b56422b2"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Kushi%20Kaveramma%20K.S_1MS23CS103-T.jpeg"
                 ></Member>
 
@@ -366,21 +366,21 @@ export default function Home() {
                 <Member
                   name="Chirag P.V."
                   designation="Member"
-                  link="None"
+                  link="https://in.linkedin.com/in/chirag-p-v-9290002b3"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/CHIRAG%20P%20V%201MS23ET404-T.jpg"
                 ></Member>
 
                 <Member
                   name="Jai Vishnu D.K."
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/jai-vishnu-8b17511a3/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Jai%20Vishnu%20DK_1MS23EC046.jpg"
                 ></Member>
                 
                 <Member
                   name="Illaquan Rajesh Indu"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/ilaqquan-r-i-1523332b3/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
                 ></Member>
                 

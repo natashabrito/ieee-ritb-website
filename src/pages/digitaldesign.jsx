@@ -87,6 +87,13 @@ export default function Home() {
                   
                 </Member>
 
+                <Member name="Janis Lobo"
+                  designation="Vice Head"
+                  link="https://www.linkedin.com/in/janis-lobo-b61409224/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Janis%20Lobo_1MS22MD014.jpeg">
+                  
+                </Member>
+
                 <Member name="Srushti S. Shankar"
                   designation="Member"
                   link="https://www.linkedin.com/in/srushti-shivshankar-7049472b2/"
@@ -97,13 +104,6 @@ export default function Home() {
                   designation="Member"
                   link="https://www.linkedin.com/in/shriya-a-n-07384b253/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Shriya%20A.N_1MS22BT047.jpg">
-                  
-                </Member>
-
-                <Member name="Janis Lobo"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/janis-lobo-b61409224/"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Janis%20Lobo_1MS22MD014.jpeg">
                   
                 </Member>
 
@@ -130,6 +130,12 @@ export default function Home() {
                   designation="Member"
                   link="https://www.linkedin.com/in/cynthia-antony-j-518ab1260/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/CYNTHIA%20ANTONY_1MS22CY019.HEIC">
+                </Member>
+
+                <Member name="Ojasvi Poonia"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/ojasvi-poonia-9754a3292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Ojasvi%20Poonia_1MS23CS082-T.jpeg">
                 </Member>
 
                 <Member name="Kanishk Singh"
