@@ -97,115 +97,70 @@ export default function Home() {
               </h1>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <Member name="Yogin Reddy"
-                  designation="Chairperson"
-                  link="https://www.linkedin.com/in/charu-sharma-40b483210"
-                  image="https://drive.google.com/uc?id=1RFlWqR9tLBvRbaP3q7AAXW1A5S_BWL9c&export=view">
-                </Member>
 
                 <Member name="Affan Ahamed B"
-                  designation="Co-Chair"
+                  designation="Chair"
                   link="https://www.linkedin.com/in/affan-ahamed-b-1890b9279"
-                  image="https://drive.google.com/uc?id=1vSw9Kts-58nblpZK4jfNplPTLkLw4y2M&export=download">
-                
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Affan%20Ahamed_1MS21EE004.jpg?raw=true">
                 </Member>
 
-                <Member name="Ruhi Muskan"
+                <Member name="M Subiksha"
                   designation="Vice-Chair"
-                  link="https://www.linkedin.com/in/ruhi-muskan-3b4484258"
-                  image="https://drive.google.com/uc?id=1javkDs4YZiWsy26tw5m37Xi4qAFjFtqQ&export=view">
-                </Member>
-
-                <Member name="Abhivridhi Sunil"
-                  designation="Co-Vice Chair"
-                  link="None"
-                  image="https://drive.google.com/uc?id=1L3dthi7Y5qykeDKIm4qZJOlG8C3Pm3SC&export=download">
-              
-                </Member>
-
-                <Member name="Tarunika S K"
-                  designation="Secretary"
-                  link="https://www.linkedin.com/in/tarunika-s-k-380504210"
-                  image="https://drive.google.com/uc?id=142_I5XHWKDcdOBlpqjTek7Nx9MJKFXmS&export=view">
-                </Member>
-
-                <Member name="Vishal Singh Patel"
-                  designation="Web Master"
-                  link="https://www.linkedin.com/in/vishal-singh-patel-b1a8bb230/"
-                  image="https://drive.google.com/uc?id=12DvjiD0a73p7EDKu77wBi7FpYTRBMdcH&export=view">
-                </Member>
-
-                <Member name="Charu Sharma"
-                  designation="Treasurer"
-                  link="https://www.linkedin.com/in/charu-sharma-40b483210"
-                  image="https://drive.google.com/uc?id=1kDvCKB3JZ6cHsHlCnYMQWY7bp9W5OGOI&export=view">
-                </Member>
-
-                <Member name="Anusha L"
-                  designation="PRO"
-                  link="https://www.linkedin.com/in/anusha-l-3049a321b"
-                  image="https://drive.google.com/uc?id=1mZ-qVrA7b4Nz52zTUtWf4VNVO8Cpy49e&export=view">
-                </Member>
-
-                <Member name="Vyshanav . V. Naik"
-                  designation="Event Manager"
-                  link="https://www.linkedin.com/in/vyshanav-naik-542359230"
-                  image="https://drive.google.com/uc?id=1XMBx7NHo8i2gTqD7nJiYOgKDmYXdb2y-&export=view">
-                </Member>
-
-                <Member name="Nidhi Nilesh Naik"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/nidhi-naik-8309aa237"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
-                </Member>
-
-                <Member name="Bhavesh"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/bhavesh-jadhav-ab8b71254"
-                  image="https://drive.google.com/uc?id=1ki-cVIiV-97HugjiL1aGvUKIjjf0pPSZ&export=download">
-                </Member>
-
-                <Member name="Shaik Raiyan"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/shaik-raiyan-117ab026b"
-                  image="https://drive.google.com/uc?id=1r4qsR1bPIPqp4-Q-oAIY4LqO5JV24JsH&export=view">
-                </Member>
-
-                <Member name="Setu Rama K R"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/sathvik-sethu-b492b9279"
-                  image="https://drive.google.com/uc?id=1r3WSW7QQVSdPqQuIul2PCZvtpuzVKlbf&export=view">
+                  link="https://www.linkedin.com/in/m-subiksha-377305279"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/M%20SUBIKSHA%201MS22EE027_.jpg?raw=true">
                 </Member>
 
                 <Member name="Divya Naidu K"
                   designation="Member"
                   link="https://www.linkedin.com/in/divya-naidu-11489b244"
-                  image="https://drive.google.com/uc?id=1DcBvq0XtOql7euT6JONzz9btTJcdG33Z&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Divya%20Naidu%20(1MS22EE015)_.jpg?raw=true">
                 </Member>
 
                 <Member name="Bhagyashri Rasal"
                   designation="Member"
                   link="https://www.linkedin.com/in/bhagyashri-rasal-a7622525b"
-                  image="https://drive.google.com/uc?id=1-5pcYWQRLsTxLRO7XHurXMWn293b_ZRf&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/BHAGYASHRI%20RASAL(1MS22EE010).jpg?raw=true">
                 </Member>
 
-                <Member name="Sanjana Raj Nataraj"
+                <Member name="Ashlesh D M"
                   designation="Member"
-                  link="https://www.linkedin.com/in/sanjana-raj-nataraj-750448261"
-                  image="https://drive.google.com/uc?id=1z4CFVm2WBv32dcRjVzvIHNo2n3BZS2z-&export=view">
+                  link="https://www.linkedin.com/in/dheeran-ashlesh-a8ab53212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Ashlesh%20D%20M.jpg?raw=true">
                 </Member>
-
-
-                <Member name="M Subiksha"
+                <Member name="Athul Biju C"
                   designation="Member"
-                  link="https://www.linkedin.com/in/m-subiksha-377305279"
-                  image="https://drive.google.com/uc?id=1n0frbBEDoM6QewkY8Iiu3TJ3GCqHrjyj&export=view">
+                  link="https://www.linkedin.com/in/athul-biju-c-0268652b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Athul%20Biju%20C_1MS23EE009-T.JPG?raw=true">
                 </Member>
-
-                <Member name="Manjunath"
+                <Member name="Juel Pramanik"
                   designation="Member"
-                  link="https://www.linkedin.com/in/manjunath-gandigudi-6717a41b5"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  link="https://www.linkedin.com/in/juel-pramanik-819a342a7"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Juel%20Pramanik_1MS22EE022.jpg?raw=true">
+                </Member>
+                <Member name="Sankalp Kumar Singh"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/sankalp-singh-8913552b2"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Sankalp%20Kumar%20Singh(1MS22EE045).jpg?raw=true">
+                </Member>
+                <Member name="Srajan"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/srajan-poojari-55334b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Srajan_1MS22EE056.jpg?raw=true">
+                </Member>
+                <Member name="Yathish P"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/yathish-virat-7a38b9282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Yathish.PNG?raw=true">
+                </Member>
+                <Member name="venu gopal"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/venu-gopal-9bb371284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/venu%20gopal%20_%201MS23EI016-T.pdf?raw=true">
+                </Member>
+                <Member name="Manish Bennalli"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/manish-bennalli-9563502b2 "
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/venu%20gopal%20_%201MS23EI016-T.pdf?raw=true">
                 </Member>
               </div>
 
