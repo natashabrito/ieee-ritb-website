@@ -52,7 +52,7 @@ const members = [
    {
     name: 'Aarthi P V',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/aarthi-prashanth-1606b0253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/Aarthi%20P%20V_1MS22CS004.jpg?raw=true',
   },
@@ -87,9 +87,9 @@ const members = [
    {
     name: 'Shobhit Srivastava',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/shobhit-srivastava-65332b288',
     image:
-      'hhttps://github.com/sanjay212003/ieee-members/blob/main/Shobhit%20Srivastava%20_1MS22CI063.jpg?raw=true',
+      'https://github.com/sanjay212003/ieee-members/blob/main/Shobhit%20Srivastava%20_1MS22CI063.jpg?raw=true',
   },
    {
     name: 'U Sanjay',
