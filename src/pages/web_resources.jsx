@@ -36,48 +36,11 @@ const images = [
 ]
 const members = [
   {
-    name: 'Kushagra',
-    designation: 'Chief Webmaster',
-    link: 'https://www.linkedin.com/in/',
-    image:
-      'https://drive.google.com/uc?id=1y6Bsps313z-fI7-tjaUT1cWZ9VGR24Cu&export=view',
-  },
-  {
-    name: 'Shravan Revanna',
-    designation: 'Vice Webmaster',
-    link: 'https://www.linkedin.com/in/shravanrevanna/',
-    image1:
-      'https://drive.google.com/uc?id=1maiCN7Q0USX1Qxn837TpgdYjbJ1ZhZaa&export=view',
-    image: "https://github.com/myselfshravan/IntelliFind/assets/94772842/33ae2429-270e-4deb-95dc-6624ae3c1a49"
-  },
-  {
-    name: 'Adhil Khan',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/adhil-khan-7b1b3a1b0/',
-    image:
-      'https://drive.google.com/uc?id=1Wh6HcJL58DvzQHJMQyQ0QwF0QU1Qfs_k&export=view',
-  },
-
-  {
     name: 'Davin Monteiro',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/davin-monteiro/',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/Davin_1MS21CY012.jpg?raw=true',
-  },
-  {
-    name: 'Dhanraj Rateria',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/dhanrajrateria',
-    image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',
-  },
-  {
-    name: 'Vikas',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
-    image:
-      'https://drive.google.com/uc?id=15Wk5O3gGUfD3pYgK1WGxmUaPJPjQn1ml&export=view',
   },
   {
       name: 'Aadil Zaheer Khan',
@@ -110,7 +73,7 @@ const members = [
    {
     name: 'Natasha Brito',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/natasha-brito-34292425b/',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/Natasha%20Brito_1MS22IS086.jpg?raw=true',
   },
