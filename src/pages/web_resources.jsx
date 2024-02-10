@@ -63,7 +63,7 @@ const members = [
     designation: 'Member',
     link: 'https://www.linkedin.com/in/',
     image:
-      'https://drive.google.com/uc?id=1gPz1GlDHxe7xxAPudF7AIHC2zDcIRVVy&export=view',
+      'https://github.com/sanjay212003/ieee-members/blob/main/Davin_1MS21CY012.jpg?raw=true',
   },
   {
     name: 'Dhanraj Rateria',
@@ -78,6 +78,62 @@ const members = [
     link: 'https://www.linkedin.com/in/',
     image:
       'https://drive.google.com/uc?id=15Wk5O3gGUfD3pYgK1WGxmUaPJPjQn1ml&export=view',
+  },
+  {
+      name: 'Aadil Zaheer Khan',
+      designation: 'Member',
+      link: 'https://www.linkedin.com/in/aadil-zaheer-khan',
+      image:
+        'https://github.com/sanjay212003/ieee-members/blob/main/1MS21EC001%2C%20Aadil%20Zaheer%20Khan_.jpg?raw=true',
+    },
+   {
+    name: 'Aarthi P V',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/Aarthi%20P%20V_1MS22CS004.jpg?raw=true',
+  },
+   {
+    name: 'Abhishek V K',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/abhishek-v-k-574846248/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/Abhishekvk_1ms22ad003.jpeg?raw=true',
+  },
+   {
+    name: 'Mudit Sethia',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/Mudit%20Sethia_1MS22CY043.JPG?raw=true',
+  },
+   {
+    name: 'Natasha Brito',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/Natasha%20Brito_1MS22IS086.jpg?raw=true',
+  },
+   {
+    name: 'Shivesh Tiwari',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/Shivesh%20Tiwari_1MS23CH017.jpg?raw=true',
+  },
+   {
+    name: 'Shobhit Srivastava',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/',
+    image:
+      'hhttps://github.com/sanjay212003/ieee-members/blob/main/Shobhit%20Srivastava%20_1MS22CI063.jpg?raw=true',
+  },
+   {
+    name: 'U Sanjay',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/u-sanjay-372b43286/',
+    image:
+      'https://github.com/sanjay212003/ieee-members/blob/main/U%20Sanjay%20_1MS22IS146%20(1).pdf?raw=true',
   },
 ]
 
