@@ -82,7 +82,7 @@ const members = [
   {
       name: 'Aadil Zaheer Khan',
       designation: 'Member',
-      link: 'https://www.linkedin.com/in/',
+      link: 'https://www.linkedin.com/in/aadil-zaheer-khan',
       image:
         'https://github.com/sanjay212003/ieee-members/blob/main/1MS21EC001%2C%20Aadil%20Zaheer%20Khan_.jpg?raw=true',
     },
@@ -131,7 +131,7 @@ const members = [
    {
     name: 'U Sanjay',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/u-sanjay-372b43286/',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/U%20Sanjay%20_1MS22IS146%20(1).pdf?raw=true',
   },
