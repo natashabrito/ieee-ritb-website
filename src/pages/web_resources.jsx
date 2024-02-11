@@ -94,9 +94,9 @@ const members = [
    {
     name: 'U Sanjay',
     designation: 'Member',
-    link: 'https://www.linkedin.com/in/u-sanjay-372b43286/',
+    link: 'https://www.linkedin.com/in/sanjay-u-372b43286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     image:
-      'https://github.com/sanjay212003/ieee-members/blob/main/U%20Sanjay%20_1MS22IS146%20(1).pdf?raw=true',
+      'https://github.com/sanjay212003/ieee-members/blob/main/U_SANJAY_1MS22IS146.jpeg?raw=true',
   },
 ]
 
