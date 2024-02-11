@@ -198,70 +198,70 @@ export function Hero() {
             <Member
               name="Prajana B"
               designation="SB Chair"
-              link="https://www.linkedin.com/in/suhaskatrahalli"
+              link="https://www.linkedin.com/in/prajana-b-47b3b0279"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Prajana%20B%20.jpg?raw=true"
             ></Member>
 
             <Member
               name="Katyayani Palak"
               designation="SB Secretary"
-              link="https://www.linkedin.com/in/srinivas-c-678105249/"
+              link="https://www.linkedin.com/in/srinivas-c-678105249/"//not uploaded
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Katyayani%20Palak_1MS21ET021.jpg?raw=true"
             ></Member>
 
             <Member
               name="Sanjay Kumar"
               designation="SB Treasurer"
-              link="https://www.linkedin.com/in/vinayak-sharma-033500210"
+              link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Sanjay%20Kumar_Treasurer%20.jpg?raw=true"
             ></Member>
 
             <Member
               name="Divyansh Mishra"
               designation="SB Technical Head"
-              link="https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
+              link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Divyansh_Mishra_1MS21AD022.jpeg?raw=true"
             ></Member>
 
             <Member
               name="Tamanna Goel"
               designation="SB Convener"
-              link="https://www.linkedin.com/in/snega-umapathi-b73480210"
+              link="https://www.linkedin.com/in/tamanna-goel-831108270"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Tamanna%20Goel_%201MS21EI058.jpg?raw=true"
             ></Member>
 
             <Member
               name="Anirudh Baliga"
               designation="SB Vice-Chair"
-              link="https://www.linkedin.com/in/divyansh-mishra-0a3168229"
+              link="https://www.linkedin.com/in/anirudh-baliga-30b7b3219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Anirudh%20Bantwal%20Baliga%20_1MS22BT004.jpeg?raw=true"
             ></Member>
 
             <Member
               name="Sanjana Raj N"
               designation="SB Vice-Secretary"
-              link="https://in.linkedin.com/in/askanda-mahajan-9a2004200"
+              link="https://www.linkedin.com/in/sanjana-raj-n-822595288/"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Sanjana%20Raj.jpg?raw=true"
             ></Member>
 
             <Member
               name="Ravisagar K"
               designation="SB Vice-Treasurer"
-              link="https://www.linkedin.com/in/gurtezsingh"
+              link="https://www.linkedin.com/in/ravisagar-k-ab64141ab"
               image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Ravisagar%20K.jpg?raw=true"
             ></Member>
 
             <Member
               name="Priyanshu Bhojwani"
               designation="SB Vice-Technical Head"
-              link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
+              link="https://www.linkedin.com/in/priyanshu-bhojwani-7b9b44299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               image="https://raw.githubusercontent.com/natashabrito/members2024/main/studentbranch/Priyanshu%20Bhojwani_1MS22IS104.JPG"
             ></Member>
 
             <Member
               name="Kaushik Gaitonde"
               designation="SB Vice-Convener"
-              link="https://www.linkedin.com/in/shubham-anand-507785226/"
+              link="https://www.linkedin.com/in/kaushik-gaitonde-067039247"
               image="https://raw.githubusercontent.com/natashabrito/members2024/main/studentbranch/Kaushik%20Gopal%20Gaitonde_1MS22EC060.jpg"
             ></Member>
           </div>
