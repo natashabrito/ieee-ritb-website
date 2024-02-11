@@ -96,7 +96,7 @@ const members = [
     designation: 'Member',
     link: 'https://www.linkedin.com/in/u-sanjay-372b43286/',
     image:
-      'https://github.com/sanjay212003/ieee-members/blob/main/U%20Sanjay%20_1MS22IS146%20(1).pdf?raw=true',
+      'https://github.com/sanjay212003/ieee-members/blob/main/U_SANJAY_1MS22IS146.jpeg?raw=true',
   },
 ]
 
