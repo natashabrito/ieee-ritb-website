@@ -255,14 +255,14 @@ export function Hero() {
               name="Priyanshu Bhojwani"
               designation="SB Vice-Technical Head"
               link="https://www.linkedin.com/in/sanjay-kumar-947911229/"
-              image="https://github.com/aarthipv/profileimages/blob/main/officebearers/Priyanshu%20bhojwani%20%201MS22IS155-T_1.jpg?raw=true"
+              image="https://raw.githubusercontent.com/natashabrito/members2024/main/studentbranch/Priyanshu%20Bhojwani_1MS22IS104.JPG"
             ></Member>
 
             <Member
               name="Kaushik Gaitonde"
               designation="SB Vice-Convener"
               link="https://www.linkedin.com/in/shubham-anand-507785226/"
-              image="https://drive.google.com/uc?id=1W1uCRJvOSW8wBet8GfYbz2AWQ2UcHKIX&export=view"//not loading
+              image="https://raw.githubusercontent.com/natashabrito/members2024/main/studentbranch/Kaushik%20Gopal%20Gaitonde_1MS22EC060.jpg"
             ></Member>
           </div>
         </div>
