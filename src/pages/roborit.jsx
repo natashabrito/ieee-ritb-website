@@ -262,7 +262,7 @@ export default function Home() {
                   name="Pavan Kumar K."
                   designation="Chair"
                   link="https://www.linkedin.com/in/pavan-kumar-k-036a85202/"
-                  image="https://drive.google.com/uc?id=1X-_2Cm1RW2D799UqmcVIlshkAqg-K3Jc&export=view"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/PAVAN%20KUMAR%20K_%201MS21CS088.JPG"
                 ></Member>
 
                 <Member
@@ -287,17 +287,10 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Sheik Mohammed Maaz"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/sheik-mohammad-maaz-50a17620b/"
-                  image="https://drive.google.com/uc?id=1hQx-suzNPqigjLV2UYhV3J_Z96eXOTBA&export=view"
-                ></Member>
-                
-                <Member
                   name="S. Meena Kumari"
                   designation="Member"
                   link="https://www.linkedin.com/mwlite/in/meena-kumari-subramanyam-b28b56229"
-                  image="https://drive.google.com/uc?id=1Zi2Su7aLO8HmBbSjr5APka8rzMnPzsTx&export=view"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/MEENA%20KUMARI%201MS21CS109%20.jpg"
                 ></Member>
                 
                 <Member
@@ -312,13 +305,6 @@ export default function Home() {
                   designation="Member"
                   link="https://www.linkedin.com/in/hemanth-kumar-394a96249?utm_source=share&utm_campaign=share_via&utm_content="
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Hemanth%20Kumar%20NVS_1MS22AD027.JPG"
-                ></Member>
-                
-                <Member
-                  name="Suhas Y"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/suhas-y-2e5l8/"
-                  image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view"
                 ></Member>
 
                 <Member

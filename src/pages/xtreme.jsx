@@ -68,7 +68,7 @@ export default function Home() {
                   name="Shubham Anand"
                   designation="Co-Head"
                   link="https://www.linkedin.com/in/shubham-anand-507785226/"
-                  image="https://drive.google.com/uc?id=1n0DhgtFBso_AzL9rFTnBCIU4DpBlPWUr&export=view"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/xtreme/Shubham%20anand%20.jpg"
                 ></Member>
                 
                 <Member

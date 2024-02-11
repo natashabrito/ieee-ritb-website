@@ -83,7 +83,7 @@ export default function Home() {
               <Member name="Abhishek K."
                   designation="Head"
                   link="https://www.linkedin.com/in/abhishek-kaushik-0a6a16243/"
-                  image="https://drive.google.com/uc?id=1zJgSyRY2lrN7YeN0jOgmwBQ8R36ptcxk&export=download">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/Abhishek%20.JPG">
                   
                 </Member>
 
