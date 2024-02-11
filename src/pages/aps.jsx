@@ -39,115 +39,92 @@ const members = [
   {
     name: "Banu Prasad",
     designation: "Chair",
-    link: "https://www.linkedin.com/in/mohammedibrahim22",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Banu%20Prasad%20M_1MS21EC034.jpeg?raw=true"
   },
   {
-    name: "Varsha J",
+    name: "Dheeraj V",
     designation: "Vice Chair",
-    link: "https://www.linkedin.com/in/varsha-j-173124254",
-    image: "https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view"
+    link: "http://www.linkedin.com/in/dheerajv624",
+    image: "https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view"//not uploaded
   },
   {
     name: "Kokila",
     designation: "Secretary",
-    link: "https://www.linkedin.com/in/poojitha-singh-840bb6229",
+    link: "https://www.linkedin.com/in/kokila-s-642161252",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Kokila_1MS21EE029.jpg?raw=true"
   },
   {
-    name: "Preethi K",
+    name: "Disha K",
     designation: "Co- Secretary",
-    link: "https://www.linkedin.com/in/poojitha-singh-840bb6229",
-    image: "https://drive.google.com/uc?id=1z3bFQVO8zTBe8gtMdUygVkuelL38QLwP&export=view"
+    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "https://drive.google.com/uc?id=1z3bFQVO8zTBe8gtMdUygVkuelL38QLwP&export=view"//not uploaded
   },
+  
   {
-    name: "Madhumitha R",
-    designation: "Co - Secretary",
-    link: "https://www.linkedin.com/in/madhumitha-ramaswamy-399103220",
-    image: "https://drive.google.com/uc?id=1p22I8o2lZBStHVAmuoyUbohYPcVNwPr_&export=view"
-  },
-  {
-    name: "Banuprasad",
+    name: "Chandrak",
     designation: "Treasurer",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
-    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"
+    link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"//not uploaded
   },
   {
-    name: "Kokila",
+    name: "B M Vishnu",
     designation: "Co - Treasurer",
-    link: "https://www.linkedin.com/in/kokila-s-642161252",
-    image: "https://drive.google.com/uc?id=1bMUfnLGZK07XeXVVeaeGSutxpSgVOmQt&export=view"
-  },
-  {
-    name: "Dheeraj V",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
+    link: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"//not uploaded
   },
   {
     name: "Sujay P C",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sujay%20P%20C_1MS22ET053.jpg?raw=true"
-  },
-  {
-    name: "Disha K",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
-    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"//file too big
   },
   {
     name: "Kishor Ravindra Hitnalli ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/kishor%20Hitnalli%20(1ms22cy035).jpg?raw=true"
   },
   {
     name: "Navya Ullas Rai",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/navya-ullas-rai-05884b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Navya%20Ullas%20Rai%20-%201MS23ET046-T.jpg?raw=true"
   },
   {
     name: "Aarya P",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/aarya-p-1166a3259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Aarya%20P_1MS22EC004.jpg?raw=true"
-  },
-  {
-    name: "Vishnu B M",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true"
   },
   {
     name: "Akash Srivastava ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
     image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"
   },
   {
     name: "Bumika N R",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/bumika-n-r-b93b27283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"//image not loading
   },
   {
     name: "Sandra Elsa Subin ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/sandra-subin-7973ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sandra%20Elsa%20Subin_%201MS22CH032.jpg?raw=true"
   },
   {
     name: "Ayush Prabhat",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "http://linkedin.com/in/ayush-prabhat-b9911b2b3",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Ayush_Prabhst_1ms22ei013.jpg?raw=true"
   },
   {
     name: "Sneha Vijay ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",
+    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
   },
 
