@@ -180,127 +180,127 @@ export default function Home() {
                 <Member
                   name="Neeraj D. Phadke "
                   designation="Chair"
-                  link="https://www.linkedin.com/in/charith-rage-8117421a0"
+                  link="https://www.linkedin.com/in/neeraj-phadke13/"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Neeraj%20Phadek_1MS21CS082.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Hari Chandan"
                   designation="Secretary"
-                  link="https://www.linkedin.com/in/cheithanya-pr-3aab61205"
+                  link="https://www.linkedin.com/in/s-sai-hari-chandan-93288922b"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Hari%20Chandan%201MS21CY051.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Abhay Bhandarkar"
                   designation="Vice-Chair"
-                  link="https://www.linkedin.com/in/neeraj-phadke13/"
+                  link="https://www.linkedin.com/in/abhaybhandarkar/"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Abhay%20Bhandarkar_1MS22CS005.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Dhanraj Rateria"
                   designation="Treasurer"
-                  link="https://www.linkedin.com/in/neeraj-phadke13/"
+                  link="https://www.linkedin.com/in/dhanrajrateria/"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Dhanraj%20Rateria_1MS22CY020.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Nikith Ganga"
                   designation="Member"
-                  link="https://www.linkedin.com/in/s-sai-hari-chandan-93288922b"
+                  link="https://www.linkedin.com/in/nikith-ganga/"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
 
                 <Member
                   name="Shraddha Vinod Prabhu"
                   designation="Member"
-                  link="https://www.linkedin.com/in/abhaybhandarkar/"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
 
                 <Member
                   name="Karthik Deshmukh"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/karthik-deshmukh/"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Karthik%20Deshmukh_1MS21AI027.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Mohammed Yasin Zuhayr"
                   designation="Member"
-                  link="https://www.linkedin.com/in/hetjoshi"
+                  link="https://www.linkedin.com/in/mohammed-yasin-zuhayr-249158157/"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Mohammed%20Yasin%20Zuhayr_1MS22IS077.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Amogh Kalasapura "
                   designation="Member"
-                  link="=-C8"
+                  link="https://www.linkedin.com/in/amogh-kalasapura-992a51206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Amogh%20Kalasapura_1MS22CS022.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Aishwarya R Dongal"
                   designation="Member"
-                  link="https://www.linkedin.com/in/nikith-ganga/"
+                  link="https://www.linkedin.com/in/aishwarya-r-dongal-a69a90271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://drive.google.com/uc?id=&export=download"//not uploaded
                 ></Member>
 
                 <Member
                   name="Navya Shree B M"
                   designation="Member"
-                  link="https://www.linkedin.com/in/karthik-deshmukh/?trk=public-profile-join-page"
+                  link="https://www.linkedin.com/in/navya-shree-b-m-5b81b22b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Navya_shree_1MS22IS087.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Riya Kumari"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/riya-kumari-58a923257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
 
                 <Member
                   name="Chinmayi S R"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/chinmayi-s-r-9232b6256"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Chinmayi%20S%20R_1MS22IS033.png?raw=true"
                 ></Member>
                 <Member
                   name="Dhavala T S "
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/dhavala-t-s-781b5a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/DhavalaTS_1MS22AD021.jpg?raw=true"
                 ></Member>
                 <Member
                   name="Shreyaan Kapoor"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/shreyaan-kapoor-47845427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uplaoded
                 ></Member>
                 <Member
                 name="Bhuvan Agrawal"
                 designation="Member"
-                link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"//not found
                 image="https://github.com/aarthipv/profileimages/blob/main/cs/Bhuvan%20Agrawal_1MS23CI143-T.jpg?raw=true"
               ></Member>
               <Member
                   name="Nabhanyu B M"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"//not found
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Nabhanyu%20B%20M_1MS23IS064-T.png?raw=true"
                 ></Member>
                 <Member
                   name="Pranav M K"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="www.linkedin.com/in/pranav-m-k-186b15291"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
                 <Member
                   name="Shantanu Pandey"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"
+                  link="https://www.linkedin.com/in/shantanu-pandey-rit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://drive.google.com/uc?id=1-EHpiQgeRF9oJgv36BUw0MbFaX7r21hz&export=download"//not uploaded
                 ></Member>
                 
