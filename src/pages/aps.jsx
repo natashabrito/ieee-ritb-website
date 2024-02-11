@@ -46,7 +46,7 @@ const members = [
     name: "Dheeraj V",
     designation: "Vice Chair",
     link: "http://www.linkedin.com/in/dheerajv624",
-    image: "https://drive.google.com/uc?id=19UG3IJRZf7QOcsRnz1jrXMSw7TN5ZqMP&export=view"//not uploaded
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
   },
   {
     name: "Kokila",
@@ -65,13 +65,13 @@ const members = [
     name: "Chandrak",
     designation: "Treasurer",
     link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://drive.google.com/uc?id=1WW1FXoE47iehfz5zv07bmE8_Fh9LrPz2&export=view"//not uploaded
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Chandrak%20Jayakumar_1ms21ec039.jpg?raw=true"
   },
   {
     name: "B M Vishnu",
     designation: "Co - Treasurer",
     link: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"//not uploaded
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true"
   },
   {
     name: "Sujay P C",
