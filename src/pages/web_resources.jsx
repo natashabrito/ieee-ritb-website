@@ -37,7 +37,7 @@ const images = [
 const members = [
   {
     name: 'Davin Monteiro',
-    designation: 'Member',
+    designation: 'Webmaster',
     link: 'https://www.linkedin.com/in/davin-monteiro/',
     image:
       'https://github.com/sanjay212003/ieee-members/blob/main/Davin_1MS21CY012.jpg?raw=true',
