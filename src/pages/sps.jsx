@@ -101,21 +101,21 @@ export default function Home() {
                  <Member
                   name="Aditi Kulkarni"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/aditi-kulkarni-816ab622a/"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Aditi%20Kulkarni%20_1MS21EC137%20.jpg?raw=true"
                 ></Member>
 
                    <Member
                   name="Arya Saha"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/arya-saha-a8711b215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Arya%20Saha_1MS23EC066-T.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Ashutosh.S.U"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/ashutosh-sakrahalli-umapathi-bb5900203/"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Ashutosh.S.U_1MS22EC026.jpg?raw=true"
                 ></Member>
 
@@ -123,42 +123,42 @@ export default function Home() {
                 <Member
                   name="Askanda Mahajan"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/askanda-mahajan-9a2004200"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Askanda%20Mahajan_1MS21EC030.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="G Charukesh"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/charukesh-g-843180296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/G%20Charukesh_1MS23EC038.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Joanna Philip"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/joanna-philip-964648233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Joanna%20Philip_1MS22EC054.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="M Naga Sarvani"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/mogallapalli-naga-sarvani-4b5238279/"
                   image="https://github.com/sanjay212003/sps-members/blob/main/M%20Naga%20Sarvani_1MS22EC075.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Madhumitha.R"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/madhumitha-r-bb49442b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Madhumitha.R_1MS22EI024.jpg?raw=true"
                 ></Member>
 
                  <Member
                   name="NIHARIKA.R"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/niharika-ravi-8333502b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/NIHARIKA.R_1MS21EC071.jpg?raw=true"
                 ></Member>
 
@@ -166,28 +166,28 @@ export default function Home() {
                  <Member
                   name="Neha C"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/neha-channaiah-5620a524b"
                   image="https://github.com/sanjay212003/sps-members/blob/main/NehaC_1MS21MD016.jpg?raw=true"
                 ></Member>
 
                  <Member
                   name="Nidhi Patil "
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/nidhi-patil-3a9980214"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Nidhi%20Patil%20_1MS22EE034.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Rhakia"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/rhakia-64906a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Rhakia_1MS21MD026.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Rohith Mohite"
                   designation="Member"
-                  link="None"
+                  link="http://linkedin.com/in/rohith-mohite-543697204"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Rohith%20Mohite_1MS22EC101.JPG?raw=true"
                 ></Member>
 
@@ -195,7 +195,7 @@ export default function Home() {
                 <Member
                   name="Sharvesh T Srinivasan"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/sharvesh-srinivasan-3639542b2"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Sharvesh%20T%20Srinivasan_1MS21MD035.jpg?raw=true"
                 ></Member>
 
@@ -203,14 +203,14 @@ export default function Home() {
                 <Member
                   name="Shreyas Bhat"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/shreyas-bhat-7312081a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Shreyas%20Bhat_1MS22EE051.jpg?raw=true"
                 ></Member>
 
                 <Member
                   name="Soutrik Raha"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/soutrik-raha-47487a290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Soutrik%20Raha_1MS23EC034-T.jpg?raw=true"
                 ></Member>
 
@@ -218,7 +218,7 @@ export default function Home() {
                 <Member
                   name="Srivalli P"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/srivalli-p-aab40a247"
                   image="https://github.com/sanjay212003/sps-members/blob/main/Srivalli%20P_1MS22EI050.jpg?raw=true"
                 ></Member>
 
@@ -226,7 +226,7 @@ export default function Home() {
                 <Member
                   name="T N YOGAJAY"
                   designation="Member"
-                  link="None"
+                  link="https://www.linkedin.com/in/yogajay-t-n-7828662b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://github.com/sanjay212003/sps-members/blob/main/T%20N%20YOGAJAY%20_1MS22EC135.jpg?raw=true"
                 ></Member>
                 
