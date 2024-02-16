@@ -219,7 +219,7 @@ export default function Home() {
                   name="Srivalli P"
                   designation="Member"
                   link="https://www.linkedin.com/in/srivalli-p-aab40a247"
-                  image="https://github.com/sanjay212003/sps-members/blob/main/Srivalli%20P_1MS22EI050.jpg?raw=true"
+                  image="https://github.com/sanjay212003/sps-members/blob/main/Srivalli_1ms22ei050(1).jpg?raw=true"
                 ></Member>
 
                  

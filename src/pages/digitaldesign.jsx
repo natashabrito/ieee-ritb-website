@@ -129,7 +129,7 @@ export default function Home() {
                 <Member name="Cynthia Antony J."
                   designation="Member"
                   link="https://www.linkedin.com/in/cynthia-antony-j-518ab1260/"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/CYNTHIA%20ANTONY_1MS22CY019.HEIC">
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/digital%20design/CYNTHIA%20ANTONY_1MS22CY019.jpeg">
                 </Member>
 
                 <Member name="Ojasvi Poonia"
