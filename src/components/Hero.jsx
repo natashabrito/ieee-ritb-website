@@ -145,10 +145,10 @@ export function Hero() {
         <div className="mx-auto max-w-5xl mt-10 grid grid-cols-1 gap-6 lg:grid-cols-4">
           {/* Content */}
           <div className="col-span-1 lg:col-span-2">
-            <h1 className="text-2xl lg:text-3xl text-center font-bold mb-4 ">
-              What is <span className="text-4xl lg:text-5xl font-bold text-blue-500">IEEE RIT-B?</span>
+            <h1 className="text-xl lg:text-3xl text-center font-bold mb-4 ">
+              What is <span className="text-2xl lg:text-5xl font-bold text-blue-500">IEEE RIT-B?</span>
             </h1>
-            <p className="text-md mx-auto max-w-4xl tracking-tight text-slate-800 lg:text-xl">
+            <p className="text-md mx-auto max-w-4xl tracking-tight text-slate-800 lg:text-lg">
               IEEE RIT-B is the IEEE student branch at Ramaiah Institute of Technology. It is one of the{' '}
               <b>largest and most active</b> student branches in the Bangalore section. IEEE RIT-B was inaugurated
               in <b>2003</b> and has strived to enrich the students of RIT with the latest developments in various
@@ -163,11 +163,11 @@ export function Hero() {
 
         {/* Bento Grid */}
         <div className="col-span-1 lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {images1.map((image, index) => (
-            <div
-              key={index}
-              className={`relative ${index === 0 ? 'aspect-w-1 aspect-h-1' : 'aspect-w-2 aspect-h-2'}`}
-            >
+            {images1.map((image, index) => (
+              <div
+                key={index}
+                className={`relative ${index === 0 ? 'aspect-w-1 aspect-h-1' : 'aspect-w-2 aspect-h-2'}`}
+              >
               <Image
                 className="rounded-lg object-cover"
                 src={image}
@@ -182,10 +182,10 @@ export function Hero() {
 
 
       <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg">
-        <h1 className="text-xl lg:text-2xl text-center font-bold mb-4">
-          Why <span className="text-2xl lg:text-3xl font-bold text-blue-500">IEEE RIT-B?</span>
-        </h1>
-        <ul className="list-disc list-inside text-lg lg:text-xl">
+          <h1 className="text-md lg:text-2xl text-center font-bold mb-4">
+            Why <span className="text-lg lg:text-3xl font-bold text-blue-500">IEEE RIT-B?</span>
+          </h1>
+          <ul className="list-disc list-inside text-md lg:text-lg">
           <li>
             <b>Stay Ahead of the Curve</b>: Gain in-depth knowledge of the latest technological trends and
             advancements.
@@ -211,39 +211,39 @@ export function Hero() {
 
 
       <div className="flex justify-center mt-10">
-        <div className="cas-stats p-4 rounded-xl max-w-3xl w-full bg-gradient-to-r from-blue-200 to-blue-300 transition duration-300 ease-in-out transform hover:shadow-lg">
-          <h2 className="text-xl lg:text-2xl font-bold text-center mb-4">
-            Stats
-          </h2>
-          <div className="cas-counters flex justify-center">
-            <div className="cas-counter mx-4">
-              <FaUserGraduate className="cas-icon" />
-              <span className="cas-number text-xl font-bold">Student Members</span>
-              <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                228
-              </ButtonLink>
-            </div>
+          <div className="cas-stats p-4 rounded-xl max-w-3xl w-full bg-gradient-to-r from-blue-200 to-blue-300 transition duration-300 ease-in-out transform hover:shadow-lg">
+            <h2 className="text-md lg:text-2xl font-bold text-center mb-4">
+              Stats
+            </h2>
+            <div className="cas-counters flex justify-center">
+              <div className="cas-counter mx-4">
+                <FaUserGraduate className="cas-icon" />
+                <span className="cas-number text-xl font-bold">Student Members</span>
+                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                  228
+                </ButtonLink>
+              </div>
 
-            <div className="cas-counter mx-4">
-              <FaChalkboardTeacher className="cas-icon" />
-              <span className="cas-number text-xl font-bold mb-2">Faculty Members</span>
-              <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                7
-              </ButtonLink>
-            </div>
+              <div className="cas-counter mx-4">
+                <FaChalkboardTeacher className="cas-icon" />
+                <span className="cas-number text-xl font-bold mb-2">Faculty Members</span>
+                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                  7
+                </ButtonLink>
+              </div>
 
-            <div className="cas-counter mx-4">
-              <FaCalendarAlt className="cas-icon" />
-              <span className="cas-number text-xl font-bold mb-2">Events Conducted (Last Year)</span>
-              <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
-                65
-              </ButtonLink>
+              <div className="cas-counter mx-4">
+                <FaCalendarAlt className="cas-icon" />
+                <span className="cas-number text-xl font-bold mb-2">Events Conducted (Last Year)</span>
+                <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                  65
+                </ButtonLink>
             </div>
           </div>
         </div>
       </div>
 
-        <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center">
           <ButtonLink
             href="https://site.ieee.org/sb-ritb/about-ieee/ieee-ramaiah/"
             className="text-md mt-8 rounded bg-sky-900 px-4 py-1.5 font-semibold text-gray-50"
@@ -254,11 +254,11 @@ export function Hero() {
 
         <div className="mx-auto max-w-3xl">
           <h1 className="text-lg lg:text-2xl mt-6 text-center font-semibold text-black">
-            All the <span className="text-1xl lg:text-1xl font-bold text-blue-500">societies and councils</span> under IEEE-RIT
+            All the <span className="text-lg lg:text-2xl font-bold text-blue-500">societies and councils</span> under IEEE-RIT
           </h1>
           <ul
             role="list"
-            className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
+            className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
           >
             {routs.map((item, index) => (
               <li
@@ -281,8 +281,8 @@ export function Hero() {
             ))}
           </ul>
 
-          <h1 className="mt-10 text-center text-2xl font-bold tracking-tight text-gray-900">
-          <span className="text-1xl lg:text-1xl font-bold text-blue-500">Office Bearers</span> of IEEE-RIT
+          <h1 className="mt-10 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
+            <span className="text-lg lg:text-2xl font-bold text-blue-500">Office Bearers</span> of IEEE-RIT
           </h1>
           <div className="mt-8 grid max-w-4xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <Member
