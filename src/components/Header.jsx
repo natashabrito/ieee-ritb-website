@@ -7,14 +7,37 @@ import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { Image } from 'next/image'
+import { useRouter } from 'next/router';
 
 function MobileNavigation() {
+  const router = useRouter();
+
   return (
     <Popover>
       {({ open, close }) => (
         <>
           <Popover.Button className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none">
-            {/* ... (unchanged) */}
+            <span className="sr-only">Toggle Navigation</span>
+            <svg
+              aria-hidden="true"
+              className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+              fill="none"
+              strokeWidth={2}
+              strokeLinecap="round"
+            >
+              <path
+                d="M0 1H14M0 7H14M0 13H14"
+                className={clsx('origin-center transition', {
+                  'scale-90 opacity-0': open,
+                })}
+              />
+              <path
+                d="M2 2L12 12M12 2L2 12"
+                className={clsx('origin-center transition', {
+                  'scale-90 opacity-0': !open,
+                })}
+              />
+            </svg>
           </Popover.Button>
           <Transition.Root>
             <Transition.Child
@@ -43,21 +66,36 @@ function MobileNavigation() {
               >
                 <li>
                   <Link href="/gallery">
-                    <a className="block w-full" onClick={() => close()}>
+                    <a
+                      className={clsx('block w-full', {
+                        'font-bold text-black': router.pathname === '/gallery',
+                      })}
+                      onClick={() => close()}
+                    >
                       Gallery
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/faculty">
-                    <a className="block w-full" onClick={() => close()}>
+                    <a
+                      className={clsx('block w-full', {
+                        'font-bold text-black': router.pathname === '/faculty',
+                      })}
+                      onClick={() => close()}
+                    >
                       Faculty
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contactus">
-                    <a className="block w-full" onClick={() => close()}>
+                    <a
+                      className={clsx('block w-full', {
+                        'font-bold text-black': router.pathname === '/contactus',
+                      })}
+                      onClick={() => close()}
+                    >
                       Contact Us
                     </a>
                   </Link>
@@ -71,6 +109,7 @@ function MobileNavigation() {
   );
 }
 
+export default MobileNavigation;
 
 export function Header() {
   return (
