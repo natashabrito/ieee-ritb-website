@@ -7,11 +7,8 @@ import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { Image } from 'next/image'
-import { useRouter } from 'next/router';
 
 function MobileNavigation() {
-  const router = useRouter();
-
   return (
     <Popover>
       {({ open, close }) => (
@@ -65,39 +62,24 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="/gallery">
-                    <a
-                      className={clsx('block w-full', {
-                        'font-bold text-black': router.pathname === '/gallery',
-                      })}
-                      onClick={() => close()}
-                    >
+                  <Link href="/gallery" className="block w-full" onClick={() => close()}>
+                    
                       Gallery
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faculty">
-                    <a
-                      className={clsx('block w-full', {
-                        'font-bold text-black': router.pathname === '/faculty',
-                      })}
-                      onClick={() => close()}
-                    >
+                  <Link href="/faculty" className="block w-full" onClick={() => close()}>
+                    
                       Faculty
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contactus">
-                    <a
-                      className={clsx('block w-full', {
-                        'font-bold text-black': router.pathname === '/contactus',
-                      })}
-                      onClick={() => close()}
-                    >
+                  <Link href="/contactus" className="block w-full" onClick={() => close()}>
+                    
                       Contact Us
-                    </a>
+                    
                   </Link>
                 </li>
               </Popover.Panel>
@@ -108,8 +90,6 @@ function MobileNavigation() {
     </Popover>
   );
 }
-
-export default MobileNavigation;
 
 export function Header() {
   return (
