@@ -1,12 +1,13 @@
-import { Fragment } from 'react'
-import Link from 'next/link'
-import { Popover, Transition } from '@headlessui/react'
-import clsx from 'clsx'
+import { Fragment } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { Popover, Transition } from '@headlessui/react';
+import clsx from 'clsx';
 
-import { ButtonLink } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { Image } from 'next/image'
+import { ButtonLink } from '@/components/Button';
+import { Container } from '@/components/Container';
+import { Logo } from '@/components/Logo';
+import { Image } from 'next/image';
 
 function MobileNavigation() {
   return (
@@ -63,23 +64,17 @@ function MobileNavigation() {
               >
                 <li>
                   <Link href="/gallery" className="block w-full" onClick={() => close()}>
-                    
-                      Gallery
-                    
+                    Gallery
                   </Link>
                 </li>
                 <li>
                   <Link href="/faculty" className="block w-full" onClick={() => close()}>
-                    
-                      Faculty
-                    
+                    Faculty
                   </Link>
                 </li>
                 <li>
                   <Link href="/contactus" className="block w-full" onClick={() => close()}>
-                    
-                      Contact Us
-                    
+                    Contact Us
                   </Link>
                 </li>
               </Popover.Panel>
@@ -92,70 +87,50 @@ function MobileNavigation() {
 }
 
 export function Header() {
+  const router = useRouter(); 
   return (
-    <header className="z-50 border border-b bg-blue-50 py-2 shadow-md">
-      <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl">
-        <div className="mx-auto max-w-6xl">
-          <nav className="relative z-50 text-sm">
-            <ul className="flex items-center">
-              <li>
-                <Link href="/">
-
-                  <Logo className="h-10 w-auto" />
-
-                </Link>
-              </li>
-              <li className="ml-12 mt-4 hidden md:block">
-                <Link
-                  href="/"
-                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-
-                  <b>Home</b>
-
-                </Link>
-              </li>
-              <li className="ml-6 mt-4 hidden md:block">
-                <Link
-                  href="/faculty"
-                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  
-                    Faculty
-                  
-                </Link>
-              </li>
-              <li className="ml-6 mt-4 hidden md:block">
-                <Link
-                  href="/gallery"
-                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  
-                    Gallery
-                  
-                </Link>
-              </li>
-              <li className="ml-6 mt-4 hidden md:block">
-                <Link
-                  href="/contactus"
-                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  
-                    Contact Us
-                  
-                </Link>
-              </li>
-              <li className="ml-auto md:ml-8 lg:hidden">
-                <ButtonLink href="/" className="bg-[#273D61]">
-                  <span>
-                    <span className="hidden lg:inline"></span>
-                    Home
-                  </span>
-                </ButtonLink>
-              </li>
-              <li className="-mr-1 ml-5 md:hidden">
-                <MobileNavigation />
-              </li>
-            </ul>
-          </nav>
+    <header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
+      <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
+        <div>
+          <Link href="/">
+            <Logo className="h-10 w-auto" />
+          </Link>
         </div>
+        <nav className="text-sm">
+          <ul className="flex items-center">
+            <li className="ml-12 hidden md:block">
+              <Link href="/" className={`nav-link ${router.pathname === '/' && 'active'}`}>
+                <b>Home</b>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="/faculty" className={`nav-link ${router.pathname === '/faculty' && 'active'}`}>
+                <b>Faculty</b>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="/gallery" className={`nav-link ${router.pathname === '/gallery' && 'active'}`}>
+                <b>Gallery</b>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="/contactus" className={`nav-link ${router.pathname === '/contactus' && 'active'}`}>
+                <b>Contact Us</b>
+              </Link>
+            </li>
+            <li className="-mr-1 ml-5 md:hidden">
+              <MobileNavigation />
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
 }
+
+
+
+
+
+
+
