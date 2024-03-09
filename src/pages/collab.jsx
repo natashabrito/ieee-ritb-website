@@ -42,9 +42,10 @@ export default function Home() {
                 <div className="relative isolate px-6 pt-14 lg:px-8">
                     <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
                         <div className="text-justify">
-                            <h1 className="mb-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                            <h1 className="flex justify-center font-display text-4xl font-medium text-slate-800">
                                 Collab
                             </h1>
+                            <div className="mx-auto max-w-4xl p-8"></div>
                             <Swiper
                                 spaceBetween={30}
                                 effect={'fade'}
