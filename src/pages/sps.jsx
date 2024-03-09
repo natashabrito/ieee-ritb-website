@@ -21,7 +21,7 @@ const images = [img3, img4, img5, img6, sps1, sps2]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>IEEE SPS CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -257,6 +257,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

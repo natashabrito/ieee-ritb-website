@@ -23,7 +23,7 @@ const images = [img2, img3, img5, img6, pes1, pes2]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>IEEE PES CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -189,6 +189,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Popover, Transition } from '@headlessui/react';
@@ -95,9 +96,29 @@ function MobileNavigation() {
 
 export function Header() {
   const router = useRouter();
-  
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos, visible]);
+
   return (
-    <header className="z-50 border border-b bg-blue-50 py-4 shadow-md">
+    <header
+      className={`z-50 border border-b bg-blue-50 py-4 shadow-md transition-all duration-500 ease-in-out ${
+        visible ? 'top-0' : '-top-full'
+      } fixed w-full`}
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-4 lg:max-w-4xl flex justify-between items-center">
         <div>
           <Link href="/">
@@ -126,7 +147,6 @@ export function Header() {
                 <b>Contact Us</b>
               </Link>
             </li>
-            {/* Mobile Navigation */}
             <li className="-mr-1 ml-5 md:hidden">
               <MobileNavigation />
             </li>
