@@ -82,7 +82,7 @@ const faculty_details = [
 
 export default function officebearers() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-32">
       <Head>
         <title>Faculty Members - IEEE | Ramaiah Institute of Technology</title>
       </Head>
@@ -90,7 +90,7 @@ export default function officebearers() {
       <section className="bg-blue-50">
         <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-8">
           <div className="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
-            <h2 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900">
               Faculty Members of <span className="text-sky-800">IEEE RITB</span>
             </h2>
           </div>
@@ -154,6 +154,6 @@ export default function officebearers() {
         </div>
       </section>
       <Footer />
-    </>
+    </section>
   );
 }

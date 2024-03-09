@@ -132,7 +132,7 @@ const members = [
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>IEEE APS CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -239,6 +239,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }
