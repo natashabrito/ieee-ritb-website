@@ -26,7 +26,7 @@ const images = [img1, img2, img3, img4, img5, img6, cs1, cs2, cs3, cs4, cs5]
 
 export default function Home() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
       <Head>
         <title>
           IEEE Computer Society| IEEE Ramaiah Institute of Technology
@@ -331,6 +331,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   )
 }

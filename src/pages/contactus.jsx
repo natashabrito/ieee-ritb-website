@@ -1,29 +1,30 @@
 import Head from 'next/head'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { Container } from '@/components/Container'
 
-export default function Contactus() {
+export default function ContactUs() {
   return (
-    <>
+    <section className="bg-100 text-gray-800 pt-20">
       <div className="neumorphismbg">
         <Head>
-          <title>Contact Us - IEEE</title>
+          <title>Contact Us | IEEE</title>
         </Head>
         <Header />
-        <section className="body-font text-gray-600" style={{ justifyContent: "center" }}>
+        <section className="bg-blue-50" style={{ justifyContent: "center" }}>
           <div className="container mx-auto flex flex-col px-5 py-12">
             <div className="mx-auto lg:w-4/6">
-              <h1 style={{ fontSize: '2.5em', fontFamily: 'Josefin Sans', color: '#272343', fontWeight: 'bold', textAlign: 'center' }}>CONTACT US</h1>
-              <hr />
-              <div className="flex flex-col sm:flex-row justify-center items-center my-20">
+              <h1 className="mt-8 flex justify-center font-display text-4xl font-medium text-slate-800">Contact Us</h1>
+              <hr className="my-8" />
+              <div className="flex flex-col md:flex-row justify-center items-center">
                 {/* Address Card */}
-                <div className="w-full sm:w-1/2 mb-8 sm:mb-0 mx-20">
-                  <div className="text-center sm:text-left bg-gray-100 p-6 rounded-lg">
-                    <p className="text-lg font-bold">IEEE-RIT</p>
-                    <p className="text-base">Ramaiah Institute of Technology</p>
-                    <p className="text-sm">MSR Nagar, MSRIT Post, Mathikere</p>
-                    <p className="text-sm">Bangalore-560054</p>
-                    <p className="text-base mt-5 font-medium">
+                <div className="w-full md:w-2/3 mb-8 md:mb-0 mx-4 md:mx-8">
+                  <div className="text-center sm:text-center bg-gray-100 p-6 rounded-lg">
+                    <p className="text-lg font-bold mb-2">IEEE RIT</p>
+                    <p className="text-base mb-2">Ramaiah Institute Of Technology</p>
+                    <p className="text-sm mb-2">MSR Nagar, MSRIT Post, Mathikere</p>
+                    <p className="text-sm mb-2">Bangalore-560054</p>
+                    <p className="text-base mt-4 font-medium">
                       <span className="text-primary mr-3" style={{ verticalAlign: 'middle' }}>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -38,57 +39,55 @@ export default function Contactus() {
                         </svg>
                       </span>
                       <span style={{ display: 'inline-block', verticalAlign: 'middle' }}>
-                        <a href="mailto:ieeeritb@gmail.com">ieeeritb@gmail.com</a>
+                        <a href="mailto:ieeeritb@gmail.com" className="text-primary">ieeeritb@gmail.com</a>
                       </span>
                     </p>
-                  </div>
-                </div>
-                {/* Google Map */}
-                <div className="w-full sm:w-1/2">
-                  <div style={{ width: '100%', borderRadius: '10px' }}>
-                    <iframe
-                      width="100%"
-                      height="300"
-                      frameborder="0"
-                      scrolling="no"
-                      marginheight="0"
-                      marginwidth="0"
-                      src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=Ramaiah%20Institute%20of%20Technology+(IEEE)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                      style={{ borderRadius: '10px' }}
-                    ></iframe>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div className="flex flex-col lg:flex-row justify-center items-center" style={{ marginBottom: '30px' }}>
-          <div className="lg:flex-col justify-center lg:items-center  lg:mr-12">
-          <div className="flex flex-col items-center">
+        <div className="container bg-gradient-to-b from-blue-50 to-white mx-auto flex flex-col px-5 py-12">
+          <div className="mx-auto lg:w-4/6">
+            <div className="flex flex-col md:flex-row justify-center items-center">
+              {/* Google Map */}
+              <div className="w-full md:w-2/3 mx-4 md:mx-8 mb-8 md:mb-0">
+                <div style={{ width: '100%', borderRadius: '10px' }}>
+                  <iframe
+                    width="100%"
+                    height="300"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=Ramaiah%20Institute%20of%20Technology+(IEEE)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    style={{ borderRadius: '10px' }}
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center items-center my-16 md:my-12">
+          <div className="flex flex-col items-center md:mx-4 ">
             <iframe src="https://lottie.host/?file=23ecd9fa-1719-42c7-bcef-b021c5e3c509/eHhdi9dHx9.json" style={{ border: 'none', height: '100px' }}></iframe>
-            <p className="text-center lg:text-left">Write us on</p>
-            <a className="text-center lg:text-left" href="mailto:ieeeritb@gmail.com">ieeeritb@gmail.com</a>
+            <p className="text-center lg:text-left font-semibold mt-4">Write to us on</p>
+            <a className="text-center lg:text-left text-primary" href="mailto:ieeeritb@gmail.com">ieeeritb@gmail.com</a>
           </div>
+          <div className="flex flex-col items-center md:mx-4 mt-5">
+            <iframe src="https://lottie.host/?file=94896b6f-5561-481d-8924-ed335c23637b/eAdCe077z7.json" style={{ border: 'none', height: '80px' }}></iframe>
+            <p className="text-center lg:text-left font-semibold mt-4">Reach us on</p>
+            <a className="text-center lg:text-left text-primary" href="tel:+918123846788">(+91) 81238 46788</a>
           </div>
-          <div className="lg:flex-col justify-center lg:items-center lg:mr-12">
-           <div className="flex flex-col items-center">
-              <iframe src="https://lottie.host/?file=94896b6f-5561-481d-8924-ed335c23637b/eAdCe077z7.json" style={{ border: 'none', height: '100px' }}></iframe>
-              <p className="text-center lg:text-left">Reach us on</p>
-              <a className="text-center lg:text-left" href="tel:+918123846788">(+91) 81238 46788</a>
-           </div>
- 
-          </div>
-
-          <div className="lg:flex-col justify-center  lg:items-center">
-          <div className="flex flex-col items-center">
-            <iframe src="https://lottie.host/?file=1341d09a-b282-4dc2-8685-e26dc2784943/Nu0yAutyXc.json" style={{ border: 'none', height: '100px' }}></iframe>
-            <p className="text-center lg:text-left">Follow us on insta</p>
-            <a className="text-center lg:text-left" href="https://www.instagram.com/ieeeritb">@ieeeritb</a>
-          </div>
+          <div className="flex flex-col items-center md:mx-4 mt-[-1rem]">
+            <iframe src="https://lottie.host/?file=1341d09a-b282-4dc2-8685-e26dc2784943/Nu0yAutyXc.json" style={{ border: 'none', height: '120px' }}></iframe>
+            <p className="text-center lg:text-left font-semibold mt-4">Follow us on Instagram</p>
+            <a className="text-center lg:text-left text-primary" href="https://www.instagram.com/ieeeritb">@ieeeritb</a>
           </div>
         </div>
         <Footer />
       </div>
-    </>
+    </section>
   )
 }
