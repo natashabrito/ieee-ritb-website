@@ -12,7 +12,7 @@ export default function ContactUs() {
         </Head>
         <Header />
         <section className="bg-blue-50" style={{ justifyContent: "center" }}>
-          <div className="container mx-auto flex flex-col px-5 py-12">
+          <div className="mt-2 container mx-auto flex flex-col px-5 py-12">
             <div className="mx-auto lg:w-4/6">
               <h1 className="mt-8 flex justify-center font-display text-4xl font-medium text-slate-800">Contact Us</h1>
               <hr className="my-8" />
