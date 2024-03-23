@@ -81,6 +81,11 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/collab" className={`block w-full mob-button ${router.pathname === '/collab' && 'active'}`} onClick={() => close()}>
+                   <b>Collab</b> 
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contactus" className={`block w-full mob-button ${router.pathname === '/contactus' && 'active'}`} onClick={() => close()}>
                    <b>Contact Us</b> 
                   </Link>
@@ -140,6 +145,11 @@ export function Header() {
             <li className="ml-6 hidden md:block">
               <Link href="/gallery" className={`nav-link ${router.pathname === '/gallery' && 'active'}`}>
                 <b>Gallery</b>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="/collab" className={`nav-link ${router.pathname === '/collab' && 'active'}`}>
+                <b>Collab</b> 
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
