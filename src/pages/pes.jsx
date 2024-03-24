@@ -155,7 +155,7 @@ export default function Home() {
                 <Member name="venu gopal"
                   designation="Member"
                   link="https://www.linkedin.com/in/venu-gopal-9bb371284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/venu%20gopal%20_%201MS23EI016-T.pdf?raw=true">
+                  image="https://drive.google.com/thumbnail?id=1fXwx_Ptftyd9nbvMgYCD09rHoUWctm5O">
                 </Member>
                 <Member name="Manish Bennalli"
                   designation="Member"
