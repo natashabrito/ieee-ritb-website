@@ -42,90 +42,90 @@ export default function Home() {
               </p>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-    <Member
-        name="Maitreyi Darbha"
-        designation="Head"
-        link="https://www.linkedin.com/in/maitreyi-darbha-929020234/"
-        image=""
-    ></Member>
+                <Member
+                  name="Maitreyi Darbha"
+                  designation="Head"
+                  link="https://www.linkedin.com/in/maitreyi-darbha-929020234/"
+                  image="https://drive.google.com/thumbnail?id=1KtAGIM1N3xjB95u_NOhfmY0Evgb9bpss"
+                ></Member>
 
-    <Member
-        name="Tanisha Saxena"
-        designation="Member"
-        link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Tanisha_1MS21IS114.jpg"
-    ></Member>
+                <Member
+                  name="Tanisha Saxena"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Tanisha_1MS21IS114.jpg"
+                ></Member>
 
-    <Member
-        name="Abhinav Singh"
-        designation="Member"
-        link="https://www.linkedin.com/in/abhinav-singh-37547a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Abhinav%20Singh_1MS22ME004.jpg"
-    ></Member>
+                <Member
+                  name="Abhinav Singh"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/abhinav-singh-37547a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Abhinav%20Singh_1MS22ME004.jpg"
+                ></Member>
 
-    <Member
-        name="Nibha Dongre"
-        designation="Member"
-        link="https://www.linkedin.com/in/nibha-dongre/"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/nibhasdongre_1MS22AI040.jpg"
-    ></Member>
+                <Member
+                  name="Nibha Dongre"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/nibha-dongre/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/nibhasdongre_1MS22AI040.jpg"
+                ></Member>
 
-    <Member
-        name="Akshat Ujjain"
-        designation="Member"
-        link="https://www.linkedin.com/in/akshat-ujjain-105263261"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Akshat%20Ujjain_1MS22ET001.jpg"
-    ></Member>
+                <Member
+                  name="Akshat Ujjain"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/akshat-ujjain-105263261"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Akshat%20Ujjain_1MS22ET001.jpg"
+                ></Member>
 
-    <Member
-        name="Rupam Sinha Roy"
-        designation="Member"
-        link="https://www.linkedin.com/in/rupam-roy-355172291?trk=contact-info"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/RUPAM%20SINHA%20ROY_1MS22BT036.jpg"
-    ></Member>
+                <Member
+                  name="Rupam Sinha Roy"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/rupam-roy-355172291?trk=contact-info"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/RUPAM%20SINHA%20ROY_1MS22BT036.jpg"
+                ></Member>
 
-    <Member
-        name="Yash Yalamalli"
-        designation="Member"
-        link="https://www.linkedin.com/in/yash-yalamalli-819889223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/YashYalamalli_1MS23IM024-T.jpg"
-    ></Member>
+                <Member
+                  name="Yash Yalamalli"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/yash-yalamalli-819889223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/YashYalamalli_1MS23IM024-T.jpg"
+                ></Member>
 
-    <Member
-        name="Dhrithi Ganesh"
-        designation="Member"
-        link="https://www.linkedin.com/in/dhrithi-ganesh-9a1745256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Dhrithi%20Ganesh%201MS22IM015.png"
-    ></Member>
+                <Member
+                  name="Dhrithi Ganesh"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/dhrithi-ganesh-9a1745256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Dhrithi%20Ganesh%201MS22IM015.png"
+                ></Member>
 
-    <Member
-        name="Shaikh Furqan"
-        designation="Member"
-        link="https://www.linkedin.com/in/shaikh-furqan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shaik%20Furqan_1MS23EI040-T.jpg"
-    ></Member>
+                <Member
+                  name="Shaikh Furqan"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shaikh-furqan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shaik%20Furqan_1MS23EI040-T.jpg"
+                ></Member>
 
-    <Member
-        name="Sachin R P"
-        designation="Member"
-        link="https://www.linkedin.com/in/sachin-r-p-5233472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/SACHIN%20R%20P%20_1MS22BT039_1.jpg"
-    ></Member>
+                <Member
+                  name="Sachin R P"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/sachin-r-p-5233472b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/SACHIN%20R%20P%20_1MS22BT039_1.jpg"
+                ></Member>
 
-    <Member
-        name="Shree Lakshmi S Shekar"
-        designation="Member"
-        link="https://www.linkedin.com/in/shree-lakshmi-s-shekar-760738266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shree%20Lakshmi%20S%20Shekar_1MS22IS129.jpeg"
-    ></Member>
+                <Member
+                  name="Shree Lakshmi S Shekar"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/shree-lakshmi-s-shekar-760738266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shree%20Lakshmi%20S%20Shekar_1MS22IS129.jpeg"
+                ></Member>
 
-    <Member
-        name="Arihant Jain"
-        designation="Member"
-        link="https://www.linkedin.com/in/arihj/"
-        image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/ARIHANT%20JAIN_1MS23IM054-T.jpeg"
-    ></Member>
-</div>
+                <Member
+                  name="Arihant Jain"
+                  designation="Member"
+                  link="https://www.linkedin.com/in/arihj/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/ARIHANT%20JAIN_1MS23IM054-T.jpeg"
+                ></Member>
+              </div>
 
 
               <div className="mt-10 flex items-center justify-center gap-x-6">

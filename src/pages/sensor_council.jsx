@@ -93,7 +93,7 @@ export default function Home() {
                   name="Souhadra Shrivastava"
                   designation="Chair"
                   link="https://www.linkedin.com/in/souhadra-shrivastava/"
-                  image="#"
+                  image="https://drive.google.com/thumbnail?id=1oKyVy5WVewK7wyrLXtfDB7AVetTYuFEo"
                 ></Member>
 
                 <Member
