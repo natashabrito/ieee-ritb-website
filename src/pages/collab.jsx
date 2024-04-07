@@ -5,9 +5,8 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Member } from '@/components/Member'
 
-import collab1 from "@/images/collab/1.png"
-import collab2 from "@/images/collab/2.png"
-import collab3 from "@/images/collab/3.png"
+import collab1 from "@/images/collab/2.png"
+import collab2 from "@/images/collab/3.png"
 
 import img1 from '@/images/home/p1.png';
 import img2 from '@/images/home/p2.png';
@@ -66,12 +65,11 @@ export default function Home() {
                                 {images.map((image, index) => (
                                     <SwiperSlide key={index}>
                                         <Image
-                                            className="lg:h-128 w-full object-fill"
+                                            className="lg:h-128 w-full object-cover"
                                             src={image}
                                             alt={index}
                                             width={1795}
                                             height={850}
-                                            objectFit="cover"
                                             border-radius="10px"
                                         />
                                     </SwiperSlide>
@@ -90,15 +88,20 @@ export default function Home() {
                         </div>
 
                         <h1 className='text-3xl mt-10 font-semibold'>Collabs</h1>
-                        <div className="flex flex-col md:flex-row justify-between items-center mt-4 mb-10">
-                            <Image src={collab1} width={300} height={300} alt='collab-image' />
-                            <Image src={collab2} width={300} height={300} alt='collab-image' />
-                            <Image src={collab3} width={300} height={300} alt='collab-image' />
+                        <div className="flex flex-col md:flex-row items-center gap-6 mt-4 mb-10">
+                            <Image src={collab1} width={300} height={300} alt='collab-image' className='rounded-lg' />
+                            <Image src={collab2} width={300} height={300} alt='collab-image' className='rounded-lg' />
                         </div>
                         <h1 className='text-3xl mt-20 font-semibold'>People</h1>
                         <div className="flex flex-col gap-6 md:flex-row mt-4 mb-10">
-                            <div className='h-[200px] w-[200px] rounded-lg bg-gray-100 text-gray-400 flex items-center justify-center'>
-                                <FaUserLarge size={48} />
+                            <div className='h-[200px] w-[200px] rounded-lg bg-gray-100 text-gray-400 flex'>
+                                <Image
+                                    src={"https://github.com/sanjay212003/sps-members/blob/main/NehaC_1MS21MD016.jpg?raw=true"}
+                                    width={200}
+                                    height={200}
+                                    alt='Neha C.'
+                                    className='object-cover rounded-lg'
+                                />
                             </div>
                             <div className='md:w-[calc(100%-220px)] w-full'>
                                 <h1 className="text-2xl">Neha Channaiah</h1>

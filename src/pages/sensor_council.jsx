@@ -57,12 +57,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1795}
                       height={850}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>
@@ -93,7 +92,7 @@ export default function Home() {
                   name="Souhadra Shrivastava"
                   designation="Chair"
                   link="https://www.linkedin.com/in/souhadra-shrivastava/"
-                  image="#"
+                  image="https://drive.google.com/thumbnail?id=1oKyVy5WVewK7wyrLXtfDB7AVetTYuFEo"
                 ></Member>
 
                 <Member

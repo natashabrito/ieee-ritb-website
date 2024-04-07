@@ -160,12 +160,11 @@ export function Hero() {
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
-                className="h-auto w-full rounded-lg shadow-lg"
+                className="h-auto w-full rounded-lg shadow-lg object-cover"
                 src={image}
                 alt={index + 'image'}
                 width={1920}
                 height={1080}
-                objectFit="cover"
               />
             </SwiperSlide>
           ))}
@@ -214,12 +213,11 @@ export function Hero() {
           {images1.map((image, index) => (
             <SwiperSlide key={index}>
               <Image
-                className="h-auto w-full rounded-lg shadow-lg"
+                className="h-auto w-full rounded-lg shadow-lg object-cover"
                 src={image}
                 alt={index + 'image'}
                 width={1920}
                 height={1080}
-                objectFit="cover"
               />
             </SwiperSlide>
           ))}
