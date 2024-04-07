@@ -131,9 +131,9 @@ export default function officebearers() {
                 className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
               >
                 <div className="bg-white p-4 flex flex-col items-center">
-                  <div className="flex justify-center h-[200px] w-[200px]">
+                  <div className="flex justify-center w-[250px] h-[200px] md:w-[200px]">
                     <Image
-                      className="flex-shrink-0 rounded-lg object-cover"
+                      className="flex-shrink-0 rounded-lg object-cover w-[250px] md:w-[200px]"
                       src={member.image}
                       width={200}
                       height={200}
