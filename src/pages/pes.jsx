@@ -60,12 +60,11 @@ export default function Home() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index}>
                     <Image
-                      className="lg:h-128 h-96 w-full object-fill"
+                      className="lg:h-128 h-96 w-full object-cover"
                       src={image}
                       alt={index}
                       width={1745}
                       height={800}
-                      objectFit="cover"
                       border-radius="10px"
                     />
                   </SwiperSlide>

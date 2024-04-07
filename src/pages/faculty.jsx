@@ -105,18 +105,18 @@ export default function officebearers() {
                     <Image
                       className="flex-shrink-0 rounded-lg object-cover"
                       src={member.image}
-                      width="200px"
-                      height="200px"
+                      width={250}
+                      height={250}
                     />
                   </div>
                   <div className="mt-2 text-center">
                     <p className="text-md font-medium text-slate-800">
                       {member.designation}
                     </p>
-                    <p className="text-xl font-semibold text-gray-900">
+                    <p className="text-xl font-semibold mb-3 text-gray-900">
                       {member.name}
                     </p>
-                    <a href={member.link} className="text-md font-medium text-blue-500 underline">
+                    <a href={member.link} className="text-md font-medium bg-blue-500 text-white py-2 px-3 rounded-md">
                       View Profile
                     </a>
                   </div>
@@ -124,19 +124,19 @@ export default function officebearers() {
               </div>
             ))}
           </div>
-          <div className="flex flex-col items-center justify-center gap-8 md:flex-row lg:mb-16">
+          <div className="flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row lg:mb-16">
             {faculty_details.map((member) => (
               <div
                 key={member.name}
                 className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
               >
-                <div className="bg-white p-4">
-                  <div className="flex justify-center">
+                <div className="bg-white p-4 flex flex-col items-center">
+                  <div className="flex justify-center w-[250px] h-[200px] md:w-[200px]">
                     <Image
-                      className="flex-shrink-0 rounded-lg object-cover"
+                      className="flex-shrink-0 rounded-lg object-cover w-[250px] md:w-[200px]"
                       src={member.image}
-                      width="200px"
-                      height="200px"
+                      width={200}
+                      height={200}
                     />
                   </div>
                   <div className="mt-2 text-center">
