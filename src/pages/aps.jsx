@@ -128,7 +128,7 @@ const members = [
   {
     name: "Sneha Vijay ",
     designation: "Member",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270",//not uploaded
+    link: "",//not uploaded
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
   },
 
@@ -136,7 +136,14 @@ const members = [
     name: "Bhargava Siddhartha B ",
     designation: "Member",
     link: "http://linkedin.com/in/bhargava-siddhartha-b-b659b1280",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
+    image: ""
+  },
+
+  {
+    name: "D Shravan Narayana",
+    designation: "Member",
+    link: "https://www.linkedin.com/in/shravan-narayana-d-2b6a1b280",
+    image: ""//not uploaded
   },
 ];
 
