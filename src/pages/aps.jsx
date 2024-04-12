@@ -37,39 +37,43 @@ const images = [
 ]
 const members = [
   {
-    name: "Banu Prasad",
+    name: "Banu Prasad M",
     designation: "Chair",
     link: "https://www.linkedin.com/in/banu-prasad-m-925558270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Banu%20Prasad%20M_1MS21EC034.jpeg?raw=true"
   },
-  {
-    name: "Dheeraj V",
-    designation: "Vice Chair",
-    link: "http://www.linkedin.com/in/dheerajv624",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
-  },
+  
   {
     name: "Kokila",
     designation: "Secretary",
     link: "https://www.linkedin.com/in/kokila-s-642161252",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Kokila_1MS21EE029.jpg?raw=true"
   },
-  {
-    name: "Disha K",
-    designation: "Co- Secretary",
-    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://drive.google.com/thumbnail?id=1EjBWat9H7vBRshsFqTZqRAHYC3-Zcfhb"//not uploaded
-  },
-  
-  {
+
+   {
     name: "Chandrak",
     designation: "Treasurer",
     link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Chandrak%20Jayakumar_1ms21ec039.jpg?raw=true"
   },
+  
+  {
+    name: "Dheeraj V",
+    designation: "Vice Chair",
+    link: "http://www.linkedin.com/in/dheerajv624",
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
+  },
+  
+  {
+    name: "Disha K",
+    designation: "Vice Secretary",
+    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "https://drive.google.com/thumbnail?id=1EjBWat9H7vBRshsFqTZqRAHYC3-Zcfhb"//not uploaded
+  },
+  
   {
     name: "B M Vishnu",
-    designation: "Co - Treasurer",
+    designation: "Vice Treasurer",
     link: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true"
   },
