@@ -132,6 +132,12 @@ const members = [
     image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
   },
 
+  {
+    name: "Bhargava Siddhartha B ",
+    designation: "Member",
+    link: "http://linkedin.com/in/bhargava-siddhartha-b-b659b1280",
+    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
+  },
 ];
 
 export default function Home() {
