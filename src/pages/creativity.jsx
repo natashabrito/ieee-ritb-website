@@ -91,13 +91,6 @@ const members = [
       'https://github.com/aarthipv/profileimages/blob/main/creativity/Nandini%20Poojari%201MS22EE031.jpg?raw=true',
   },
   {
-    name: 'Ankita M Jaka ',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/dhanrajrateria',//not uploaded
-    image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
-  },
-  {
     name: 'Zayaan Hussain',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/zayaan-hussain-21a9472b2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
