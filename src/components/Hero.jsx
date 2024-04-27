@@ -339,7 +339,7 @@ export function Hero() {
           {item.name}
         </h3>
         {/* Image */}
-        <img src={item.image} alt={item.name} className="w-full h-full object-cover rounded-xl mt-4" />
+        <Image src={item.image} alt={item.name} height={100} width={100} className="w-full h-full object-cover rounded-xl mt-4" />
         {/* Description and View Button */}
         <div className="absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300">
           <div className="bg-white p-2 rounded-xl shadow-lg">
