@@ -103,8 +103,7 @@ const routs = [
   {
     name: 'WIE',
     link: '/wie',
-    description: "IEEE RIT-B Women in Engineering (IEEE RIT-B WIE), founded in 2016, empowers women in tech through dynamic events, fostering inclusivity, and promoting professional growth. We strive to overcome challenges, inspire STEM careers, and create a supportive environment for women's success."
-    ,
+    description: "IEEE RIT-B Women in Engineering (IEEE RIT-B WIE), founded in 2016, empowers women in tech through dynamic events, fostering inclusivity, and promoting professional growth. We strive to overcome challenges, inspire STEM careers, and create a supportive environment for women's success.",
     image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/WIE.jpg?raw=true',
   },
   {
@@ -334,8 +333,7 @@ export function Hero() {
   {routs.map((item, index) => (
     <li
       key={index}
-      className="rounded-xl shadow-lg ring ring-indigo-50 transition hover:shadow-sm relative overflow-hidden"
-    >
+       className="rounded-xl shadow-lg ring ring-red-50 transition hover:shadow-xl hover:ring-blue-200 hover:scale-110 relative overflow-hidden">
       <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
         <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
           {item.name}
@@ -344,13 +342,14 @@ export function Hero() {
         <img src={item.image} alt={item.name} className="w-full h-full object-cover rounded-xl mt-4" />
         {/* Description and View Button */}
         <div className="absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300">
-          <div className="bg-white p-2 rounded-xl">
+          <div className="bg-white p-2 rounded-xl shadow-lg">
             <p className="text-xs text-gray-500 mt-2">{item.description}</p>
           </div>
           <a href={item.link} className="mt-2">
-            <button className="rounded-lg border bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:border-transparent hover:bg-blue-900 hover:text-white">
-              View
-            </button>
+          <button className="rounded-lg border border-blue-700 bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:bg-blue-900 hover:text-white hover:border-transparent transform transition duration-300 hover:scale-105">
+          View
+          </button>
+
           </a>
         </div>
       </div>
