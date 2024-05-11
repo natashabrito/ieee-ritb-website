@@ -259,7 +259,7 @@ export function Hero() {
 
 
 
-      <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg">
+      <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform :shadow-lg">
           <h1 className="text-md lg:text-3xl text-center font-bold mb-5">
             Why <span className="text-lg lg:text-3xl font-bold text-blue-500">IEEE RIT-B?</span>
           </h1>
@@ -328,33 +328,39 @@ export function Hero() {
           </h1>
           <ul
   role="list"
-  className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
+  className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-14 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
 >
-  {routs.map((item, index) => (
-    <li
-      key={index}
-       className="rounded-xl shadow-lg ring ring-red-50 transition hover:shadow-xl hover:ring-blue-200 hover:scale-110 relative overflow-hidden">
-      <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
-        <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
-          {item.name}
-        </h3>
-        {/* Image */}
-        <Image src={item.image} alt={item.name} height={100} width={100} className="w-full h-full object-cover rounded-xl mt-4" />
-        {/* Description and View Button */}
-        <div className="absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300">
-          <div className="bg-white p-2 rounded-xl shadow-lg">
-            <p className="text-xs text-gray-500 mt-2">{item.description}</p>
-          </div>
-          <a href={item.link} className="mt-2">
+{routs.map((item, index) => (
+  <li
+    key={index}
+    className="relative rounded-xl shadow-lg ring ring-red-50 transition hover:shadow-xl hover:ring-blue-200 hover:scale-110 overflow-hidden"
+  >
+    <div className="bg-blue-100 p-5 sm:p-6">
+      <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
+        {item.name}
+      </h3>
+      {/* Image */}
+      <Image
+        src={item.image}
+        alt={item.name}
+        height={100}
+        width={100}
+        className="w-full h-full object-cover rounded-xl mt-4"
+      />
+      {/* Description and View Button */}
+      <div className="absolute inset-0 bg-black bg-opacity-70 p-2 rounded-xl transition-all duration-300 opacity-0 hover:opacity-100 flex flex-col items-center justify-center">
+        <p className="text-xs text-white">{item.description}</p>
+        <a href={item.link} className="mt-2">
           <button className="rounded-lg border border-blue-700 bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:bg-blue-900 hover:text-white hover:border-transparent transform transition duration-300 hover:scale-105">
-          View
+            View
           </button>
-
-          </a>
-        </div>
+        </a>
       </div>
-    </li>
-  ))}
+    </div>
+  </li>
+))}
+
+
 </ul>
 
 
