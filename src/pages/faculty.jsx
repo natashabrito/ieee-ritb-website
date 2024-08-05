@@ -19,12 +19,6 @@ const faculty_head = [
     link: 'https://msrit.edu/department/faculty-detail.html?dept=ece&ID=5',
     image: head2,
   },
-  {
-    name: 'Dr. Shobha K R',
-    designation: 'Student Branch Advisor',
-    link: 'https://msrit.edu/department/faculty-detail.html?dept=te&ID=3',
-    image: head3,
-  },
 ]
 
 const faculty_details = [
@@ -37,14 +31,14 @@ const faculty_details = [
   },
   {
     dept: 'CSE',
-    name: 'Dr. Parkavi A',
+    name: 'Dr. Parkavi A.',
     chapter: 'WIE',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=9',
     image: 'https://image.ibb.co/bwVi2F/AParkavi.jpg',
   },
   {
     dept: 'EEE',
-    name: 'Dr. Sridhar. S',
+    name: 'Dr. Sridhar S.',
     chapter: 'PES',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=eee&ID=5',
     image: 'https://i.ibb.co/jTksqZ7/Dr-Sridhar-S.jpg',
@@ -57,16 +51,15 @@ const faculty_details = [
     image: 'https://image.ibb.co/dHXjWk/2017_08_29_13_09_29.jpg',
   },
   {
-    dept: 'ETE',
-    name: 'Dr. Shobha K R',
-    chapter: 'ComSoc',
-    link: 'https://msrit.edu/department/faculty-detail.html?dept=te&ID=3',
-    image:
-      'https://site.ieee.org/sb-ritb/files/2020/07/KRS-Shobha-K.R-IEEE-RIT-B-500x480.jpg',
+    dept: 'ECE',
+    name: 'Dr. S. Imaculate Rosaline',
+    chapter: 'APS',
+    link: 'https://msrit.edu/department/faculty-detail.html?dept=ece&ID=26',
+    image: 'https://i.ibb.co/XJYf8gR/rosynew1.jpg',
   },
   {
     dept: 'CSE',
-    name: 'Dr. Parkavi A',
+    name: 'Dr. Parkavi A.',
     chapter: 'Computer Society',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=9',
     image: 'https://image.ibb.co/bwVi2F/AParkavi.jpg',
@@ -82,7 +75,7 @@ const faculty_details = [
 
 export default function officebearers() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-32">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white pt-32 text-gray-800">
       <Head>
         <title>Faculty Members - IEEE | Ramaiah Institute of Technology</title>
       </Head>
@@ -98,7 +91,7 @@ export default function officebearers() {
             {faculty_head.map((member) => (
               <div
                 key={member.name}
-                className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
+                className="mb-4 overflow-hidden rounded-lg border border-blue-100 shadow-lg md:mb-0 md:mr-4"
               >
                 <div className="bg-white p-4">
                   <div className="flex justify-center">
@@ -113,10 +106,13 @@ export default function officebearers() {
                     <p className="text-md font-medium text-slate-800">
                       {member.designation}
                     </p>
-                    <p className="text-xl font-semibold mb-3 text-gray-900">
+                    <p className="mb-3 text-xl font-semibold text-gray-900">
                       {member.name}
                     </p>
-                    <a href={member.link} className="text-md font-medium bg-blue-500 text-white py-2 px-3 rounded-md">
+                    <a
+                      href={member.link}
+                      className="text-md rounded-md bg-blue-500 px-3 py-2 font-medium text-white"
+                    >
                       View Profile
                     </a>
                   </div>
@@ -128,12 +124,12 @@ export default function officebearers() {
             {faculty_details.map((member) => (
               <div
                 key={member.name}
-                className="overflow-hidden rounded-lg border border-blue-100 shadow-lg mb-4 md:mb-0 md:mr-4"
+                className="mb-4 overflow-hidden rounded-lg border border-blue-100 shadow-lg md:mb-0 md:mr-4"
               >
-                <div className="bg-white p-4 flex flex-col items-center">
-                  <div className="flex justify-center w-[250px] h-[200px] md:w-[200px]">
+                <div className="flex flex-col items-center bg-white p-4">
+                  <div className="flex h-[200px] w-[250px] justify-center md:w-[200px]">
                     <Image
-                      className="flex-shrink-0 rounded-lg object-cover w-[250px] md:w-[200px]"
+                      className="w-[250px] flex-shrink-0 rounded-lg object-cover md:w-[200px]"
                       src={member.image}
                       width={200}
                       height={200}
@@ -146,7 +142,10 @@ export default function officebearers() {
                     <div className="text-md font-semibold text-gray-500">
                       {member.chapter}
                     </div>
-                    <a href={member.link} className="text-md font-medium text-blue-500 underline">
+                    <a
+                      href={member.link}
+                      className="text-md font-medium text-blue-500 underline"
+                    >
                       View Profile
                     </a>
                   </div>
@@ -158,5 +157,5 @@ export default function officebearers() {
       </section>
       <Footer />
     </section>
-  );
+  )
 }
