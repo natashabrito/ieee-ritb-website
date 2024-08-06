@@ -19,13 +19,7 @@ const members = [
     image:
       'https://github.com/aarthipv/profileimages/blob/main/creativity/NirmithaSReddy_1MS21CV063.png?raw=true',
   },
-  {
-    name: 'Chinmay B Gowda',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/chinmay-b-gowda-aa73ba279/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    image:
-      'https://github.com/aarthipv/profileimages/blob/main/creativity/Chinmay%20b%20gowda%201MS21EI066.jpg?raw=true',
-  },
+
   {
     name: 'Khushi Rautela ',
     designation: 'Member',
@@ -37,9 +31,8 @@ const members = [
     name: 'Deekshita M',
     designation: 'Member',
     link: 'https://www.linkedin.com/in/deekshitha-m-964413266/?trk=contact-info',
-    image: 'https://github.com/aarthipv/profileimages/blob/main/creativity/Deekshitha%20M_1MS22EC038_.jpg?raw=true',
-    
-   
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/creativity/Deekshitha%20M_1MS22EC038_.jpg?raw=true',
   },
   {
     name: 'Dhanush Kumbar',
@@ -111,13 +104,7 @@ const members = [
     image:
       'https://github.com/aarthipv/profileimages/blob/main/creativity/M%20R%20Mohan%20Reddy%201MS22EC069.jpg?raw=true',
   },
-  {
-    name: 'Sahana Bhagavant Savantanavar',
-    designation: 'Member',
-    link: 'https://www.linkedin.com/in/sahana-savantanavar-162b20259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    image:
-      'https://drive.google.com/uc?id=1P__rOfY4ik__wmjTU6_p9Wj587B9gJMr&export=view',//not uploaded
-  },
+
   {
     name: 'Sachin R P ',
     designation: 'Member',
@@ -136,7 +123,7 @@ const members = [
 
 export default function Home() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white pt-16 text-gray-800">
       <Head>
         <title>IEEE CREATIVITY || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -146,14 +133,14 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <div className="relative isolate px-6 pt-14 lg:px-8 bg-blue-50">
+        <div className="relative isolate bg-blue-50 px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
             <div className="">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE CREATIVITY
               </h1>
               <div>
-                <h1 className="mt-10 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-900 tracking-tight">
+                <h1 className="mt-10 text-base tracking-tight text-gray-900 sm:text-lg md:text-xl lg:text-2xl">
                   We facilitate “unmistakably IEEE” quality creative work while
                   saving the organisation time and money.
                 </h1>

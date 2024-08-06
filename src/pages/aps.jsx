@@ -33,123 +33,147 @@ const images = [
   },
   {
     link: aps4,
-  }
+  },
 ]
 const members = [
   {
-    name: "Banu Prasad M",
-    designation: "Chair",
-    link: "https://www.linkedin.com/in/banu-prasad-m-925558270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Banu%20Prasad%20M_1MS21EC034.jpeg?raw=true"
-  },
-  
-  {
-    name: "Kokila",
-    designation: "Secretary",
-    link: "https://www.linkedin.com/in/kokila-s-642161252",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Kokila_1MS21EE029.jpg?raw=true"
-  },
-
-   {
-    name: "Chandrak",
-    designation: "Treasurer",
-    link: "https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Chandrak%20Jayakumar_1ms21ec039.jpg?raw=true"
-  },
-  
-  {
-    name: "Dheeraj V",
-    designation: "Vice Chair",
-    link: "http://www.linkedin.com/in/dheerajv624",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true"
-  },
-  
-  {
-    name: "Disha K",
-    designation: "Vice Secretary",
-    link: "https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Disha%20Ravindra%20Kadarkoppa_1MS22EI017_?raw=true"
-  },
-  
-  {
-    name: "B M Vishnu",
-    designation: "Vice Treasurer",
-    link: "https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true"
-  },
-  {
-    name: "Sujay P C",
-    designation: "Member",
-    link: "",//not uploaded
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sujay%20P%20C_1MS22ET053.jpg?raw=true"
-  },
-  {
-    name: "Kishor Ravindra Hitnalli ",
-    designation: "Member",
-    link: "",//not uploaded
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/kishor%20Hitnalli%20(1ms22cy035).jpg?raw=true"
-  },
-  {
-    name: "Navya Ullas Rai",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/navya-ullas-rai-05884b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Navya%20Ullas%20Rai%20-%201MS23ET046-T.jpg?raw=true"
-  },
-  {
-    name: "Aarya P",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/aarya-p-1166a3259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Aarya%20P_1MS22EC004.jpg?raw=true"
-  },
-  {
-    name: "Akash Srivastava ",
-    designation: "Member",
-    link: "",//not uploaded
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Akash%20Srivastava%20ETE.jpg?raw=true"
-  },
-  {
-    name: "Bumika N R",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/bumika-n-r-b93b27283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bumika%20N%20R_1MS23ME026.jpg?raw=true"
-  },
-  {
-    name: "Sandra Elsa Subin ",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/sandra-subin-7973ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sandra%20Elsa%20Subin_%201MS22CH032.jpg?raw=true"
-  },
-  {
-    name: "Ayush Prabhat",
-    designation: "Member",
-    link: "http://linkedin.com/in/ayush-prabhat-b9911b2b3",
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Ayush_Prabhst_1ms22ei013.jpg?raw=true"
-  },
-  {
-    name: "Sneha Vijay ",
-    designation: "Member",
-    link: "",//not uploaded
-    image: "https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true"
+    name: 'Banu Prasad M',
+    designation: 'Chair',
+    link: 'https://www.linkedin.com/in/banu-prasad-m-925558270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Banu%20Prasad%20M_1MS21EC034.jpeg?raw=true',
   },
 
   {
-    name: "Bhargava Siddhartha B ",
-    designation: "Member",
-    link: "http://linkedin.com/in/bhargava-siddhartha-b-b659b1280",
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bhargava%20Siddhartha%20_%201MS21EC037.jpg?raw=true"
+    name: 'Kokila',
+    designation: 'Secretary',
+    link: 'https://www.linkedin.com/in/kokila-s-642161252',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Kokila_1MS21EE029.jpg?raw=true',
+  },
+  {
+    name: 'Disha K',
+    designation: 'Co- Secretary',
+    link: 'https://github.com/aarthipv/profileimages/blob/main/aps/Disha%20Ravindra%20Kadarkoppa_1MS22EI017%20.HEIC',
+    image:
+      'https://drive.google.com/thumbnail?id=1EjBWat9H7vBRshsFqTZqRAHYC3-Zcfhb', //not uploaded
   },
 
   {
-    name: "D Shravan Narayana",
-    designation: "Member",
-    link: "https://www.linkedin.com/in/shravan-narayana-d-2b6a1b280",
-    image: "https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/D%20Shravan%20Narayana_1MS21EC041.jpeg?raw=true"
+    name: 'Chandrak',
+    designation: 'Treasurer',
+    link: 'https://www.linkedin.com/in/chandrak-jayakumar-63211429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Chandrak%20Jayakumar_1ms21ec039.jpg?raw=true',
   },
-];
+
+  {
+    name: 'Dheeraj V',
+    designation: 'Vice Chair',
+    link: 'http://www.linkedin.com/in/dheerajv624',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Dheeraj%20V%201MS22EC042_.jpg?raw=true',
+  },
+
+  {
+    name: 'Disha K',
+    designation: 'Vice Secretary',
+    link: 'https://www.linkedin.com/in/disha-k-603563258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Disha%20Ravindra%20Kadarkoppa_1MS22EI017_?raw=true',
+  },
+
+  {
+    name: 'B M Vishnu',
+    designation: 'Vice Treasurer',
+    link: 'https://www.linkedin.com/in/vishnu-bm-0481ba252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/B%20M%20VISHNU_1MS22EC030%20.jpg?raw=true',
+  },
+  {
+    name: 'Sujay P C',
+    designation: 'Member',
+    link: '', //not uploaded
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Sujay%20P%20C_1MS22ET053.jpg?raw=true',
+  },
+  {
+    name: 'Kishor Ravindra Hitnalli ',
+    designation: 'Member',
+    link: '', //not uploaded
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/kishor%20Hitnalli%20(1ms22cy035).jpg?raw=true',
+  },
+  {
+    name: 'Navya Ullas Rai',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/navya-ullas-rai-05884b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Navya%20Ullas%20Rai%20-%201MS23ET046-T.jpg?raw=true',
+  },
+  {
+    name: 'Aarya P',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/aarya-p-1166a3259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Aarya%20P_1MS22EC004.jpg?raw=true',
+  },
+  {
+    name: 'Akash Srivastava ',
+    designation: 'Member',
+    link: '', //not uploaded
+    image:
+      'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Akash%20Srivastava%20ETE.jpg?raw=true',
+  },
+  {
+    name: 'Bumika N R',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/bumika-n-r-b93b27283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bumika%20N%20R_1MS23ME026.jpg?raw=true',
+  },
+  {
+    name: 'Sandra Elsa Subin ',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/sandra-subin-7973ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Sandra%20Elsa%20Subin_%201MS22CH032.jpg?raw=true',
+  },
+  {
+    name: 'Ayush Prabhat',
+    designation: 'Member',
+    link: 'http://linkedin.com/in/ayush-prabhat-b9911b2b3',
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Ayush_Prabhst_1ms22ei013.jpg?raw=true',
+  },
+  {
+    name: 'Sneha Vijay ',
+    designation: 'Member',
+    link: '', //not uploaded
+    image:
+      'https://github.com/aarthipv/profileimages/blob/main/aps/Sneha%20Vijay%20.jpg?raw=true',
+  },
+
+  {
+    name: 'Bhargava Siddhartha B ',
+    designation: 'Member',
+    link: 'http://linkedin.com/in/bhargava-siddhartha-b-b659b1280',
+    image:
+      'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/Bhargava%20Siddhartha%20_%201MS21EC037.jpg?raw=true',
+  },
+
+  {
+    name: 'D Shravan Narayana',
+    designation: 'Member',
+    link: 'https://www.linkedin.com/in/shravan-narayana-d-2b6a1b280',
+    image:
+      'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/APS/D%20Shravan%20Narayana_1MS21EC041.jpeg?raw=true',
+  },
+]
 
 export default function Home() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white pt-16 text-gray-800">
       <Head>
         <title>IEEE APS CHAPTER || IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -161,7 +185,7 @@ export default function Home() {
       <main>
         <div className="relative isolate px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-6xl py-4 sm:py-6 lg:py-8">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-10">
+            <h1 className="mb-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               IEEE APS CHAPTER
             </h1>
             <Swiper

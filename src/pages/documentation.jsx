@@ -7,7 +7,7 @@ import { Member } from '@/components/Member'
 
 export default function Home() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white pt-16 text-gray-800">
       <Head>
         <title>
           IEEE DOCUMENTATION || IEEE Ramaiah Institute of Technology
@@ -50,6 +50,13 @@ export default function Home() {
                 ></Member>
 
                 <Member
+                  name="Nibha Dongre"
+                  designation="Vice-Head"
+                  link="https://www.linkedin.com/in/nibha-dongre/"
+                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/nibhasdongre_1MS22AI040.jpg"
+                ></Member>
+
+                <Member
                   name="Tanisha Saxena"
                   designation="Member"
                   link="https://www.linkedin.com/in/tanisha-saxena-978237277/"
@@ -61,13 +68,6 @@ export default function Home() {
                   designation="Member"
                   link="https://www.linkedin.com/in/abhinav-singh-37547a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Abhinav%20Singh_1MS22ME004.jpg"
-                ></Member>
-
-                <Member
-                  name="Nibha Dongre"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/nibha-dongre/"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/nibhasdongre_1MS22AI040.jpg"
                 ></Member>
 
                 <Member
@@ -85,13 +85,6 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Yash Yalamalli"
-                  designation="Member"
-                  link="https://www.linkedin.com/in/yash-yalamalli-819889223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/YashYalamalli_1MS23IM024-T.jpg"
-                ></Member>
-
-                <Member
                   name="Dhrithi Ganesh"
                   designation="Member"
                   link="https://www.linkedin.com/in/dhrithi-ganesh-9a1745256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -99,7 +92,7 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Shaikh Furqan"
+                  name="Shaikh Furqannuddin"
                   designation="Member"
                   link="https://www.linkedin.com/in/shaikh-furqan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/Shaik%20Furqan_1MS23EI040-T.jpg"
@@ -126,7 +119,6 @@ export default function Home() {
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/documentation/ARIHANT%20JAIN_1MS23IM054-T.jpeg"
                 ></Member>
               </div>
-
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

@@ -52,7 +52,7 @@ const images = [
 
 export default function Home() {
   return (
-    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white text-gray-800 pt-16">
+    <section className="bg-gradient-to-b from-blue-50 via-blue-100 to-white pt-16 text-gray-800">
       <Head>
         <title>RoboRIT | IEEE Ramaiah Institute of Technology</title>
         <meta
@@ -293,13 +293,6 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Shaaru U."
-                  designation="Member"
-                  link="https://www.linkedin.com/in/shaaru-u-514976227"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Shaaru_U_1MS21EI050.jpg"
-                ></Member>
-
-                <Member
                   name="Hemanth Kumar NVS"
                   designation="Member"
                   link="https://www.linkedin.com/in/hemanth-kumar-394a96249?utm_source=share&utm_campaign=share_via&utm_content="
@@ -368,7 +361,6 @@ export default function Home() {
                   link="https://www.linkedin.com/in/ilaqquan-r-i-1523332b3/"
                   image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Ilaqquan%20Rajesh%20Indu-%20%201MS22EC050%20.jpg"
                 ></Member>
-
               </div>
             </div>
           </div>
